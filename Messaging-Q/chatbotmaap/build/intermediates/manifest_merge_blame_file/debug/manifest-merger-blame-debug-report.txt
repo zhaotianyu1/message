@@ -1,0 +1,139 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.juphoon.chatbotmaap"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml
+11
+12    <application>
+12-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:6:5-65:19
+13        <activity android:name="com.juphoon.chatbotmaap.chatbotDetail.RcsChatBotDetailActivity" />
+13-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:7:9-85
+13-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:7:19-73
+14        <activity android:name="com.juphoon.chatbotmaap.chatbotDetail.RcsChatbotDetailMoreActivity" />
+14-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:8:9-89
+14-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:8:19-77
+15        <activity android:name="com.juphoon.chatbotmaap.RcsChatbotScanActivity" />
+15-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:9:9-60
+15-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:9:19-57
+16        <activity
+16-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:10:9-14:59
+17            android:name="com.juphoon.chatbotmaap.RcsChatbotWebActivity"
+17-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:11:13-50
+18            android:configChanges="orientation|keyboardHidden|screenSize"
+18-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:12:13-74
+19            android:label=""
+19-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:13:13-29
+20            tools:ignore="WrongManifestParent" />
+20-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:14:13-47
+21        <activity
+21-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:15:9-20:59
+22            android:name="com.juphoon.chatbotmaap.RcsChatbotImageFragmentActivity"
+22-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:16:13-60
+23            android:configChanges="keyboardHidden|orientation|screenSize"
+23-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:17:13-74
+24            android:label=""
+24-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:18:13-29
+25            android:theme="@style/chatbotImageDialog"
+25-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:19:13-54
+26            tools:ignore="WrongManifestParent" />
+26-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:20:13-47
+27        <activity
+27-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:21:9-26:59
+28            android:name="com.juphoon.chatbotmaap.RcsChatbotFullTextFragmentActivity"
+28-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:22:13-63
+29            android:configChanges="keyboardHidden|orientation|screenSize"
+29-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:23:13-74
+30            android:label=""
+30-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:24:13-29
+31            android:theme="@style/chatbotImageDialog"
+31-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:25:13-54
+32            tools:ignore="WrongManifestParent" />
+32-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:26:13-47
+33        <activity
+33-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:27:9-31:59
+34            android:name="com.juphoon.chatbotmaap.Location.RcsBaiduLocationActivity"
+34-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:28:13-62
+35            android:configChanges="keyboardHidden|orientation|screenSize"
+35-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:29:13-74
+36            android:label=""
+36-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:30:13-29
+37            tools:ignore="WrongManifestParent" />
+37-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:31:13-47
+38        <activity
+38-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:32:9-34:77
+39            android:name="com.juphoon.chatbotmaap.RcsChatbotSearchActivity"
+39-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:33:13-53
+40            android:configChanges="keyboardHidden|orientation|screenSize" />
+40-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:34:13-74
+41        <activity
+41-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:35:9-37:77
+42            android:name="com.juphoon.chatbotmaap.RcsChatbotSettingActivity"
+42-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:36:13-54
+43            android:configChanges="keyboardHidden|orientation|screenSize" />
+43-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:37:13-74
+44        <activity
+44-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:38:9-40:77
+45            android:name="com.juphoon.chatbotmaap.RcsLocalChatbotActivity"
+45-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:39:13-52
+46            android:configChanges="keyboardHidden|orientation|screenSize" />
+46-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:40:13-74
+47        <activity
+47-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:41:9-43:77
+48            android:name="com.juphoon.chatbotmaap.RcsBlackChatbotActivity"
+48-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:42:13-52
+49            android:configChanges="keyboardHidden|orientation|screenSize" />
+49-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:43:13-74
+50        <activity
+50-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:44:9-47:50
+51            android:name="com.juphoon.chatbotmaap.RcsChatbotPermissionActivity"
+51-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:45:13-57
+52            android:configChanges="keyboardHidden|orientation|screenSize"
+52-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:46:13-74
+53            android:theme="@style/Translucent" />
+53-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:47:13-47
+54        <activity
+54-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:48:9-50:77
+55            android:name="com.juphoon.chatbotmaap.RcsChatBotNearbyChatbotActivity"
+55-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:49:13-60
+56            android:configChanges="keyboardHidden|orientation|screenSize" />
+56-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:50:13-74
+57        <activity android:name="com.juphoon.chatbotmaap.RcsChatbotVerifiActivity" />
+57-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:51:9-62
+57-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:51:19-59
+58        <activity android:name="com.juphoon.chatbotmaap.RcsChatbotComplaintActivity" />
+58-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:52:9-65
+58-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:52:19-62
+59        <activity android:name="com.juphoon.chatbotmaap.RcsChatbotMoreBotsActivity" />
+59-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:53:9-64
+59-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:53:19-61
+60        <activity android:name="com.juphoon.chatbotmaap.chatbotSearch.RcsChatbotServiceActivity" />
+60-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:54:9-77
+60-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:54:19-74
+61
+62        <provider
+62-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:56:9-64:20
+63            android:name="com.juphoon.chatbotmaap.RcsChatbotFileProvider"
+63-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:57:13-51
+64            android:authorities="com.juphoon.chatbot.JRcsChatbotFileProvider"
+64-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:58:13-78
+65            android:exported="false"
+65-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:59:13-37
+66            android:grantUriPermissions="true" >
+66-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:60:13-47
+67            <meta-data
+67-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:61:13-63:54
+68                android:name="android.support.FILE_PROVIDER_PATHS"
+68-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:62:17-67
+69                android:resource="@xml/file_paths" />
+69-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:63:17-51
+70        </provider>
+71    </application>
+72
+73</manifest>

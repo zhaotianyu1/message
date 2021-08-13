@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./libs/guavalib.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/guavalib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

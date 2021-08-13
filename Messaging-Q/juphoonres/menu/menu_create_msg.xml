@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.android.messaging.ui.conversationlist.AbstractConversationListActivity" >
+
+    <item
+        android:id="@+id/create_msg_1To1"
+        android:orderInCategory="100"
+        android:title="@string/create_msg_1To1"/>
+    
+    <item
+        android:id="@+id/create_msg_group"
+        android:orderInCategory="100"
+        android:title="@string/create_msg_group"/>
+
+    <!--<item-->
+        <!--android:id="@+id/add_business"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="@string/add_business"/>-->
+
+    <!--<item-->
+        <!--android:id="@+id/local_business"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="@string/local_business"/>-->
+
+</menu>

@@ -1,0 +1,1746 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:2:1-692:12
+INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:2:1-692:12
+INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:2:1-692:12
+INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:2:1-692:12
+MERGED from [:chips] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chips\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:photo] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\photo\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:1-29:12
+MERGED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-73:12
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:2:1-135:12
+MERGED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:1-113:12
+MERGED from [com.google.android.material:material:1.2.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\cace6ce4501908c0fa9be4f8d9c5c473\material-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.tcl.ff.component:animer:1.0.2] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\c9a67613904a8dcf2a9d0ebe7f925655\animer-1.0.2\AndroidManifest.xml:2:1-13:12
+MERGED from [com.martinrgb:animer:0.1.6.3] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\221e3d20e0bc1c09d864ca8193656f0b\animer-0.1.6.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\680f99f5a60980a4fb7a012e32eff12d\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\b63a2d94c8e37d7d77b63b1516cbd488\legacy-support-v13-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\fdb41602a36ad3f965f4be92f019bf00\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\31367c54f7b87004fb07a4f923752c95\media-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\a18a315e345508ddc449229fb282bead\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.palette:palette:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\2aab24927323683b40664b1aa898fc9f\palette-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\927ecaa01e08d0fdc3dd02ca6f830fab\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\87c51a4349973fa776a019d93e809b5c\glide-4.11.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\8910766ad2d8870f961ea198929f0467\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\e3f2b2737899525f005212ed63d1af29\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\18cfa758d0ddfb6bb1eb68cb563544aa\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ee14be87c7685c9b9745ba4d0c3bb979\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\a8d80ca19ef9adaafb7c49b34b4faf73\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [:cmcc-sso-sdk:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ed037a9e0b079e81e5574721a2970ec7\cmcc-sso-sdk\AndroidManifest.xml:2:1-36:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\e583aee15738bf52b45f3149c165bcb0\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.tcl.uicompat:uicompat:3.2.9] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\84a31712652177fe9674816543934517\uicompat-3.2.9\AndroidManifest.xml:2:1-11:12
+MERGED from [com.tcl.uicompat:poster:1.1.1] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\e64e666091d7430fcc9a6aa350aec3fb\poster-1.1.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ec2e9fa399b643ad2c02091627fa321c\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\65f7f69481ecf38deef6e4be66924cc5\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\62c0ec8f353403f8a78abf5ef29a4384\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\313727be8035feca1c78aeefa54702bb\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\29c4329f40ebf60ccaac0a871d20d9d6\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\5fd1d1c4c0c205d485aea7bdb9f0c38d\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\47be07513a5bc77e813f0e807c366872\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\39bd15a041a4bc96522d2e002e2db344\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\b68ac1c6834c7293fa503cde61f3d185\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\b686c239e656ccad1bce0dbfa1ccdb0e\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\5cea7218ba92a535e1961cf7b0fc72cb\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\9f3d1a960b445437804b23cee56e2af7\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\140d1cf8081e8f704ec3cba757afa02b\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\0fa3398820e39b4e96b0722adbff64ea\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\e975dab11aa7955ad7630ec1debe9003\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0-alpha02] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\66a768d5d5c807569fd973cfbb78726e\dynamicanimation-1.1.0-alpha02\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\3bc3a76bc625d667ab1c7c423093d2c1\activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\6098b25f5dcba865e8ac7d5b02e0e623\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\a04beb4072abc0f79439acef2c7616da\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.2.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\870902c20ba87b3530dae3a66f543391\core-1.2.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\d80c15330754c937ffd2195e28843ab7\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\78cd99b1b188d221044f5fbf54ba9ec2\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\242120d8bfd93333367333bf1d73ac36\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\1d0d8430a6c13d4b9abb12fe1f0c03ad\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\4a5afcd79e502850e0050110f17b1fc5\gifdecoder-4.11.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\74e9fb9a2020e5d4207fe678fdaaf659\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\7d0f1e205b03b1a12b36f028fa8fd906\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\9c11bb5a5497cfd65ca5715586b6a836\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\62315b49a9cdb40c139c806a21028408\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.lzyzsd:jsbridge:1.0.4] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\0a50a5d367ea638994973dcedca11931\jsbridge-1.0.4\AndroidManifest.xml:2:1-16:12
+MERGED from [com.bm.photoview:library:1.4.1] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\f469da0bb367e522e9b4cd88e0071b22\library-1.4.1\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\053e0b0f7fbfa729b3f0dd956c0ab1df\annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:2:1-692:12
+INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:2:1-692:12
+INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:2:1-692:12
+	package
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:4:5-36
+		INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:2:1-692:12
+		INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:2:1-692:12
+		INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:6:5-43
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:8:5-79
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:14:5-79
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:14:5-79
+MERGED from [:cmcc-sso-sdk:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ed037a9e0b079e81e5574721a2970ec7\cmcc-sso-sdk\AndroidManifest.xml:13:5-79
+MERGED from [:cmcc-sso-sdk:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ed037a9e0b079e81e5574721a2970ec7\cmcc-sso-sdk\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:8:22-76
+application
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:13:5-621:19
+MERGED from [:photo] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\photo\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:5-20
+MERGED from [:photo] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\photo\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:5-20
+MERGED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-71:19
+MERGED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-71:19
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:35:5-133:19
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:35:5-133:19
+MERGED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:5-111:19
+MERGED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:5-111:19
+MERGED from [com.google.android.material:material:1.2.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\cace6ce4501908c0fa9be4f8d9c5c473\material-1.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\cace6ce4501908c0fa9be4f8d9c5c473\material-1.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\87c51a4349973fa776a019d93e809b5c\glide-4.11.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\87c51a4349973fa776a019d93e809b5c\glide-4.11.0\AndroidManifest.xml:10:5-20
+MERGED from [:cmcc-sso-sdk:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ed037a9e0b079e81e5574721a2970ec7\cmcc-sso-sdk\AndroidManifest.xml:19:5-34:19
+MERGED from [:cmcc-sso-sdk:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ed037a9e0b079e81e5574721a2970ec7\cmcc-sso-sdk\AndroidManifest.xml:19:5-34:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\e583aee15738bf52b45f3149c165bcb0\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\e583aee15738bf52b45f3149c165bcb0\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.2.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\870902c20ba87b3530dae3a66f543391\core-1.2.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.2.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\870902c20ba87b3530dae3a66f543391\core-1.2.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\d80c15330754c937ffd2195e28843ab7\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\d80c15330754c937ffd2195e28843ab7\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\4a5afcd79e502850e0050110f17b1fc5\gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\4a5afcd79e502850e0050110f17b1fc5\gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.lzyzsd:jsbridge:1.0.4] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\0a50a5d367ea638994973dcedca11931\jsbridge-1.0.4\AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.lzyzsd:jsbridge:1.0.4] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\0a50a5d367ea638994973dcedca11931\jsbridge-1.0.4\AndroidManifest.xml:11:5-14:19
+MERGED from [com.bm.photoview:library:1.4.1] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\f469da0bb367e522e9b4cd88e0071b22\library-1.4.1\AndroidManifest.xml:11:5-12:19
+MERGED from [com.bm.photoview:library:1.4.1] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\f469da0bb367e522e9b4cd88e0071b22\library-1.4.1\AndroidManifest.xml:11:5-12:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.2.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\870902c20ba87b3530dae3a66f543391\core-1.2.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:17:9-41
+	android:persistent
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:20:9-34
+	android:icon
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:16:9-45
+	android:allowBackup
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:15:9-36
+		REJECTED from [com.github.lzyzsd:jsbridge:1.0.4] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\0a50a5d367ea638994973dcedca11931\jsbridge-1.0.4\AndroidManifest.xml:12:9-35
+		REJECTED from [com.bm.photoview:library:1.4.1] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\f469da0bb367e522e9b4cd88e0071b22\library-1.4.1\AndroidManifest.xml:11:18-44
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:21:9-42
+	android:networkSecurityConfig
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:18:9-69
+	tools:replace
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:23:9-44
+	android:usesCleartextTraffic
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:22:9-44
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:14:9-41
+activity#com.juphoon.ui.RcsLoginActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:24:9-77
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:24:19-65
+activity#com.juphoon.ui.RcsRegisterActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:26:9-31:53
+	android:screenOrientation
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:31:13-50
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:30:13-29
+	android:exported
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:29:13-36
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:28:13-74
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:27:13-62
+activity#com.android.messaging.ui.conversationlist.ConversationListActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:33:9-45:20
+	android:screenOrientation
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:37:13-50
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:36:13-45
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:35:13-74
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:38:13-44
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:34:13-73
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.APP_MESSAGING+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:39:13-44:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:40:17-69
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:40:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:41:17-77
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:41:27-74
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:17-76
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:27-73
+category#android.intent.category.APP_MESSAGING
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:43:17-82
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:43:27-79
+activity#com.android.messaging.ui.PermissionCheckActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:46:9-49:53
+	android:screenOrientation
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:49:13-50
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:48:13-74
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:47:13-55
+activity#com.android.messaging.ui.conversation.LaunchConversationActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:50:9-77:20
+	android:screenOrientation
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:55:13-50
+	android:noHistory
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:54:13-37
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:52:13-74
+	android:documentLaunchMode
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:53:13-48
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:56:13-45
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:51:13-71
+intent-filter#action:name:android.intent.action.SENDTO+action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:sms+data:scheme:smsto
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:57:13-66:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:58:17-69
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:58:25-66
+action#android.intent.action.SENDTO
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:59:17-71
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:59:25-68
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:62:17-78
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:62:27-75
+data
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:17-46
+	android:scheme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:23-43
+	android:mimeType
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:172:23-52
+intent-filter#action:name:android.intent.action.SENDTO+action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:mms+data:scheme:mmsto
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:67:13-76:29
+activity#com.android.messaging.ui.conversationlist.ArchivedConversationListActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:78:9-88:20
+	android:screenOrientation
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:83:13-50
+	android:parentActivityName
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:82:13-87
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:81:13-60
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:80:13-74
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:84:13-79
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:79:13-81
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:85:13-87:102
+	android:value
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:87:17-99
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:86:17-63
+activity#com.android.messaging.ui.conversation.ConversationActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:89:9-99:20
+	android:screenOrientation
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:93:13-50
+	android:parentActivityName
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:92:13-87
+	android:windowSoftInputMode
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:95:13-72
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:91:13-74
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:94:13-67
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:90:13-65
+activity#com.android.messaging.Api
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:100:9-101:38
+	android:exported
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:101:13-36
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:100:19-38
+activity#com.android.messaging.ui.BlockedParticipantsActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:102:9-112:20
+	android:screenOrientation
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:107:13-50
+	android:parentActivityName
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:106:13-87
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:105:13-59
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:104:13-74
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:108:13-46
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:103:13-59
+activity#com.android.messaging.ui.photoviewer.BuglePhotoViewActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:113:9-118:58
+	android:screenOrientation
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:117:13-50
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:116:13-62
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:115:13-74
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:118:13-55
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:114:13-66
+activity#com.android.messaging.ui.appsettings.SettingsActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:119:9-129:20
+	android:screenOrientation
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:124:13-50
+	android:parentActivityName
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:123:13-87
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:122:13-60
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:121:13-74
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:125:13-63
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:120:13-60
+activity#com.android.messaging.ui.appsettings.PerSubscriptionSettingsActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:130:9-140:20
+	android:screenOrientation
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:135:13-50
+	android:parentActivityName
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:134:13-74
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:133:13-69
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:132:13-74
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:136:13-63
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:131:13-75
+activity#com.android.messaging.ui.appsettings.ApplicationSettingsActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:141:9-159:20
+	android:screenOrientation
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:147:13-50
+	android:parentActivityName
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:145:13-74
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:144:13-68
+	android:launchMode
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:146:13-44
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:143:13-74
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:148:13-63
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:142:13-71
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.NOTIFICATION_PREFERENCES
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:149:13-154:29
+category#android.intent.category.NOTIFICATION_PREFERENCES
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:153:17-93
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:153:27-90
+activity#com.android.messaging.ui.conversationlist.ShareIntentActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:160:9-186:20
+	android:screenOrientation
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:165:13-50
+	android:excludeFromRecents
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:164:13-46
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:162:13-74
+	android:documentLaunchMode
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:163:13-48
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:166:13-61
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:161:13-68
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:application/ogg+data:mimeType:audio/*+data:mimeType:image/*+data:mimeType:text/plain+data:mimeType:text/x-vCard+data:mimeType:text/x-vcard
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:167:13-178:29
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:167:28-70
+action#android.intent.action.SEND
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:168:17-69
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:168:25-66
+intent-filter#action:name:android.intent.action.SEND_MULTIPLE+category:name:android.intent.category.DEFAULT+data:mimeType:image/*
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:179:13-185:29
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:179:28-70
+action#android.intent.action.SEND_MULTIPLE
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:180:17-78
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:180:25-75
+activity#com.android.messaging.ui.conversationsettings.PeopleAndOptionsActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:187:9-197:20
+	android:screenOrientation
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:192:13-50
+	android:parentActivityName
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:191:13-79
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:190:13-70
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:189:13-74
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:193:13-46
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:188:13-77
+activity#com.android.messaging.ui.LicenseActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:198:9-202:79
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:201:13-49
+	android:exported
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:200:13-36
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:202:13-67
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:199:13-47
+activity#com.android.messaging.ui.conversationlist.ForwardMessageActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:203:9-208:73
+	android:screenOrientation
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:207:13-50
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:206:13-67
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:205:13-74
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:208:13-61
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:204:13-71
+activity#com.android.messaging.ui.RemoteInputEntrypointActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:216:9-221:57
+	android:screenOrientation
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:220:13-50
+	android:exported
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:219:13-37
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:218:13-74
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:221:13-45
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:217:13-61
+activity#com.android.messaging.ui.VCardDetailActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:222:9-231:20
+	android:screenOrientation
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:226:13-50
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:225:13-64
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:224:13-74
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:227:13-46
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:223:13-51
+activity#com.android.messaging.ui.attachmentchooser.AttachmentChooserActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:232:9-242:20
+	android:screenOrientation
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:237:13-50
+	android:parentActivityName
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:236:13-79
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:235:13-70
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:234:13-74
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:238:13-46
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:233:13-75
+activity#com.android.messaging.ui.TestMovieActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:243:9-247:20
+	android:screenOrientation
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:244:13-50
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:245:13-44
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:243:19-55
+activity#com.android.messaging.tcl.TCLSettingActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:248:9-251:20
+	android:screenOrientation
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:249:13-50
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:248:19-57
+activity#com.android.messaging.ui.TestActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:257:9-259:71
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:259:13-59
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:258:13-44
+activity#com.android.messaging.tcl.VideoActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:260:9-262:71
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:262:13-59
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:261:13-46
+activity#com.android.messaging.ui.debug.DebugMmsConfigActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:263:9-268:73
+	android:screenOrientation
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:267:13-50
+	android:exported
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:266:13-37
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:265:13-74
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:268:13-61
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:264:13-60
+activity#com.android.messaging.ui.ClassZeroActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:270:9-277:73
+	android:screenOrientation
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:276:13-50
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:274:13-61
+	android:excludeFromRecents
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:273:13-46
+	android:launchMode
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:275:13-44
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:272:13-74
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:277:13-61
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:271:13-49
+activity#com.android.messaging.ui.SmsStorageLowWarningActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:278:9-281:48
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:280:13-74
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:281:13-45
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:279:13-60
+activity#com.android.messaging.ui.appsettings.ApnSettingsActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:282:9-287:49
+	android:screenOrientation
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:286:13-50
+	android:parentActivityName
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:285:13-74
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:284:13-74
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:287:13-46
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:283:13-63
+activity#com.android.messaging.ui.appsettings.ApnEditorActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:288:9-293:49
+	android:screenOrientation
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:292:13-50
+	android:parentActivityName
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:291:13-77
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:290:13-74
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:293:13-46
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:289:13-61
+activity#com.android.messaging.ui.WidgetPickConversationActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:294:9-301:20
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:296:13-45
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:297:13-46
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:295:13-62
+intent-filter#action:name:android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:298:13-300:29
+action#android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:299:17-87
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:299:25-84
+activity#com.juphoon.helper.mms.ui.RcsMessageShowActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:304:9-307:51
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:306:13-43
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:307:13-48
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:305:13-76
+activity#com.juphoon.helper.mms.ui.RcsBaiduLocationActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:308:9-311:49
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:310:13-45
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:311:13-46
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:309:13-78
+activity#com.juphoon.helper.mms.ui.RcsForwardActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:313:9-326:20
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:313:19-78
+intent-filter#category:name:android.intent.category.DEFAULT+data:mimeType:image/*+data:mimeType:text/plain+data:mimeType:text/x-vcard+data:mimeType:video/*
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:314:13-325:29
+activity#com.juphoon.helper.mms.ui.RcsChooseContactActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:327:9-329:54
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:329:13-51
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:328:13-78
+activity#com.juphoon.helper.mms.ui.RcsCreateCroupActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:330:9-332:57
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:332:13-54
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:331:13-76
+activity#com.juphoon.helper.mms.ui.RcsSingleCreateCroupActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:333:9-335:57
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:335:13-54
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:334:13-82
+activity#com.juphoon.helper.mms.ui.RcsGroupDetailActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:336:9-340:49
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:339:13-49
+	android:exported
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:338:13-36
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:340:13-46
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:337:13-76
+activity#com.juphoon.helper.mms.ui.RcsGroupMemberActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:342:9-344:52
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:344:13-49
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:343:13-76
+activity#com.juphoon.helper.mms.ui.RcsGroupNotificationActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:346:9-349:56
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:348:13-55
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:349:13-53
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:347:13-82
+activity#com.juphoon.helper.mms.ui.RcsPreviewImageActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:350:9-353:51
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:352:13-44
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:353:13-48
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:351:13-77
+activity#com.juphoon.helper.mms.ui.RcsPeopleActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:354:9-356:55
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:356:13-43
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:355:13-71
+activity#com.android.messaging.ui.SearchActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:357:9-372:20
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:360:13-43
+	android:launchMode
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:361:13-44
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:359:13-74
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:362:13-53
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:358:13-46
+intent-filter#action:name:android.intent.action.SEARCH+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:363:13-367:29
+action#android.intent.action.SEARCH
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:364:17-71
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:364:25-68
+meta-data#android.app.searchable
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:369:13-371:54
+	android:resource
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:371:17-51
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:370:17-54
+activity#com.juphoon.helper.mms.ui.RcsChooseActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:374:9-376:41
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:376:13-29
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:375:13-71
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:380:9-382:64
+	android:value
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:382:13-61
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:381:13-52
+provider#com.android.messaging.datamodel.MessagingContentProvider
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:383:9-387:57
+	android:authorities
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:385:13-99
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:387:13-45
+	android:exported
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:386:13-37
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:384:13-63
+provider#com.android.messaging.datamodel.MmsFileProvider
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:388:9-392:50
+	android:grantUriPermissions
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:392:13-47
+	android:authorities
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:390:13-83
+	android:exported
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:391:13-37
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:389:13-54
+provider#com.android.messaging.datamodel.MediaScratchFileProvider
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:393:9-397:50
+	android:grantUriPermissions
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:397:13-47
+	android:authorities
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:395:13-92
+	android:exported
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:396:13-37
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:394:13-63
+receiver#com.android.messaging.receiver.MmsWapPushReceiver
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:398:9-407:20
+	android:enabled
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:400:13-36
+	android:permission
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:401:13-71
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:399:13-56
+intent-filter#action:name:android.provider.Telephony.WAP_PUSH_RECEIVED+data:mimeType:application/vnd.wap.mms-message
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:402:13-406:29
+	android:priority
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:402:28-57
+action#android.provider.Telephony.WAP_PUSH_RECEIVED
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:403:17-87
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:403:25-84
+receiver#com.android.messaging.receiver.SmsReceiver
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:408:9-418:20
+	android:enabled
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:410:13-36
+	android:permission
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:411:13-66
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:409:13-49
+intent-filter#action:name:android.provider.Telephony.SMS_RECEIVED
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:412:13-414:29
+	android:priority
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:412:28-57
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:413:17-82
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:413:25-79
+intent-filter#action:name:android.provider.Telephony.MMS_DOWNLOADED
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:415:13-417:29
+	android:priority
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:415:28-57
+action#android.provider.Telephony.MMS_DOWNLOADED
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:416:17-84
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:416:25-81
+receiver#com.android.messaging.receiver.AbortMmsWapPushReceiver
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:420:9-429:20
+	android:enabled
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:422:13-36
+	android:permission
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:423:13-71
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:421:13-61
+receiver#com.android.messaging.receiver.AbortSmsReceiver
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:430:9-437:20
+	android:enabled
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:432:13-36
+	android:permission
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:433:13-66
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:431:13-54
+receiver#com.android.messaging.receiver.MmsWapPushDeliverReceiver
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:439:9-447:20
+	android:permission
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:441:13-71
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:440:13-63
+intent-filter#action:name:android.provider.Telephony.WAP_PUSH_DELIVER+data:mimeType:application/vnd.wap.mms-message
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:442:13-446:29
+action#android.provider.Telephony.WAP_PUSH_DELIVER
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:443:17-86
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:443:25-83
+receiver#com.android.messaging.receiver.SmsDeliverReceiver
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:449:9-455:20
+	android:permission
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:451:13-66
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:450:13-56
+intent-filter#action:name:android.provider.Telephony.SMS_DELIVER
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:452:13-454:29
+action#android.provider.Telephony.SMS_DELIVER
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:453:17-81
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:453:25-78
+receiver#com.android.messaging.receiver.SendStatusReceiver
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:456:9-477:20
+	android:exported
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:458:13-37
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:457:13-56
+intent-filter#action:name:com.android.messaging.receiver.SendStatusReceiver.MESSAGE_SENT+data:scheme:content
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:459:13-463:29
+action#com.android.messaging.receiver.SendStatusReceiver.MESSAGE_SENT
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:460:17-105
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:460:25-102
+intent-filter#action:name:com.android.messaging.receiver.SendStatusReceiver.MESSAGE_DELIVERED
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:464:13-466:29
+action#com.android.messaging.receiver.SendStatusReceiver.MESSAGE_DELIVERED
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:465:17-110
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:465:25-107
+intent-filter#action:name:com.android.messaging.receiver.SendStatusReceiver.MMS_SENT+data:scheme:content
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:467:13-471:29
+action#com.android.messaging.receiver.SendStatusReceiver.MMS_SENT
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:468:17-101
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:468:25-98
+intent-filter#action:name:com.android.messaging.receiver.SendStatusReceiver.MMS_DOWNLOADED+data:scheme:content
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:472:13-476:29
+action#com.android.messaging.receiver.SendStatusReceiver.MMS_DOWNLOADED
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:473:17-107
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:473:25-104
+receiver#com.android.messaging.receiver.StorageStatusReceiver
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:479:9-486:20
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:479:19-65
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:480:13-482:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:481:17-83
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:481:25-80
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:483:13-485:29
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:484:17-82
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:484:25-79
+receiver#com.android.messaging.receiver.BootAndPackageReplacedReceiver
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:487:9-492:20
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:487:19-74
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:488:13-491:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:489:17-79
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:489:25-76
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:490:17-84
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:490:25-81
+receiver#com.android.messaging.receiver.NotificationReceiver
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:493:9-495:49
+	android:exported
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:495:13-37
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:494:13-58
+receiver#com.android.messaging.datamodel.action.ActionServiceImpl$PendingActionReceiver
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:496:9-502:20
+	android:exported
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:498:13-37
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:497:13-85
+intent-filter#action:name:com.android.messaging.datamodel.PENDING_ACTION
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:499:13-501:29
+action#com.android.messaging.datamodel.PENDING_ACTION
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:500:17-89
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:500:25-86
+receiver#com.android.messaging.receiver.DefaultSmsSubscriptionChangeReceiver
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:503:9-507:20
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:503:19-80
+intent-filter#action:name:android.telephony.action.DEFAULT_SMS_SUBSCRIPTION_CHANGED
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:504:13-506:29
+action#android.telephony.action.DEFAULT_SMS_SUBSCRIPTION_CHANGED
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:505:17-100
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:505:25-97
+receiver#com.android.messaging.widget.BugleWidgetProvider
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:508:9-521:20
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:510:13-61
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:509:13-55
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:511:13-513:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:512:17-84
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:512:25-81
+intent-filter#action:name:com.android.Bugle.intent.action.ACTION_NOTIFY_CONVERSATIONS_CHANGED
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:514:13-516:29
+action#com.android.Bugle.intent.action.ACTION_NOTIFY_CONVERSATIONS_CHANGED
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:515:17-110
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:515:25-107
+meta-data#android.appwidget.provider
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:518:13-520:68
+	android:resource
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:520:17-65
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:519:17-58
+receiver#com.android.messaging.widget.WidgetConversationProvider
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:522:9-535:20
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:524:13-61
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:523:13-62
+intent-filter#action:name:com.android.Bugle.intent.action.ACTION_NOTIFY_MESSAGES_CHANGED
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:528:13-530:29
+action#com.android.Bugle.intent.action.ACTION_NOTIFY_MESSAGES_CHANGED
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:529:17-105
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:529:25-102
+receiver#com.juphoon.helper.mms.RcsWakeupReceiver
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:536:9-542:20
+	android:permission
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:538:13-72
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:537:13-68
+intent-filter#action:name:rcs_action_im_notify
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:539:9-541:29
+action#rcs_action_im_notify
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:540:17-63
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:540:25-60
+receiver#com.juphoon.helper.mms.RcsChatbotHelperRecevier
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:543:9-554:20
+	android:exported
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:545:13-37
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:544:13-75
+intent-filter#action:name:com.juphoon.action.LAUNCH_CONVERSATION+action:name:com.juphoon.action.SEDN_SUGGESTION+action:name:com.juphoon.action.SEND_GEO+action:name:com.juphoon.action.SEND_MENU_REPLY+action:name:com.juphoon.action.SEND_REPLY+action:name:com.juphoon.action.SHARE_DATA
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:546:13-553:29
+action#com.juphoon.action.SEND_REPLY
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:547:17-72
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:547:25-69
+action#com.juphoon.action.SEND_GEO
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:548:17-70
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:548:25-67
+action#com.juphoon.action.SEND_MENU_REPLY
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:549:17-77
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:549:25-74
+action#com.juphoon.action.SEDN_SUGGESTION
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:550:17-77
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:550:25-74
+action#com.juphoon.action.SHARE_DATA
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:551:17-72
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:551:25-69
+action#com.juphoon.action.LAUNCH_CONVERSATION
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:552:17-81
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:552:25-78
+service#com.android.messaging.datamodel.action.ActionServiceImpl
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:555:9-558:72
+	android:exported
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:557:13-36
+	android:permission
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:558:13-69
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:556:13-63
+service#com.android.messaging.datamodel.action.BackgroundWorkerService
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:559:9-562:72
+	android:exported
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:561:13-36
+	android:permission
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:562:13-69
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:560:13-69
+service#com.android.messaging.datamodel.NoConfirmationSmsSendService
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:563:9-575:19
+	android:exported
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:565:13-36
+	android:permission
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:566:13-77
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:564:13-67
+intent-filter#action:name:android.intent.action.RESPOND_VIA_MESSAGE+category:name:android.intent.category.DEFAULT+data:scheme:sms+data:scheme:smsto
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:567:13-574:29
+action#android.intent.action.RESPOND_VIA_MESSAGE
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:568:17-84
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:568:25-81
+receiver#com.android.messaging.tcl.ApiReceiver
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:576:9-581:20
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:576:19-50
+intent-filter#action:name:com.aodlanucher.intent.startMessage
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:577:13-580:29
+	android:priority
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:577:28-50
+action#com.aodlanucher.intent.startMessage
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:579:17-77
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:579:25-75
+service#com.android.messaging.widget.WidgetConversationListService
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:583:9-586:72
+	android:exported
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:585:13-37
+	android:permission
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:586:13-69
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:584:13-65
+service#com.android.messaging.widget.WidgetConversationService
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:587:9-590:72
+	android:exported
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:589:13-37
+	android:permission
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:590:13-69
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:588:13-61
+service#androidx.appcompat.mms.MmsService
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:592:9-69
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:592:18-66
+service#com.juphoon.helper.mms.RcsMessageSendService
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:593:9-602:19
+	android:exported
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:595:13-36
+	android:permission
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:596:13-69
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:594:13-72
+intent-filter#action:name:action_send_sms_message+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:597:13-601:29
+action#action_send_sms_message
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:598:17-66
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:598:25-63
+service#com.baidu.location.f
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:603:9-610:19
+	android:process
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:606:13-38
+	android:enabled
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:605:13-35
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:604:13-48
+service#com.juphoon.helper.mms.RcsImReceiverServiceEx
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:613:9-616:72
+	android:exported
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:615:13-36
+	android:permission
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:616:13-69
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:614:13-73
+uses-feature#android.hardware.camera
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:622:5-624:36
+	android:required
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:624:9-33
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:623:9-47
+uses-feature#android.hardware.camera.front
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:625:5-627:36
+	android:required
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:627:9-33
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:626:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:628:5-630:36
+MERGED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:5-41:36
+MERGED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:5-41:36
+	android:required
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:630:9-33
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:629:9-57
+uses-feature#android.hardware.microphone
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:631:5-633:36
+	android:required
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:633:9-33
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:632:9-51
+uses-feature#android.hardware.screen.portrait
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:634:5-636:36
+	android:required
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:636:9-33
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:635:9-56
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:652:5-68
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:27:5-68
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:27:5-68
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:652:22-65
+uses-permission#android.permission.READ_SMS
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:654:5-67
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:21:5-67
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:654:22-64
+uses-permission#android.permission.WRITE_SMS
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:655:5-68
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:22:5-68
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:655:22-65
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:656:5-70
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:20:5-70
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:20:5-70
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:656:22-67
+uses-permission#android.permission.RECEIVE_MMS
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:657:5-70
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:657:22-67
+uses-permission#android.permission.SEND_SMS
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:658:5-67
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:29:5-67
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:29:5-67
+MERGED from [:cmcc-sso-sdk:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ed037a9e0b079e81e5574721a2970ec7\cmcc-sso-sdk\AndroidManifest.xml:16:5-67
+MERGED from [:cmcc-sso-sdk:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ed037a9e0b079e81e5574721a2970ec7\cmcc-sso-sdk\AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:658:22-64
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:659:5-67
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:11:5-67
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:11:5-67
+MERGED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:5-67
+MERGED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:5-67
+MERGED from [:cmcc-sso-sdk:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ed037a9e0b079e81e5574721a2970ec7\cmcc-sso-sdk\AndroidManifest.xml:11:5-67
+MERGED from [:cmcc-sso-sdk:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ed037a9e0b079e81e5574721a2970ec7\cmcc-sso-sdk\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:659:22-64
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:661:5-79
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:15:5-79
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:15:5-79
+MERGED from [:cmcc-sso-sdk:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ed037a9e0b079e81e5574721a2970ec7\cmcc-sso-sdk\AndroidManifest.xml:17:5-79
+MERGED from [:cmcc-sso-sdk:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ed037a9e0b079e81e5574721a2970ec7\cmcc-sso-sdk\AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:661:22-76
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:662:5-72
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:19:5-72
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:19:5-72
+MERGED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:5-72
+MERGED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:5-72
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:662:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:663:5-73
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:663:22-70
+uses-permission#android.permission.READ_PROFILE
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:664:5-71
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:664:22-68
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:665:5-66
+MERGED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:5-66
+MERGED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:5-66
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:665:22-63
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:666:5-75
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:18:5-75
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:18:5-75
+MERGED from [:cmcc-sso-sdk:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ed037a9e0b079e81e5574721a2970ec7\cmcc-sso-sdk\AndroidManifest.xml:14:5-75
+MERGED from [:cmcc-sso-sdk:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ed037a9e0b079e81e5574721a2970ec7\cmcc-sso-sdk\AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:666:22-72
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:667:5-83
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:667:22-80
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:668:5-65
+MERGED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:5-65
+MERGED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:5-65
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:668:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:669:5-81
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:16:5-81
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:16:5-81
+MERGED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:5-81
+MERGED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:5-81
+MERGED from [:cmcc-sso-sdk:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ed037a9e0b079e81e5574721a2970ec7\cmcc-sso-sdk\AndroidManifest.xml:15:5-81
+MERGED from [:cmcc-sso-sdk:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ed037a9e0b079e81e5574721a2970ec7\cmcc-sso-sdk\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:669:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:670:5-80
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:670:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:671:5-71
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:671:22-68
+uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:673:5-88
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:673:22-85
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:674:5-81
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:674:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:676:5-77
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:24:5-77
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:24:5-77
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:676:22-74
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:677:5-81
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:25:5-81
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:677:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:678:5-79
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:23:5-79
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:678:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:679:5-76
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:12:5-76
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:12:5-76
+MERGED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:5-76
+MERGED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:5-76
+MERGED from [:cmcc-sso-sdk:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ed037a9e0b079e81e5574721a2970ec7\cmcc-sso-sdk\AndroidManifest.xml:12:5-76
+MERGED from [:cmcc-sso-sdk:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ed037a9e0b079e81e5574721a2970ec7\cmcc-sso-sdk\AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:679:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:680:5-76
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:13:5-76
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:13:5-76
+MERGED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:5-76
+MERGED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:5-76
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:680:22-73
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:681:5-84
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:681:22-81
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:682:5-78
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:17:5-78
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:17:5-78
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:682:22-75
+uses-permission#com.nativeapp.rcsapp.permission
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:684:5-71
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:684:22-68
+uses-permission#com.juphoon.rcs_maap.notify.permission
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:685:5-78
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:33:5-78
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:33:5-78
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:685:22-75
+uses-permission#android.permission.READ_CALENDAR
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:686:5-72
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:686:22-69
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:687:5-73
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:687:22-70
+uses-permission#android.provider.Telephony.ACTION_CHANGE_DEFAULT
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:688:5-87
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:688:22-85
+uses-permission#android.provider.Telephony.SMS_DELIVER
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:689:5-77
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:689:22-75
+uses-permission#android.permission.BIND_REMOTEVIEWS
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:690:5-75
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:690:22-72
+uses-sdk
+INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml
+MERGED from [:chips] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chips\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:chips] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chips\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:photo] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\photo\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:5-25:41
+MERGED from [:photo] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\photo\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:5-25:41
+MERGED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:7:5-9:41
+MERGED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:7:5-9:41
+MERGED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:5-25:41
+MERGED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:5-25:41
+MERGED from [com.google.android.material:material:1.2.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\cace6ce4501908c0fa9be4f8d9c5c473\material-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\cace6ce4501908c0fa9be4f8d9c5c473\material-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.tcl.ff.component:animer:1.0.2] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\c9a67613904a8dcf2a9d0ebe7f925655\animer-1.0.2\AndroidManifest.xml:8:5-11:56
+MERGED from [com.tcl.ff.component:animer:1.0.2] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\c9a67613904a8dcf2a9d0ebe7f925655\animer-1.0.2\AndroidManifest.xml:8:5-11:56
+MERGED from [com.martinrgb:animer:0.1.6.3] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\221e3d20e0bc1c09d864ca8193656f0b\animer-0.1.6.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.martinrgb:animer:0.1.6.3] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\221e3d20e0bc1c09d864ca8193656f0b\animer-0.1.6.3\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\680f99f5a60980a4fb7a012e32eff12d\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\680f99f5a60980a4fb7a012e32eff12d\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\b63a2d94c8e37d7d77b63b1516cbd488\legacy-support-v13-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\b63a2d94c8e37d7d77b63b1516cbd488\legacy-support-v13-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\fdb41602a36ad3f965f4be92f019bf00\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\fdb41602a36ad3f965f4be92f019bf00\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\31367c54f7b87004fb07a4f923752c95\media-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\31367c54f7b87004fb07a4f923752c95\media-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\a18a315e345508ddc449229fb282bead\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\a18a315e345508ddc449229fb282bead\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\2aab24927323683b40664b1aa898fc9f\palette-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\2aab24927323683b40664b1aa898fc9f\palette-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\927ecaa01e08d0fdc3dd02ca6f830fab\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\927ecaa01e08d0fdc3dd02ca6f830fab\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\87c51a4349973fa776a019d93e809b5c\glide-4.11.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\87c51a4349973fa776a019d93e809b5c\glide-4.11.0\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\8910766ad2d8870f961ea198929f0467\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\8910766ad2d8870f961ea198929f0467\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\e3f2b2737899525f005212ed63d1af29\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\e3f2b2737899525f005212ed63d1af29\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\18cfa758d0ddfb6bb1eb68cb563544aa\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\18cfa758d0ddfb6bb1eb68cb563544aa\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ee14be87c7685c9b9745ba4d0c3bb979\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ee14be87c7685c9b9745ba4d0c3bb979\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\a8d80ca19ef9adaafb7c49b34b4faf73\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\a8d80ca19ef9adaafb7c49b34b4faf73\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [:cmcc-sso-sdk:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ed037a9e0b079e81e5574721a2970ec7\cmcc-sso-sdk\AndroidManifest.xml:7:5-9:41
+MERGED from [:cmcc-sso-sdk:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ed037a9e0b079e81e5574721a2970ec7\cmcc-sso-sdk\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\e583aee15738bf52b45f3149c165bcb0\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\e583aee15738bf52b45f3149c165bcb0\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tcl.uicompat:uicompat:3.2.9] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\84a31712652177fe9674816543934517\uicompat-3.2.9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.tcl.uicompat:uicompat:3.2.9] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\84a31712652177fe9674816543934517\uicompat-3.2.9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.tcl.uicompat:poster:1.1.1] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\e64e666091d7430fcc9a6aa350aec3fb\poster-1.1.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.tcl.uicompat:poster:1.1.1] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\e64e666091d7430fcc9a6aa350aec3fb\poster-1.1.1\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ec2e9fa399b643ad2c02091627fa321c\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ec2e9fa399b643ad2c02091627fa321c\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\65f7f69481ecf38deef6e4be66924cc5\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\65f7f69481ecf38deef6e4be66924cc5\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\62c0ec8f353403f8a78abf5ef29a4384\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\62c0ec8f353403f8a78abf5ef29a4384\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\313727be8035feca1c78aeefa54702bb\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\313727be8035feca1c78aeefa54702bb\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\29c4329f40ebf60ccaac0a871d20d9d6\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\29c4329f40ebf60ccaac0a871d20d9d6\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\5fd1d1c4c0c205d485aea7bdb9f0c38d\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\5fd1d1c4c0c205d485aea7bdb9f0c38d\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\47be07513a5bc77e813f0e807c366872\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\47be07513a5bc77e813f0e807c366872\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\39bd15a041a4bc96522d2e002e2db344\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\39bd15a041a4bc96522d2e002e2db344\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\b68ac1c6834c7293fa503cde61f3d185\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\b68ac1c6834c7293fa503cde61f3d185\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\b686c239e656ccad1bce0dbfa1ccdb0e\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\b686c239e656ccad1bce0dbfa1ccdb0e\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\5cea7218ba92a535e1961cf7b0fc72cb\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\5cea7218ba92a535e1961cf7b0fc72cb\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\9f3d1a960b445437804b23cee56e2af7\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\9f3d1a960b445437804b23cee56e2af7\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\140d1cf8081e8f704ec3cba757afa02b\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\140d1cf8081e8f704ec3cba757afa02b\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\0fa3398820e39b4e96b0722adbff64ea\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\0fa3398820e39b4e96b0722adbff64ea\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\e975dab11aa7955ad7630ec1debe9003\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\e975dab11aa7955ad7630ec1debe9003\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0-alpha02] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\66a768d5d5c807569fd973cfbb78726e\dynamicanimation-1.1.0-alpha02\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0-alpha02] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\66a768d5d5c807569fd973cfbb78726e\dynamicanimation-1.1.0-alpha02\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\3bc3a76bc625d667ab1c7c423093d2c1\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\3bc3a76bc625d667ab1c7c423093d2c1\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\6098b25f5dcba865e8ac7d5b02e0e623\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\6098b25f5dcba865e8ac7d5b02e0e623\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\a04beb4072abc0f79439acef2c7616da\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\a04beb4072abc0f79439acef2c7616da\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\870902c20ba87b3530dae3a66f543391\core-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\870902c20ba87b3530dae3a66f543391\core-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\d80c15330754c937ffd2195e28843ab7\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\d80c15330754c937ffd2195e28843ab7\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\78cd99b1b188d221044f5fbf54ba9ec2\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\78cd99b1b188d221044f5fbf54ba9ec2\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\242120d8bfd93333367333bf1d73ac36\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\242120d8bfd93333367333bf1d73ac36\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\1d0d8430a6c13d4b9abb12fe1f0c03ad\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\1d0d8430a6c13d4b9abb12fe1f0c03ad\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\4a5afcd79e502850e0050110f17b1fc5\gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\4a5afcd79e502850e0050110f17b1fc5\gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\74e9fb9a2020e5d4207fe678fdaaf659\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\74e9fb9a2020e5d4207fe678fdaaf659\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\7d0f1e205b03b1a12b36f028fa8fd906\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\7d0f1e205b03b1a12b36f028fa8fd906\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\9c11bb5a5497cfd65ca5715586b6a836\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\9c11bb5a5497cfd65ca5715586b6a836\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\62315b49a9cdb40c139c806a21028408\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\62315b49a9cdb40c139c806a21028408\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.lzyzsd:jsbridge:1.0.4] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\0a50a5d367ea638994973dcedca11931\jsbridge-1.0.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.lzyzsd:jsbridge:1.0.4] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\0a50a5d367ea638994973dcedca11931\jsbridge-1.0.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.bm.photoview:library:1.4.1] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\f469da0bb367e522e9b4cd88e0071b22\library-1.4.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.bm.photoview:library:1.4.1] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\f469da0bb367e522e9b4cd88e0071b22\library-1.4.1\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\053e0b0f7fbfa729b3f0dd956c0ab1df\annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\053e0b0f7fbfa729b3f0dd956c0ab1df\annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.tcl.ff.component:animer:1.0.2] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\c9a67613904a8dcf2a9d0ebe7f925655\animer-1.0.2\AndroidManifest.xml:11:9-53
+	android:targetSdkVersion
+		INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml
+activity#com.juphoon.chatbotmaap.chatbotDetail.RcsChatBotDetailActivity
+ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-99
+	android:name
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:19-96
+activity#com.juphoon.chatbotmaap.chatbotDetail.RcsChatbotDetailMoreActivity
+ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-103
+	android:name
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:19-100
+activity#com.juphoon.chatbotmaap.RcsChatbotScanActivity
+ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-83
+	android:name
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:19-80
+activity#com.juphoon.chatbotmaap.RcsChatbotWebActivity
+ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-20:50
+	android:label
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-29
+	tools:ignore
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-47
+	android:configChanges
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-74
+	android:name
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-73
+activity#com.juphoon.chatbotmaap.RcsChatbotImageFragmentActivity
+ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:9-26:50
+	android:label
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-29
+	tools:ignore
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-47
+	android:configChanges
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-74
+	android:theme
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-54
+	android:name
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-83
+activity#com.juphoon.chatbotmaap.RcsChatbotFullTextFragmentActivity
+ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:9-32:50
+	android:label
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-29
+	tools:ignore
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:13-47
+	android:configChanges
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-74
+	android:theme
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-54
+	android:name
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-86
+activity#com.juphoon.chatbotmaap.Location.RcsBaiduLocationActivity
+ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:9-37:50
+	android:label
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:13-29
+	tools:ignore
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-47
+	android:configChanges
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-74
+	android:name
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-85
+activity#com.juphoon.chatbotmaap.RcsChatbotSearchActivity
+ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:9-40:77
+	android:configChanges
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-74
+	android:name
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-76
+activity#com.juphoon.chatbotmaap.RcsChatbotSettingActivity
+ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:9-43:77
+	android:configChanges
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-74
+	android:name
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:13-77
+activity#com.juphoon.chatbotmaap.RcsLocalChatbotActivity
+ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:9-46:77
+	android:configChanges
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-74
+	android:name
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-75
+activity#com.juphoon.chatbotmaap.RcsBlackChatbotActivity
+ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:9-49:77
+	android:configChanges
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:13-74
+	android:name
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:13-75
+activity#com.juphoon.chatbotmaap.RcsChatbotPermissionActivity
+ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:9-53:50
+	android:configChanges
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:13-74
+	android:theme
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:13-47
+	android:name
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:13-80
+activity#com.juphoon.chatbotmaap.RcsChatBotNearbyChatbotActivity
+ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:9-56:77
+	android:configChanges
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:13-74
+	android:name
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:13-83
+activity#com.juphoon.chatbotmaap.RcsChatbotVerifiActivity
+ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:9-85
+	android:name
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:19-82
+activity#com.juphoon.chatbotmaap.RcsChatbotComplaintActivity
+ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:9-88
+	android:name
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:19-85
+activity#com.juphoon.chatbotmaap.RcsChatbotMoreBotsActivity
+ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:59:9-87
+	android:name
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:59:19-84
+activity#com.juphoon.chatbotmaap.chatbotSearch.RcsChatbotServiceActivity
+ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:9-100
+	android:name
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:19-97
+provider#com.juphoon.chatbotmaap.RcsChatbotFileProvider
+ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:62:9-70:20
+	android:grantUriPermissions
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:66:13-47
+	android:authorities
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:64:13-78
+	android:exported
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:13-37
+	android:name
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:13-74
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:67:13-69:54
+	android:resource
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:69:17-51
+	android:name
+		ADDED from [:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:17-67
+uses-permission#android.permission.READ_PRIVILEGED_PHONE_STATE
+ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:26:5-86
+	android:name
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:26:22-83
+uses-permission#android.permission.MODIFY_PHONE_STATE
+ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:28:22-74
+permission#com.juphoon.rcs_maap.notify.permission
+ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:31:5-73
+	android:name
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:31:17-70
+service#com.juphoon.service.rcs.RcsService
+ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:36:9-44:19
+	android:exported
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:38:13-36
+	android:name
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:37:13-62
+intent-filter#action:name:com.juphoon.service.rcsservice.action+category:name:android.intent.category.DEFAULT
+ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:39:13-43:29
+action#com.juphoon.service.rcsservice.action
+ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:40:17-80
+	android:name
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:40:25-77
+service#com.juphoon.service.im.RcsImService
+ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:45:9-53:19
+	android:exported
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:47:13-36
+	android:name
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:46:13-63
+intent-filter#action:name:com.juphoon.service.imservice.action+category:name:android.intent.category.DEFAULT
+ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:48:13-52:29
+action#com.juphoon.service.imservice.action
+ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:49:17-79
+	android:name
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:49:25-76
+service#com.juphoon.service.cap.RcsCapService
+ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:54:9-62:19
+	android:exported
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:56:13-36
+	android:name
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:55:13-65
+intent-filter#action:name:com.juphoon.service.capservice.action+category:name:android.intent.category.DEFAULT
+ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:57:13-61:29
+action#com.juphoon.service.capservice.action
+ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:58:17-80
+	android:name
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:58:25-77
+activity#com.juphoon.service.rcs.RcsSettingActivity
+ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:64:9-75:20
+	android:screenOrientation
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:68:13-49
+	android:label
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:67:13-48
+	android:exported
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:66:13-36
+	android:name
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:65:13-70
+intent-filter#action:name:com.cmcc.ccs.rcs.setting+category:name:android.intent.category.DEFAULT
+ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:69:13-74:29
+action#com.cmcc.ccs.rcs.setting
+ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:70:17-67
+	android:name
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:70:25-64
+activity#com.juphoon.service.rcs.TestSettingActivity
+ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:76:9-86:20
+	android:screenOrientation
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:79:13-49
+	android:exported
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:78:13-36
+	android:name
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:77:13-71
+intent-filter#action:name:com.juphoon.rcs.testsetting+category:name:android.intent.category.DEFAULT
+ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:80:13-85:29
+action#com.juphoon.rcs.testsetting
+ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:81:17-70
+	android:name
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:81:25-67
+activity#com.juphoon.service.rcs.GrantPermissionActivity
+ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:87:9-97:20
+	android:screenOrientation
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:90:13-49
+	android:exported
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:89:13-36
+	android:theme
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:91:13-72
+	android:name
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:88:13-75
+intent-filter#action:name:com.juphoon.rcs.permission.activity+category:name:android.intent.category.DEFAULT
+ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:92:13-96:29
+action#com.juphoon.rcs.permission.activity
+ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:93:17-78
+	android:name
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:93:25-75
+service#com.juphoon.receiver.RcsReceiverService
+ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:99:9-102:72
+	android:exported
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:101:13-37
+	android:permission
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:102:13-69
+	android:name
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:100:13-67
+service#com.juphoon.receiver.RcsSchedulerService
+ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:103:9-105:72
+	android:permission
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:105:13-69
+	android:name
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:104:13-68
+service#com.cmcc.sso.service.SsoService
+ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:106:9-107:19
+	android:name
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:106:18-64
+provider#com.juphoon.rcs.provider.GroupProvider
+ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:109:9-113:44
+	android:authorities
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:111:13-52
+	android:multiprocess
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:113:13-41
+	android:exported
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:112:13-36
+	android:name
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:110:13-66
+provider#com.juphoon.rcs.provider.PublicProvider
+ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:114:9-118:44
+	android:authorities
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:116:13-53
+	android:multiprocess
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:118:13-41
+	android:exported
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:117:13-36
+	android:name
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:115:13-67
+provider#com.juphoon.rcs.provider.ChatbotProvider
+ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:119:9-123:44
+	android:authorities
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:121:13-54
+	android:multiprocess
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:123:13-41
+	android:exported
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:122:13-36
+	android:name
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:120:13-68
+provider#com.juphoon.rcs.provider.NumbersProvider
+ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:124:9-128:44
+	android:authorities
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:126:13-114
+	android:multiprocess
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:128:13-41
+	android:exported
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:127:13-36
+	android:name
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:125:13-68
+provider#com.juphoon.rcs.provider.RmsProvider
+ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:129:9-132:39
+	android:authorities
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:131:13-43
+	android:exported
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:132:13-36
+	android:name
+		ADDED from [:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:130:13-64
+uses-permission#android.permission.FLASHLIGHT
+ADDED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:5-69
+	android:name
+		ADDED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:22-66
+uses-permission#com.android.browser.permission.READ_HISTORY_BOOKMARKS
+ADDED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:5-93
+	android:name
+		ADDED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:22-90
+uses-feature#android.hardware.camera.any
+ADDED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:5-64
+	android:name
+		ADDED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:19-61
+uses-feature#android.hardware.camera.flash
+ADDED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:5-44:36
+	android:required
+		ADDED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:9-33
+	android:name
+		ADDED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:5-70
+	android:name
+		ADDED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:19-67
+uses-feature#android.hardware.wifi
+ADDED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:5-48:36
+	android:required
+		ADDED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:9-33
+	android:name
+		ADDED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:9-45
+activity#com.google.zxing.client.android.CaptureActivity
+ADDED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:9-110:20
+	android:clearTaskOnLaunch
+		ADDED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:13-45
+	android:stateNotNeeded
+		ADDED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:13-42
+	android:windowSoftInputMode
+		ADDED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:13-60
+	android:theme
+		ADDED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:13-46
+	android:name
+		ADDED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:13-75
+intent-filter#action:name:com.google.zxing.client.android.SCAN+category:name:android.intent.category.DEFAULT
+ADDED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:13-61:29
+action#com.google.zxing.client.android.SCAN
+ADDED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:17-79
+	android:name
+		ADDED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:25-76
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:zxing.appspot.com+data:path:/scan+data:scheme:http
+ADDED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:13-73:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:www.google.com+data:path:/m/products/scan+data:scheme:http
+ADDED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:75:13-85:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:www.google.co.uk+data:path:/m/products/scan+data:scheme:http
+ADDED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:87:13-97:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:scan+data:path:/+data:scheme:zxing
+ADDED from [:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\debug\AndroidManifest.xml:99:13-109:29
+activity#com.cmcc.sso.sdk.securitycode.SsoSecurityCodeActivity
+ADDED from [:cmcc-sso-sdk:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ed037a9e0b079e81e5574721a2970ec7\cmcc-sso-sdk\AndroidManifest.xml:20:9-25:20
+	android:launchMode
+		ADDED from [:cmcc-sso-sdk:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ed037a9e0b079e81e5574721a2970ec7\cmcc-sso-sdk\AndroidManifest.xml:23:13-43
+	android:configChanges
+		ADDED from [:cmcc-sso-sdk:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ed037a9e0b079e81e5574721a2970ec7\cmcc-sso-sdk\AndroidManifest.xml:22:13-74
+	android:theme
+		ADDED from [:cmcc-sso-sdk:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ed037a9e0b079e81e5574721a2970ec7\cmcc-sso-sdk\AndroidManifest.xml:24:13-72
+	android:name
+		ADDED from [:cmcc-sso-sdk:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ed037a9e0b079e81e5574721a2970ec7\cmcc-sso-sdk\AndroidManifest.xml:21:13-81

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_black_manage"
+        android:title="@string/chatbot_black_manage" />
+    <item
+        android:id="@+id/menu_scan"
+        android:src="@drawable/scan"
+        android:title="@string/chatbot_scan" />
+</menu>

@@ -1,0 +1,65 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+
+
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    repositories {
+        flatDir {
+            dirs '../libs'
+        }
+    }
+
+
+    sourceSets{
+        main{
+            jniLibs.srcDirs =['../app/src/main/libs']
+        }
+    }
+}
+
+allprojects {
+    repositories {
+        maven { url "https://jitpack.io" }
+        jcenter()
+    }
+}
+
+dependencies {
+    implementation(name:'rcsservice', ext:'aar')
+    implementation fileTree(dir: '../libs', include: ['BaiduLBS_Android.jar'])
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation 'com.google.code.gson:gson:2.7'
+    implementation 'com.github.lzyzsd:jsbridge:1.0.4'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    implementation project(path: ':zxing')
+    implementation "androidx.viewpager2:viewpager2:1.0.0"
+    implementation 'com.google.android.material:material:1.2.0'
+    implementation 'com.bm.photoview:library:1.4.1'
+    implementation 'com.tcl.ff.component:animer:0.6.1'
+
+    implementation 'com.tcl.uicompat:uicompat:3.2.2'
+}

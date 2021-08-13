@@ -1,0 +1,1815 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.android.Jmessaging"
+4    android:installLocation="internalOnly"
+5    android:versionCode="202103051"
+6    android:versionName="1.2.9" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="28" />
+10-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml
+11    <!-- Application holds CPU wakelock while working in background -->
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:8:5-79
+12-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:8:22-76
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:8:5-79
+13-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:8:5-79
+14-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:8:22-76
+15    <!-- Application needs SMS/MMS permissions -->
+16    <uses-feature
+16-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:622:5-624:36
+17        android:name="android.hardware.camera"
+17-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:623:9-47
+18        android:required="false" />
+18-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:624:9-33
+19    <uses-feature
+19-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:625:5-627:36
+20        android:name="android.hardware.camera.front"
+20-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:626:9-53
+21        android:required="false" />
+21-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:627:9-33
+22    <uses-feature
+22-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:628:5-630:36
+23        android:name="android.hardware.camera.autofocus"
+23-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:629:9-57
+24        android:required="false" />
+24-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:630:9-33
+25    <uses-feature
+25-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:631:5-633:36
+26        android:name="android.hardware.microphone"
+26-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:632:9-51
+27        android:required="false" />
+27-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:633:9-33
+28    <uses-feature
+28-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:634:5-636:36
+29        android:name="android.hardware.screen.portrait"
+29-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:635:9-56
+30        android:required="false" /> <!-- Application needs access to MMS network -->
+30-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:636:9-33
+31    <uses-feature
+31-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:622:5-624:36
+32        android:name="android.hardware.camera"
+32-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:623:9-47
+33        android:required="false" />
+33-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:624:9-33
+34    <uses-feature
+34-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:625:5-627:36
+35        android:name="android.hardware.camera.front"
+35-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:626:9-53
+36        android:required="false" />
+36-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:627:9-33
+37    <uses-feature
+37-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:628:5-630:36
+38        android:name="android.hardware.camera.autofocus"
+38-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:629:9-57
+39        android:required="false" /> <!-- Application needs CONTACT permissions -->
+39-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:630:9-33
+40    <uses-feature
+40-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:631:5-633:36
+41        android:name="android.hardware.microphone"
+41-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:632:9-51
+42        android:required="false" />
+42-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:633:9-33
+43    <uses-feature
+43-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:634:5-636:36
+44        android:name="android.hardware.screen.portrait"
+44-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:635:9-56
+45        android:required="false" /> <!-- Application needs to read profiles for the user itself from CP2 -->
+45-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:636:9-33
+46    <uses-permission android:name="android.permission.WAKE_LOCK" />
+46-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:652:5-68
+46-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:652:22-65
+47    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+47-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:8:5-79
+47-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:8:22-76
+48    <uses-permission android:name="android.permission.READ_SMS" />
+48-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:654:5-67
+48-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:654:22-64
+49    <uses-permission android:name="android.permission.WRITE_SMS" />
+49-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:655:5-68
+49-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:655:22-65
+50    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+50-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:656:5-70
+50-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:656:22-67
+51    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+51-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:657:5-70
+51-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:657:22-67
+52    <uses-permission android:name="android.permission.SEND_SMS" />
+52-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:658:5-67
+52-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:658:22-64
+53    <uses-permission android:name="android.permission.INTERNET" />
+53-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:659:5-67
+53-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:659:22-64
+54    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+54-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:8:5-79
+54-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:8:22-76
+55    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+55-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:661:5-79
+55-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:661:22-76
+56    <uses-permission android:name="android.permission.READ_CONTACTS" />
+56-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:662:5-72
+56-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:662:22-69
+57    <uses-permission android:name="android.permission.WRITE_CONTACTS" /> <!-- Optional features -->
+57-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:663:5-73
+57-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:663:22-70
+58    <uses-permission android:name="android.permission.READ_PROFILE" />
+58-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:664:5-71
+58-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:664:22-68
+59    <uses-permission android:name="android.permission.VIBRATE" />
+59-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:665:5-66
+59-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:665:22-63
+60    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+60-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:666:5-75
+60-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:666:22-72
+61    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+61-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:667:5-83
+61-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:667:22-80
+62    <uses-permission android:name="android.permission.CAMERA" />
+62-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:668:5-65
+62-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:668:22-62
+63    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Optional features -->
+63-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:669:5-81
+63-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:669:22-78
+64    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+64-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:670:5-80
+64-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:670:22-77
+65    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+65-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:671:5-71
+65-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:671:22-68
+66    <!-- <uses-permission android:name="android.permission.CALL_PHONE" /> -->
+67    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+67-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:673:5-88
+67-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:673:22-85
+68    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- 百度地图权限 -->
+68-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:674:5-81
+68-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:674:22-78
+69    <!-- 这个权限用于进行网络定位 -->
+70    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- 这个权限用于访问GPS定位 -->
+70-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:676:5-77
+70-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:676:22-74
+71    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+71-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:677:5-81
+71-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:677:22-78
+72    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+72-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:678:5-79
+72-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:678:22-76
+73    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- SD卡读取权限，用户写入离线定位数据 -->
+73-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:679:5-76
+73-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:679:22-73
+74    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /> <!-- juphoon -->
+74-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:680:5-76
+74-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:680:22-73
+75    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+75-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:681:5-84
+75-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:681:22-81
+76    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> <!-- juphoon 应用号加入 -->
+76-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:682:5-78
+76-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:682:22-75
+77    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- juphoon 接收 Rcs Service 广播 -->
+77-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:671:5-71
+77-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:671:22-68
+78    <uses-permission android:name="com.nativeapp.rcsapp.permission" />
+78-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:684:5-71
+78-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:684:22-68
+79    <uses-permission android:name="com.juphoon.rcs_maap.notify.permission" />
+79-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:685:5-78
+79-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:685:22-75
+80    <uses-permission android:name="android.permission.READ_CALENDAR" />
+80-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:686:5-72
+80-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:686:22-69
+81    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+81-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:687:5-73
+81-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:687:22-70
+82    <uses-permission android:name="android.provider.Telephony.ACTION_CHANGE_DEFAULT" />
+82-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:688:5-87
+82-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:688:22-85
+83    <uses-permission android:name="android.provider.Telephony.SMS_DELIVER" />
+83-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:689:5-77
+83-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:689:22-75
+84    <uses-permission android:name="android.permission.BIND_REMOTEVIEWS" />
+84-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:690:5-75
+84-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:690:22-72
+85    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+85-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:26:5-86
+85-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:26:22-83
+86    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+86-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:28:5-77
+86-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:28:22-74
+87
+88    <permission android:name="com.juphoon.rcs_maap.notify.permission" />
+88-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:31:5-73
+88-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:31:17-70
+89
+90    <uses-permission android:name="android.permission.FLASHLIGHT" /> <!-- unavailable in API 23 -->
+90-->[:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:30:5-69
+90-->[:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:30:22-66
+91    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+91-->[:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:33:5-93
+91-->[:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:33:22-90
+92
+93    <uses-feature android:name="android.hardware.camera.any" />
+93-->[:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:38:5-64
+93-->[:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:38:19-61
+94    <uses-feature
+94-->[:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:42:5-44:36
+95        android:name="android.hardware.camera.flash"
+95-->[:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:43:9-53
+96        android:required="false" />
+96-->[:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:44:9-33
+97    <uses-feature android:name="android.hardware.screen.landscape" />
+97-->[:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:45:5-70
+97-->[:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:45:19-67
+98    <uses-feature
+98-->[:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:46:5-48:36
+99        android:name="android.hardware.wifi"
+99-->[:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:47:9-45
+100        android:required="false" />
+100-->[:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:48:9-33
+101
+102    <application
+102-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:13:5-621:19
+103        android:name="com.android.messaging.BugleApplication"
+103-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:14:9-41
+104        android:allowBackup="false"
+104-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:15:9-36
+105        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+105-->[androidx.core:core:1.2.0] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\870902c20ba87b3530dae3a66f543391\core-1.2.0\AndroidManifest.xml:24:18-86
+106        android:icon="@drawable/rcschatlogo"
+106-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:16:9-45
+107        android:label="@string/app_name"
+107-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:17:9-41
+108        android:networkSecurityConfig="@xml/network_security_config"
+108-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:18:9-69
+109        android:persistent="true"
+109-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:20:9-34
+110        android:supportsRtl="true"
+110-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:19:9-35
+111        android:theme="@style/BugleTheme"
+111-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:21:9-42
+112        android:usesCleartextTraffic="true" >
+112-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:22:9-44
+113        <activity android:name="com.juphoon.ui.RcsLoginActivity" />
+113-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:24:9-77
+113-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:24:19-65
+114        <!-- Displays a list of conversations -->
+115        <activity
+115-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:26:9-31:53
+116            android:name="com.juphoon.ui.RcsRegisterActivity"
+116-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:27:13-62
+117            android:configChanges="orientation|screenSize|keyboardHidden"
+117-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:28:13-74
+118            android:exported="true"
+118-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:29:13-36
+119            android:label=""
+119-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:30:13-29
+120            android:screenOrientation="landscape" />
+120-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:31:13-50
+121        <activity
+121-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:33:9-45:20
+122            android:name="com.android.messaging.ui.conversationlist.ConversationListActivity"
+122-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:34:13-73
+123            android:configChanges="orientation|screenSize|keyboardHidden"
+123-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:35:13-74
+124            android:label="@string/app_name"
+124-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:36:13-45
+125            android:screenOrientation="landscape"
+125-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:37:13-50
+126            android:theme="@style/AppTheme" >
+126-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:38:13-44
+127            <intent-filter>
+127-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:39:13-44:29
+128                <action android:name="android.intent.action.MAIN" />
+128-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:40:17-69
+128-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:40:25-66
+129
+130                <category android:name="android.intent.category.LAUNCHER" />
+130-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:41:17-77
+130-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:41:27-74
+131                <category android:name="android.intent.category.DEFAULT" />
+131-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:17-76
+131-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:27-73
+132                <category android:name="android.intent.category.APP_MESSAGING" />
+132-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:43:17-82
+132-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:43:27-79
+133            </intent-filter>
+134        </activity>
+135        <activity
+135-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:46:9-49:53
+136            android:name="com.android.messaging.ui.PermissionCheckActivity"
+136-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:47:13-55
+137            android:configChanges="orientation|screenSize|keyboardHidden"
+137-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:48:13-74
+138            android:screenOrientation="landscape" /> <!-- Launches a conversation (ensures correct app name shown in recents) -->
+138-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:49:13-50
+139        <activity
+139-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:50:9-77:20
+140            android:name="com.android.messaging.ui.conversation.LaunchConversationActivity"
+140-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:51:13-71
+141            android:configChanges="orientation|screenSize|keyboardHidden"
+141-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:52:13-74
+142            android:documentLaunchMode="always"
+142-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:53:13-48
+143            android:noHistory="true"
+143-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:54:13-37
+144            android:screenOrientation="landscape"
+144-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:55:13-50
+145            android:theme="@style/Invisible" >
+145-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:56:13-45
+146            <intent-filter>
+146-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:57:13-66:29
+147                <action android:name="android.intent.action.VIEW" />
+147-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:58:17-69
+147-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:58:25-66
+148                <action android:name="android.intent.action.SENDTO" />
+148-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:59:17-71
+148-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:59:25-68
+149
+150                <category android:name="android.intent.category.DEFAULT" />
+150-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:17-76
+150-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:27-73
+151                <category android:name="android.intent.category.BROWSABLE" />
+151-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:62:17-78
+151-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:62:27-75
+152
+153                <data android:scheme="sms" />
+153-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:17-46
+153-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:23-43
+154                <data android:scheme="smsto" />
+154-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:17-46
+154-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:23-43
+155            </intent-filter>
+156            <intent-filter>
+156-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:67:13-76:29
+157                <action android:name="android.intent.action.VIEW" />
+157-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:58:17-69
+157-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:58:25-66
+158                <action android:name="android.intent.action.SENDTO" />
+158-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:59:17-71
+158-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:59:25-68
+159
+160                <category android:name="android.intent.category.DEFAULT" />
+160-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:17-76
+160-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:27-73
+161                <category android:name="android.intent.category.BROWSABLE" />
+161-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:62:17-78
+161-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:62:27-75
+162
+163                <data android:scheme="mms" />
+163-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:17-46
+163-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:23-43
+164                <data android:scheme="mmsto" />
+164-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:17-46
+164-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:23-43
+165            </intent-filter>
+166        </activity> <!-- Displays a list of archived conversations -->
+167        <activity
+167-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:78:9-88:20
+168            android:name="com.android.messaging.ui.conversationlist.ArchivedConversationListActivity"
+168-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:79:13-81
+169            android:configChanges="orientation|screenSize|keyboardHidden"
+169-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:80:13-74
+170            android:label="@string/archived_activity_title"
+170-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:81:13-60
+171            android:parentActivityName="com.android.messaging.ui.conversationlist.ConversationListActivity"
+171-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:82:13-87
+172            android:screenOrientation="landscape"
+172-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:83:13-50
+173            android:theme="@style/BugleTheme.ArchivedConversationListActivity" >
+173-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:84:13-79
+174            <meta-data
+174-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:85:13-87:102
+175                android:name="android.support.PARENT_ACTIVITY"
+175-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:86:17-63
+176                android:value="com.android.messaging.ui.conversationlist.ConversationListActivity" />
+176-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:87:17-99
+177        </activity> <!-- Displays the contents of a single conversation -->
+178        <activity
+178-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:89:9-99:20
+179            android:name="com.android.messaging.ui.conversation.ConversationActivity"
+179-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:90:13-65
+180            android:configChanges="orientation|screenSize|keyboardHidden"
+180-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:91:13-74
+181            android:parentActivityName="com.android.messaging.ui.conversationlist.ConversationListActivity"
+181-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:92:13-87
+182            android:screenOrientation="landscape"
+182-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:93:13-50
+183            android:theme="@style/BugleTheme.ConversationActivity"
+183-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:94:13-67
+184            android:windowSoftInputMode="stateHidden|adjustUnspecified" >
+184-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:95:13-72
+185            <meta-data
+185-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:85:13-87:102
+186                android:name="android.support.PARENT_ACTIVITY"
+186-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:86:17-63
+187                android:value="com.android.messaging.ui.conversationlist.ConversationListActivity" />
+187-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:87:17-99
+188        </activity> <!-- Blocked Participants -->
+189        <activity
+189-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:100:9-101:38
+190            android:name="com.android.messaging.Api"
+190-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:100:19-38
+191            android:exported="true" />
+191-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:101:13-36
+192        <activity
+192-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:102:9-112:20
+193            android:name="com.android.messaging.ui.BlockedParticipantsActivity"
+193-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:103:13-59
+194            android:configChanges="orientation|screenSize|keyboardHidden"
+194-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:104:13-74
+195            android:label="@string/blocked_contacts_title"
+195-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:105:13-59
+196            android:parentActivityName="com.android.messaging.ui.conversationlist.ConversationListActivity"
+196-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:106:13-87
+197            android:screenOrientation="landscape"
+197-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:107:13-50
+198            android:theme="@style/BugleTheme" >
+198-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:108:13-46
+199            <meta-data
+199-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:85:13-87:102
+200                android:name="android.support.PARENT_ACTIVITY"
+200-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:86:17-63
+201                android:value="com.android.messaging.ui.conversationlist.ConversationListActivity" />
+201-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:87:17-99
+202        </activity> <!-- Full-screen photo viewer -->
+203        <activity
+203-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:113:9-118:58
+204            android:name="com.android.messaging.ui.photoviewer.BuglePhotoViewActivity"
+204-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:114:13-66
+205            android:configChanges="orientation|screenSize|keyboardHidden"
+205-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:115:13-74
+206            android:label="@string/photo_view_activity_title"
+206-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:116:13-62
+207            android:screenOrientation="landscape"
+207-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:117:13-50
+208            android:theme="@style/BuglePhotoViewTheme" /> <!-- Settings -->
+208-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:118:13-55
+209        <activity
+209-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:119:9-129:20
+210            android:name="com.android.messaging.ui.appsettings.SettingsActivity"
+210-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:120:13-60
+211            android:configChanges="orientation|screenSize|keyboardHidden"
+211-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:121:13-74
+212            android:label="@string/settings_activity_title"
+212-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:122:13-60
+213            android:parentActivityName="com.android.messaging.ui.conversationlist.ConversationListActivity"
+213-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:123:13-87
+214            android:screenOrientation="landscape"
+214-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:124:13-50
+215            android:theme="@style/BugleTheme.SettingsActivity" >
+215-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:125:13-63
+216            <meta-data
+216-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:85:13-87:102
+217                android:name="android.support.PARENT_ACTIVITY"
+217-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:86:17-63
+218                android:value="com.android.messaging.ui.conversationlist.ConversationListActivity" />
+218-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:87:17-99
+219        </activity>
+220        <activity
+220-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:130:9-140:20
+221            android:name="com.android.messaging.ui.appsettings.PerSubscriptionSettingsActivity"
+221-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:131:13-75
+222            android:configChanges="orientation|screenSize|keyboardHidden"
+222-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:132:13-74
+223            android:label="@string/advanced_settings_activity_title"
+223-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:133:13-69
+224            android:parentActivityName="com.android.messaging.ui.appsettings.SettingsActivity"
+224-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:134:13-74
+225            android:screenOrientation="landscape"
+225-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:135:13-50
+226            android:theme="@style/BugleTheme.SettingsActivity" >
+226-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:136:13-63
+227            <meta-data
+227-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:85:13-87:102
+228                android:name="android.support.PARENT_ACTIVITY"
+228-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:86:17-63
+229                android:value="com.android.messaging.ui.appsettings.SettingsActivity" />
+229-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:87:17-99
+230        </activity>
+231        <activity
+231-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:141:9-159:20
+232            android:name="com.android.messaging.ui.appsettings.ApplicationSettingsActivity"
+232-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:142:13-71
+233            android:configChanges="orientation|screenSize|keyboardHidden"
+233-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:143:13-74
+234            android:label="@string/general_settings_activity_title"
+234-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:144:13-68
+235            android:launchMode="singleTask"
+235-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:146:13-44
+236            android:parentActivityName="com.android.messaging.ui.appsettings.SettingsActivity"
+236-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:145:13-74
+237            android:screenOrientation="landscape"
+237-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:147:13-50
+238            android:theme="@style/BugleTheme.SettingsActivity" >
+238-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:148:13-63
+239            <intent-filter>
+239-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:149:13-154:29
+240                <action android:name="android.intent.action.MAIN" />
+240-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:40:17-69
+240-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:40:25-66
+241
+242                <category android:name="android.intent.category.DEFAULT" />
+242-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:17-76
+242-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:27-73
+243                <category android:name="android.intent.category.NOTIFICATION_PREFERENCES" />
+243-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:153:17-93
+243-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:153:27-90
+244            </intent-filter>
+245
+246            <meta-data
+246-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:85:13-87:102
+247                android:name="android.support.PARENT_ACTIVITY"
+247-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:86:17-63
+248                android:value="com.android.messaging.ui.appsettings.SettingsActivity" />
+248-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:87:17-99
+249        </activity> <!-- Handles sharing intent -->
+250        <activity
+250-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:160:9-186:20
+251            android:name="com.android.messaging.ui.conversationlist.ShareIntentActivity"
+251-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:161:13-68
+252            android:configChanges="orientation|screenSize|keyboardHidden"
+252-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:162:13-74
+253            android:documentLaunchMode="always"
+253-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:163:13-48
+254            android:excludeFromRecents="true"
+254-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:164:13-46
+255            android:screenOrientation="landscape"
+255-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:165:13-50
+256            android:theme="@style/BugleTheme.DialogActivity" >
+256-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:166:13-61
+257            <intent-filter android:label="@string/share_intent_label" >
+257-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:167:13-178:29
+257-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:167:28-70
+258                <action android:name="android.intent.action.SEND" />
+258-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:168:17-69
+258-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:168:25-66
+259
+260                <category android:name="android.intent.category.DEFAULT" />
+260-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:17-76
+260-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:27-73
+261
+262                <data android:mimeType="text/plain" />
+262-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:17-46
+262-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:172:23-52
+263                <data android:mimeType="text/x-vCard" />
+263-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:17-46
+263-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:172:23-52
+264                <data android:mimeType="text/x-vcard" />
+264-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:17-46
+264-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:172:23-52
+265                <data android:mimeType="image/*" />
+265-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:17-46
+265-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:172:23-52
+266                <data android:mimeType="audio/*" />
+266-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:17-46
+266-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:172:23-52
+267                <data android:mimeType="application/ogg" />
+267-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:17-46
+267-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:172:23-52
+268            </intent-filter>
+269            <intent-filter android:label="@string/share_intent_label" >
+269-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:179:13-185:29
+269-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:179:28-70
+270                <action android:name="android.intent.action.SEND_MULTIPLE" />
+270-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:180:17-78
+270-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:180:25-75
+271
+272                <category android:name="android.intent.category.DEFAULT" />
+272-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:17-76
+272-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:27-73
+273
+274                <data android:mimeType="image/*" />
+274-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:17-46
+274-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:172:23-52
+275            </intent-filter>
+276        </activity> <!-- People & Options -->
+277        <activity
+277-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:187:9-197:20
+278            android:name="com.android.messaging.ui.conversationsettings.PeopleAndOptionsActivity"
+278-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:188:13-77
+279            android:configChanges="orientation|screenSize|keyboardHidden"
+279-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:189:13-74
+280            android:label="@string/people_and_options_activity_title"
+280-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:190:13-70
+281            android:parentActivityName="com.android.messaging.ui.conversation.ConversationActivity"
+281-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:191:13-79
+282            android:screenOrientation="landscape"
+282-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:192:13-50
+283            android:theme="@style/BugleTheme" >
+283-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:193:13-46
+284            <meta-data
+284-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:85:13-87:102
+285                android:name="android.support.PARENT_ACTIVITY"
+285-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:86:17-63
+286                android:value="com.android.messaging.ui.conversation.ConversationActivity" />
+286-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:87:17-99
+287        </activity> <!-- License -->
+288        <activity
+288-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:198:9-202:79
+289            android:name="com.android.messaging.ui.LicenseActivity"
+289-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:199:13-47
+290            android:exported="true"
+290-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:200:13-36
+291            android:label="@string/menu_license"
+291-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:201:13-49
+292            android:theme="@android:style/Theme.Holo.Light.Dialog" /> <!-- Message Forwarding -->
+292-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:202:13-67
+293        <activity
+293-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:203:9-208:73
+294            android:name="com.android.messaging.ui.conversationlist.ForwardMessageActivity"
+294-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:204:13-71
+295            android:configChanges="orientation|screenSize|keyboardHidden"
+295-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:205:13-74
+296            android:label="@string/forward_message_activity_title"
+296-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:206:13-67
+297            android:screenOrientation="landscape"
+297-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:207:13-50
+298            android:theme="@style/BugleTheme.DialogActivity" />
+298-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:208:13-61
+299        <!--
+300 Entry point for handling remote input/actions. Currently, this is only used by Android
+301             Wear to send voice replies. Since that uses PendingIntents, we don't need to export
+302             this activity. If we want other apps to be able to use this activity at will,
+303             we'll need to guard it with a signature-matching protected permission. We would also
+304             need to add an intent filter and remove the android:exported attribute.
+305        -->
+306        <activity
+306-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:216:9-221:57
+307            android:name="com.android.messaging.ui.RemoteInputEntrypointActivity"
+307-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:217:13-61
+308            android:configChanges="orientation|screenSize|keyboardHidden"
+308-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:218:13-74
+309            android:exported="false"
+309-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:219:13-37
+310            android:screenOrientation="landscape"
+310-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:220:13-50
+311            android:theme="@style/Invisible" /> <!-- VCard details -->
+311-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:221:13-45
+312        <activity
+312-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:222:9-231:20
+313            android:name="com.android.messaging.ui.VCardDetailActivity"
+313-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:223:13-51
+314            android:configChanges="orientation|screenSize|keyboardHidden"
+314-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:224:13-74
+315            android:label="@string/vcard_detail_activity_title"
+315-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:225:13-64
+316            android:screenOrientation="landscape"
+316-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:226:13-50
+317            android:theme="@style/BugleTheme" >
+317-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:227:13-46
+318            <meta-data
+318-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:85:13-87:102
+319                android:name="android.support.PARENT_ACTIVITY"
+319-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:86:17-63
+320                android:value=".ui.conversation.ConversationActivity" />
+320-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:87:17-99
+321        </activity> <!-- Attachment chooser -->
+322        <activity
+322-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:232:9-242:20
+323            android:name="com.android.messaging.ui.attachmentchooser.AttachmentChooserActivity"
+323-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:233:13-75
+324            android:configChanges="orientation|screenSize|keyboardHidden"
+324-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:234:13-74
+325            android:label="@string/attachment_chooser_activity_title"
+325-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:235:13-70
+326            android:parentActivityName="com.android.messaging.ui.conversation.ConversationActivity"
+326-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:236:13-79
+327            android:screenOrientation="landscape"
+327-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:237:13-50
+328            android:theme="@style/BugleTheme" >
+328-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:238:13-46
+329            <meta-data
+329-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:85:13-87:102
+330                android:name="android.support.PARENT_ACTIVITY"
+330-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:86:17-63
+331                android:value="com.android.messaging.ui.conversation.ConversationActivity" />
+331-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:87:17-99
+332        </activity>
+333        <activity
+333-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:243:9-247:20
+334            android:name="com.android.messaging.ui.TestMovieActivity"
+334-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:243:19-55
+335            android:screenOrientation="landscape"
+335-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:244:13-50
+336            android:theme="@style/AppTheme" >
+336-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:245:13-44
+337        </activity>
+338        <activity
+338-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:248:9-251:20
+339            android:name="com.android.messaging.tcl.TCLSettingActivity"
+339-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:248:19-57
+340            android:screenOrientation="landscape" >
+340-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:249:13-50
+341        </activity>
+342        <!--
+343 Test activity that we use to host fragments/views. Unfortunately, apparently necessary
+344             because Android framework test cases want activity to be in the instrumented package.
+345             See http://developer.android.com/reference/android/test/ActivityInstrumentationTestCase2.html
+346        -->
+347        <activity
+347-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:257:9-259:71
+348            android:name="com.android.messaging.ui.TestActivity"
+348-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:258:13-44
+349            android:configChanges="orientation|screenSize" />
+349-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:259:13-59
+350        <activity
+350-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:260:9-262:71
+351            android:name="com.android.messaging.tcl.VideoActivity"
+351-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:261:13-46
+352            android:configChanges="orientation|screenSize" />
+352-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:262:13-59
+353        <activity
+353-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:263:9-268:73
+354            android:name="com.android.messaging.ui.debug.DebugMmsConfigActivity"
+354-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:264:13-60
+355            android:configChanges="orientation|screenSize|keyboardHidden"
+355-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:265:13-74
+356            android:exported="false"
+356-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:266:13-37
+357            android:screenOrientation="landscape"
+357-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:267:13-50
+358            android:theme="@style/BugleTheme.DialogActivity" />
+358-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:268:13-61
+359        <activity
+359-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:270:9-277:73
+360            android:name="com.android.messaging.ui.ClassZeroActivity"
+360-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:271:13-49
+361            android:configChanges="orientation|screenSize|keyboardHidden"
+361-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:272:13-74
+362            android:excludeFromRecents="true"
+362-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:273:13-46
+363            android:label="@string/class_0_message_activity"
+363-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:274:13-61
+364            android:launchMode="singleTask"
+364-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:275:13-44
+365            android:screenOrientation="landscape"
+365-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:276:13-50
+366            android:theme="@style/BugleTheme.DialogActivity" />
+366-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:277:13-61
+367        <activity
+367-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:278:9-281:48
+368            android:name="com.android.messaging.ui.SmsStorageLowWarningActivity"
+368-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:279:13-60
+369            android:configChanges="orientation|screenSize|keyboardHidden"
+369-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:280:13-74
+370            android:theme="@style/Invisible" />
+370-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:281:13-45
+371        <activity
+371-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:282:9-287:49
+372            android:name="com.android.messaging.ui.appsettings.ApnSettingsActivity"
+372-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:283:13-63
+373            android:configChanges="orientation|screenSize|keyboardHidden"
+373-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:284:13-74
+374            android:parentActivityName="com.android.messaging.ui.appsettings.SettingsActivity"
+374-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:285:13-74
+375            android:screenOrientation="landscape"
+375-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:286:13-50
+376            android:theme="@style/BugleTheme" /> <!-- Action Services -->
+376-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:287:13-46
+377        <activity
+377-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:288:9-293:49
+378            android:name="com.android.messaging.ui.appsettings.ApnEditorActivity"
+378-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:289:13-61
+379            android:configChanges="orientation|screenSize|keyboardHidden"
+379-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:290:13-74
+380            android:parentActivityName="com.android.messaging.ui.appsettings.ApnSettingsActivity"
+380-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:291:13-77
+381            android:screenOrientation="landscape"
+381-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:292:13-50
+382            android:theme="@style/BugleTheme" />
+382-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:293:13-46
+383        <activity
+383-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:294:9-301:20
+384            android:name="com.android.messaging.ui.WidgetPickConversationActivity"
+384-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:295:13-62
+385            android:label="@string/app_name"
+385-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:296:13-45
+386            android:theme="@style/BugleTheme" >
+386-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:297:13-46
+387            <intent-filter>
+387-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:298:13-300:29
+388                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+388-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:299:17-87
+388-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:299:25-84
+389            </intent-filter>
+390        </activity> <!-- Sms and Mms related items -->
+391        <!-- Intents for Notification and Pre-KLP Delivery -->
+392        <!-- Registered with the highest possible priority (max_int) -->
+393        <activity
+393-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:304:9-307:51
+394            android:name="com.juphoon.helper.mms.ui.RcsMessageShowActivity"
+394-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:305:13-76
+395            android:label="@string/detail"
+395-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:306:13-43
+396            android:theme="@style/MmsHoloTheme" />
+396-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:307:13-48
+397        <activity
+397-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:308:9-311:49
+398            android:name="com.juphoon.helper.mms.ui.RcsBaiduLocationActivity"
+398-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:309:13-78
+399            android:label="@string/location"
+399-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:310:13-45
+400            android:theme="@style/BugleTheme" /> <!-- Intents for aborting SMS/MMS broadcasts pre-KLP -->
+400-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:311:13-46
+401        <!-- Registered for a priority just ahead of inbox Messaging apps (2) -->
+402        <activity android:name="com.juphoon.helper.mms.ui.RcsForwardActivity" >
+402-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:313:9-326:20
+402-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:313:19-78
+403            <intent-filter>
+403-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:314:13-325:29
+404
+405                <!-- <action android:name="android.intent.action.SEND" /> -->
+406                <!-- <action android:name="com.cmcc.ccs.action.MESSAGE" /> -->
+407
+408                <category android:name="android.intent.category.DEFAULT" />
+408-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:17-76
+408-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:27-73
+409
+410                <data android:mimeType="text/plain" />
+410-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:17-46
+410-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:172:23-52
+411                <data android:mimeType="image/*" />
+411-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:17-46
+411-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:172:23-52
+412                <data android:mimeType="video/*" />
+412-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:17-46
+412-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:172:23-52
+413                <data android:mimeType="text/x-vcard" />
+413-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:17-46
+413-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:172:23-52
+414            </intent-filter>
+415        </activity>
+416        <activity
+416-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:327:9-329:54
+417            android:name="com.juphoon.helper.mms.ui.RcsChooseContactActivity"
+417-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:328:13-78
+418            android:label="@string/choose_contact" /> <!-- Intents for KLP+ Delivery -->
+418-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:329:13-51
+419        <activity
+419-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:330:9-332:57
+420            android:name="com.juphoon.helper.mms.ui.RcsCreateCroupActivity"
+420-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:331:13-76
+421            android:label="@string/create_group_chat" />
+421-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:332:13-54
+422        <activity
+422-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:333:9-335:57
+423            android:name="com.juphoon.helper.mms.ui.RcsSingleCreateCroupActivity"
+423-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:334:13-82
+424            android:label="@string/create_group_chat" />
+424-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:335:13-54
+425        <activity
+425-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:336:9-340:49
+426            android:name="com.juphoon.helper.mms.ui.RcsGroupDetailActivity"
+426-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:337:13-76
+427            android:exported="true"
+427-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:338:13-36
+428            android:label="@string/group_detail"
+428-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:339:13-49
+429            android:theme="@style/BugleTheme" />
+429-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:340:13-46
+430        <activity
+430-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:342:9-344:52
+431            android:name="com.juphoon.helper.mms.ui.RcsGroupMemberActivity"
+431-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:343:13-76
+432            android:label="@string/group_member" />
+432-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:344:13-49
+433        <activity
+433-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:346:9-349:56
+434            android:name="com.juphoon.helper.mms.ui.RcsGroupNotificationActivity"
+434-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:347:13-82
+435            android:label="@string/group_notification"
+435-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:348:13-55
+436            android:theme="@style/MmsHoloThemeNewui" />
+436-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:349:13-53
+437        <activity
+437-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:350:9-353:51
+438            android:name="com.juphoon.helper.mms.ui.RcsPreviewImageActivity"
+438-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:351:13-77
+439            android:label="@string/preview"
+439-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:352:13-44
+440            android:theme="@style/MmsHoloTheme" />
+440-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:353:13-48
+441        <activity
+441-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:354:9-356:55
+442            android:name="com.juphoon.helper.mms.ui.RcsPeopleActivity"
+442-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:355:13-71
+443            android:label="@string/detail" />
+443-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:356:13-43
+444        <activity
+444-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:357:9-372:20
+445            android:name="com.android.messaging.ui.SearchActivity"
+445-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:358:13-46
+446            android:configChanges="orientation|screenSize|keyboardHidden"
+446-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:359:13-74
+447            android:label="@string/search"
+447-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:360:13-43
+448            android:launchMode="singleTask"
+448-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:361:13-44
+449            android:theme="@style/MmsHoloThemeNewui" >
+449-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:362:13-53
+450            <intent-filter>
+450-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:363:13-367:29
+451                <action android:name="android.intent.action.SEARCH" />
+451-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:364:17-71
+451-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:364:25-68
+452
+453                <category android:name="android.intent.category.DEFAULT" />
+453-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:17-76
+453-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:27-73
+454            </intent-filter>
+455
+456            <meta-data
+456-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:369:13-371:54
+457                android:name="android.app.searchable"
+457-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:370:17-54
+458                android:resource="@xml/searchable" />
+458-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:371:17-51
+459        </activity>
+460        <activity
+460-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:374:9-376:41
+461            android:name="com.juphoon.helper.mms.ui.RcsChooseActivity"
+461-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:375:13-71
+462            android:label="" />
+462-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:376:13-29
+463        <!-- <meta-data -->
+464        <!-- android:name="com.baidu.lbsapi.API_KEY" -->
+465        <!-- android:value="N5SoqTGgQIVFQF89iY1k0tqcGnTqmg1l" /> &lt;!&ndash; Broadcast receiver that will be notified to reset notifications &ndash;&gt; -->
+466        <meta-data
+466-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:380:9-382:64
+467            android:name="com.baidu.lbsapi.API_KEY"
+467-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:381:13-52
+468            android:value="Tiot3GhmyNUXLx3icVl75FPuuPDyovlR" />
+468-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:382:13-61
+469
+470        <provider
+470-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:383:9-387:57
+471            android:name="com.android.messaging.datamodel.MessagingContentProvider"
+471-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:384:13-63
+472            android:authorities="com.android.juphoon_messaging.datamodel.MessagingContentProvider"
+472-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:385:13-99
+473            android:exported="false"
+473-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:386:13-37
+474            android:label="@string/app_name" /> <!-- Broadcast receiver that will be notified for ActionService alarms. -->
+474-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:387:13-45
+475        <provider
+475-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:388:9-392:50
+476            android:name="com.android.messaging.datamodel.MmsFileProvider"
+476-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:389:13-54
+477            android:authorities="com.android.messaging.datamodel.JMmsFileProvider"
+477-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:390:13-83
+478            android:exported="false"
+478-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:391:13-37
+479            android:grantUriPermissions="true" />
+479-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:392:13-47
+480        <provider
+480-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:393:9-397:50
+481            android:name="com.android.messaging.datamodel.MediaScratchFileProvider"
+481-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:394:13-63
+482            android:authorities="com.android.messaging.datamodel.JMediaScratchFileProvider"
+482-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:395:13-92
+483            android:exported="false"
+483-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:396:13-37
+484            android:grantUriPermissions="true" /> <!-- Widget that displays the conversation list -->
+484-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:397:13-47
+485        <receiver
+485-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:398:9-407:20
+486            android:name="com.android.messaging.receiver.MmsWapPushReceiver"
+486-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:399:13-56
+487            android:enabled="false"
+487-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:400:13-36
+488            android:permission="android.permission.BROADCAST_WAP_PUSH" >
+488-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:401:13-71
+489            <intent-filter android:priority="2147483647" >
+489-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:402:13-406:29
+489-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:402:28-57
+490                <action android:name="android.provider.Telephony.WAP_PUSH_RECEIVED" />
+490-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:403:17-87
+490-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:403:25-84
+491
+492                <data android:mimeType="application/vnd.wap.mms-message" />
+492-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:17-46
+492-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:172:23-52
+493            </intent-filter>
+494        </receiver> <!-- Widget that displays the messages of a single conversation -->
+495        <receiver
+495-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:408:9-418:20
+496            android:name="com.android.messaging.receiver.SmsReceiver"
+496-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:409:13-49
+497            android:enabled="false"
+497-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:410:13-36
+498            android:permission="android.permission.BROADCAST_SMS" >
+498-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:411:13-66
+499            <intent-filter android:priority="2147483647" >
+499-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:412:13-414:29
+499-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:412:28-57
+500                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+500-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:413:17-82
+500-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:413:25-79
+501            </intent-filter>
+502            <intent-filter android:priority="2147483647" >
+502-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:415:13-417:29
+502-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:415:28-57
+503                <action android:name="android.provider.Telephony.MMS_DOWNLOADED" />
+503-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:416:17-84
+503-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:416:25-81
+504            </intent-filter>
+505        </receiver>
+506        <receiver
+506-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:420:9-429:20
+507            android:name="com.android.messaging.receiver.AbortMmsWapPushReceiver"
+507-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:421:13-61
+508            android:enabled="false"
+508-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:422:13-36
+509            android:permission="android.permission.BROADCAST_WAP_PUSH" >
+509-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:423:13-71
+510            <intent-filter android:priority="3" >
+510-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:402:13-406:29
+510-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:402:28-57
+511                <action android:name="android.provider.Telephony.WAP_PUSH_RECEIVED" />
+511-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:403:17-87
+511-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:403:25-84
+512
+513                <data android:mimeType="application/vnd.wap.mms-message" />
+513-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:17-46
+513-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:172:23-52
+514            </intent-filter>
+515        </receiver>
+516        <receiver
+516-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:430:9-437:20
+517            android:name="com.android.messaging.receiver.AbortSmsReceiver"
+517-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:431:13-54
+518            android:enabled="false"
+518-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:432:13-36
+519            android:permission="android.permission.BROADCAST_SMS" >
+519-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:433:13-66
+520            <intent-filter android:priority="3" >
+520-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:412:13-414:29
+520-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:412:28-57
+521                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+521-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:413:17-82
+521-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:413:25-79
+522            </intent-filter>
+523        </receiver>
+524        <receiver
+524-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:439:9-447:20
+525            android:name="com.android.messaging.receiver.MmsWapPushDeliverReceiver"
+525-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:440:13-63
+526            android:permission="android.permission.BROADCAST_WAP_PUSH" >
+526-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:441:13-71
+527            <intent-filter>
+527-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:442:13-446:29
+528                <action android:name="android.provider.Telephony.WAP_PUSH_DELIVER" />
+528-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:443:17-86
+528-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:443:25-83
+529
+530                <data android:mimeType="application/vnd.wap.mms-message" />
+530-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:17-46
+530-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:172:23-52
+531            </intent-filter>
+532        </receiver>
+533        <receiver
+533-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:449:9-455:20
+534            android:name="com.android.messaging.receiver.SmsDeliverReceiver"
+534-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:450:13-56
+535            android:permission="android.permission.BROADCAST_SMS" >
+535-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:451:13-66
+536            <intent-filter>
+536-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:452:13-454:29
+537                <action android:name="android.provider.Telephony.SMS_DELIVER" />
+537-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:453:17-81
+537-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:453:25-78
+538            </intent-filter>
+539        </receiver> <!-- juphoon 增加service activity receiver等 -->
+540        <receiver
+540-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:456:9-477:20
+541            android:name="com.android.messaging.receiver.SendStatusReceiver"
+541-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:457:13-56
+542            android:exported="false" >
+542-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:458:13-37
+543            <intent-filter>
+543-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:459:13-463:29
+544                <action android:name="com.android.messaging.receiver.SendStatusReceiver.MESSAGE_SENT" />
+544-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:460:17-105
+544-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:460:25-102
+545
+546                <data android:scheme="content" />
+546-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:17-46
+546-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:23-43
+547            </intent-filter>
+548            <intent-filter>
+548-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:464:13-466:29
+549                <action android:name="com.android.messaging.receiver.SendStatusReceiver.MESSAGE_DELIVERED" />
+549-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:465:17-110
+549-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:465:25-107
+550            </intent-filter>
+551            <intent-filter>
+551-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:467:13-471:29
+552                <action android:name="com.android.messaging.receiver.SendStatusReceiver.MMS_SENT" />
+552-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:468:17-101
+552-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:468:25-98
+553
+554                <data android:scheme="content" />
+554-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:17-46
+554-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:23-43
+555            </intent-filter>
+556            <intent-filter>
+556-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:472:13-476:29
+557                <action android:name="com.android.messaging.receiver.SendStatusReceiver.MMS_DOWNLOADED" />
+557-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:473:17-107
+557-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:473:25-104
+558
+559                <data android:scheme="content" />
+559-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:17-46
+559-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:23-43
+560            </intent-filter>
+561        </receiver>
+562        <receiver android:name="com.android.messaging.receiver.StorageStatusReceiver" >
+562-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:479:9-486:20
+562-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:479:19-65
+563            <intent-filter>
+563-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:480:13-482:29
+564                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+564-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:481:17-83
+564-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:481:25-80
+565            </intent-filter>
+566            <intent-filter>
+566-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:483:13-485:29
+567                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+567-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:484:17-82
+567-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:484:25-79
+568            </intent-filter>
+569        </receiver>
+570        <receiver android:name="com.android.messaging.receiver.BootAndPackageReplacedReceiver" >
+570-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:487:9-492:20
+570-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:487:19-74
+571            <intent-filter>
+571-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:488:13-491:29
+572                <action android:name="android.intent.action.BOOT_COMPLETED" />
+572-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:489:17-79
+572-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:489:25-76
+573                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+573-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:490:17-84
+573-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:490:25-81
+574            </intent-filter>
+575        </receiver>
+576        <receiver
+576-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:493:9-495:49
+577            android:name="com.android.messaging.receiver.NotificationReceiver"
+577-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:494:13-58
+578            android:exported="false" />
+578-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:495:13-37
+579        <receiver
+579-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:496:9-502:20
+580            android:name="com.android.messaging.datamodel.action.ActionServiceImpl$PendingActionReceiver"
+580-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:497:13-85
+581            android:exported="false" >
+581-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:498:13-37
+582            <intent-filter>
+582-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:499:13-501:29
+583                <action android:name="com.android.messaging.datamodel.PENDING_ACTION" />
+583-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:500:17-89
+583-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:500:25-86
+584            </intent-filter>
+585        </receiver>
+586        <receiver android:name="com.android.messaging.receiver.DefaultSmsSubscriptionChangeReceiver" >
+586-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:503:9-507:20
+586-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:503:19-80
+587            <intent-filter>
+587-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:504:13-506:29
+588                <action android:name="android.telephony.action.DEFAULT_SMS_SUBSCRIPTION_CHANGED" />
+588-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:505:17-100
+588-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:505:25-97
+589            </intent-filter>
+590        </receiver>
+591        <receiver
+591-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:508:9-521:20
+592            android:name="com.android.messaging.widget.BugleWidgetProvider"
+592-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:509:13-55
+593            android:label="@string/widget_conversation_name" >
+593-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:510:13-61
+594            <intent-filter>
+594-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:511:13-513:29
+595                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+595-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:512:17-84
+595-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:512:25-81
+596            </intent-filter>
+597            <intent-filter>
+597-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:514:13-516:29
+598                <action android:name="com.android.Bugle.intent.action.ACTION_NOTIFY_CONVERSATIONS_CHANGED" />
+598-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:515:17-110
+598-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:515:25-107
+599            </intent-filter>
+600
+601            <meta-data
+601-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:518:13-520:68
+602                android:name="android.appwidget.provider"
+602-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:519:17-58
+603                android:resource="@xml/widget_conversation_list" />
+603-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:520:17-65
+604        </receiver>
+605        <receiver
+605-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:522:9-535:20
+606            android:name="com.android.messaging.widget.WidgetConversationProvider"
+606-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:523:13-62
+607            android:label="@string/widget_conversation_name" >
+607-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:524:13-61
+608            <intent-filter>
+608-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:511:13-513:29
+609                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+609-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:512:17-84
+609-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:512:25-81
+610            </intent-filter>
+611            <intent-filter>
+611-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:528:13-530:29
+612                <action android:name="com.android.Bugle.intent.action.ACTION_NOTIFY_MESSAGES_CHANGED" />
+612-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:529:17-105
+612-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:529:25-102
+613            </intent-filter>
+614
+615            <meta-data
+615-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:518:13-520:68
+616                android:name="android.appwidget.provider"
+616-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:519:17-58
+617                android:resource="@xml/widget_conversation" />
+617-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:520:17-65
+618        </receiver>
+619        <receiver
+619-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:536:9-542:20
+620            android:name="com.juphoon.helper.mms.RcsWakeupReceiver"
+620-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:537:13-68
+621            android:permission="com.juphoon.rcs_maap.notify.permission" >
+621-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:538:13-72
+622            <intent-filter>
+622-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:539:9-541:29
+623                <action android:name="rcs_action_im_notify" />
+623-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:540:17-63
+623-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:540:25-60
+624            </intent-filter>
+625        </receiver>
+626        <receiver
+626-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:543:9-554:20
+627            android:name="com.juphoon.helper.mms.RcsChatbotHelperRecevier"
+627-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:544:13-75
+628            android:exported="false" >
+628-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:545:13-37
+629            <intent-filter>
+629-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:546:13-553:29
+630                <action android:name="com.juphoon.action.SEND_REPLY" />
+630-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:547:17-72
+630-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:547:25-69
+631                <action android:name="com.juphoon.action.SEND_GEO" />
+631-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:548:17-70
+631-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:548:25-67
+632                <action android:name="com.juphoon.action.SEND_MENU_REPLY" />
+632-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:549:17-77
+632-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:549:25-74
+633                <action android:name="com.juphoon.action.SEDN_SUGGESTION" />
+633-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:550:17-77
+633-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:550:25-74
+634                <action android:name="com.juphoon.action.SHARE_DATA" />
+634-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:551:17-72
+634-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:551:25-69
+635                <action android:name="com.juphoon.action.LAUNCH_CONVERSATION" />
+635-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:552:17-81
+635-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:552:25-78
+636            </intent-filter>
+637        </receiver>
+638
+639        <service
+639-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:555:9-558:72
+640            android:name="com.android.messaging.datamodel.action.ActionServiceImpl"
+640-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:556:13-63
+641            android:exported="true"
+641-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:557:13-36
+642            android:permission="android.permission.BIND_JOB_SERVICE" />
+642-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:558:13-69
+643        <service
+643-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:559:9-562:72
+644            android:name="com.android.messaging.datamodel.action.BackgroundWorkerService"
+644-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:560:13-69
+645            android:exported="true"
+645-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:561:13-36
+646            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- juphoon 百度地图 -->
+646-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:562:13-69
+647        <service
+647-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:563:9-575:19
+648            android:name="com.android.messaging.datamodel.NoConfirmationSmsSendService"
+648-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:564:13-67
+649            android:exported="true"
+649-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:565:13-36
+650            android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE" >
+650-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:566:13-77
+651            <intent-filter>
+651-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:567:13-574:29
+652                <action android:name="android.intent.action.RESPOND_VIA_MESSAGE" />
+652-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:568:17-84
+652-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:568:25-81
+653
+654                <category android:name="android.intent.category.DEFAULT" />
+654-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:17-76
+654-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:27-73
+655
+656                <data android:scheme="sms" />
+656-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:17-46
+656-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:23-43
+657                <data android:scheme="smsto" />
+657-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:17-46
+657-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:23-43
+658            </intent-filter>
+659        </service>
+660
+661        <receiver android:name="com.android.messaging.tcl.ApiReceiver" >
+661-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:576:9-581:20
+661-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:576:19-50
+662            <intent-filter android:priority="900" > <!-- 优先级：-1000~1000，系统短信优先级为-1 -->
+662-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:577:13-580:29
+662-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:577:28-50
+663                <!-- 订阅广播事件类型 -->
+664                <action android:name="com.aodlanucher.intent.startMessage" />
+664-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:579:17-77
+664-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:579:25-75
+665            </intent-filter>
+666        </receiver>
+667
+668        <service
+668-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:583:9-586:72
+669            android:name="com.android.messaging.widget.WidgetConversationListService"
+669-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:584:13-65
+670            android:exported="false"
+670-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:585:13-37
+671            android:permission="android.permission.BIND_REMOTEVIEWS" />
+671-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:586:13-69
+672        <service
+672-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:587:9-590:72
+673            android:name="com.android.messaging.widget.WidgetConversationService"
+673-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:588:13-61
+674            android:exported="false"
+674-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:589:13-37
+675            android:permission="android.permission.BIND_REMOTEVIEWS" />
+675-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:590:13-69
+676        <service android:name="androidx.appcompat.mms.MmsService" /> <!-- 搜索增加 -->
+676-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:592:9-69
+676-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:592:18-66
+677        <service
+677-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:593:9-602:19
+678            android:name="com.juphoon.helper.mms.RcsMessageSendService"
+678-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:594:13-72
+679            android:exported="true"
+679-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:595:13-36
+680            android:permission="android.permission.BIND_JOB_SERVICE" >
+680-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:596:13-69
+681            <intent-filter>
+681-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:597:13-601:29
+682                <action android:name="action_send_sms_message" />
+682-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:598:17-66
+682-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:598:25-63
+683
+684                <category android:name="android.intent.category.DEFAULT" />
+684-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:17-76
+684-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:27-73
+685            </intent-filter>
+686        </service>
+687        <service
+687-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:603:9-610:19
+688            android:name="com.baidu.location.f"
+688-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:604:13-48
+689            android:enabled="true"
+689-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:605:13-35
+690            android:process=":remote" >
+690-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:606:13-38
+691
+692            <!-- <intent-filter> -->
+693            <!-- <action android:name="com.baidu.location.service_v7.0"></action> -->
+694            <!-- </intent-filter> -->
+695        </service>
+696        <service
+696-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:613:9-616:72
+697            android:name="com.juphoon.helper.mms.RcsImReceiverServiceEx"
+697-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:614:13-73
+698            android:exported="true"
+698-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:615:13-36
+699            android:permission="android.permission.BIND_JOB_SERVICE" />
+699-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:616:13-69
+700
+701        <activity android:name="com.juphoon.chatbotmaap.chatbotDetail.RcsChatBotDetailActivity" />
+701-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:13:9-99
+701-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:13:19-96
+702        <activity android:name="com.juphoon.chatbotmaap.chatbotDetail.RcsChatbotDetailMoreActivity" />
+702-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:14:9-103
+702-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:14:19-100
+703        <activity android:name="com.juphoon.chatbotmaap.RcsChatbotScanActivity" />
+703-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:15:9-83
+703-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:15:19-80
+704        <activity
+704-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:16:9-20:50
+705            android:name="com.juphoon.chatbotmaap.RcsChatbotWebActivity"
+705-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:17:13-73
+706            android:configChanges="orientation|keyboardHidden|screenSize"
+706-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:18:13-74
+707            android:label="" />
+707-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:19:13-29
+708        <activity
+708-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:21:9-26:50
+709            android:name="com.juphoon.chatbotmaap.RcsChatbotImageFragmentActivity"
+709-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:22:13-83
+710            android:configChanges="keyboardHidden|orientation|screenSize"
+710-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:23:13-74
+711            android:label=""
+711-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:24:13-29
+712            android:theme="@style/chatbotImageDialog" />
+712-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:25:13-54
+713        <activity
+713-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:27:9-32:50
+714            android:name="com.juphoon.chatbotmaap.RcsChatbotFullTextFragmentActivity"
+714-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:28:13-86
+715            android:configChanges="keyboardHidden|orientation|screenSize"
+715-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:29:13-74
+716            android:label=""
+716-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:30:13-29
+717            android:theme="@style/chatbotImageDialog" />
+717-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:31:13-54
+718        <activity
+718-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:33:9-37:50
+719            android:name="com.juphoon.chatbotmaap.Location.RcsBaiduLocationActivity"
+719-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:34:13-85
+720            android:configChanges="keyboardHidden|orientation|screenSize"
+720-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:35:13-74
+721            android:label="" />
+721-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:36:13-29
+722        <activity
+722-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:38:9-40:77
+723            android:name="com.juphoon.chatbotmaap.RcsChatbotSearchActivity"
+723-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:39:13-76
+724            android:configChanges="keyboardHidden|orientation|screenSize" />
+724-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:40:13-74
+725        <activity
+725-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:41:9-43:77
+726            android:name="com.juphoon.chatbotmaap.RcsChatbotSettingActivity"
+726-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:42:13-77
+727            android:configChanges="keyboardHidden|orientation|screenSize" />
+727-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:43:13-74
+728        <activity
+728-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:44:9-46:77
+729            android:name="com.juphoon.chatbotmaap.RcsLocalChatbotActivity"
+729-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:45:13-75
+730            android:configChanges="keyboardHidden|orientation|screenSize" />
+730-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:46:13-74
+731        <activity
+731-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:47:9-49:77
+732            android:name="com.juphoon.chatbotmaap.RcsBlackChatbotActivity"
+732-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:48:13-75
+733            android:configChanges="keyboardHidden|orientation|screenSize" />
+733-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:49:13-74
+734        <activity
+734-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:50:9-53:50
+735            android:name="com.juphoon.chatbotmaap.RcsChatbotPermissionActivity"
+735-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:51:13-80
+736            android:configChanges="keyboardHidden|orientation|screenSize"
+736-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:52:13-74
+737            android:theme="@style/Translucent" />
+737-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:53:13-47
+738        <activity
+738-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:54:9-56:77
+739            android:name="com.juphoon.chatbotmaap.RcsChatBotNearbyChatbotActivity"
+739-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:55:13-83
+740            android:configChanges="keyboardHidden|orientation|screenSize" />
+740-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:56:13-74
+741        <activity android:name="com.juphoon.chatbotmaap.RcsChatbotVerifiActivity" />
+741-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:57:9-85
+741-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:57:19-82
+742        <activity android:name="com.juphoon.chatbotmaap.RcsChatbotComplaintActivity" />
+742-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:58:9-88
+742-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:58:19-85
+743        <activity android:name="com.juphoon.chatbotmaap.RcsChatbotMoreBotsActivity" />
+743-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:59:9-87
+743-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:59:19-84
+744        <activity android:name="com.juphoon.chatbotmaap.chatbotSearch.RcsChatbotServiceActivity" />
+744-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:60:9-100
+744-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:60:19-97
+745
+746        <provider
+746-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:62:9-70:20
+747            android:name="com.juphoon.chatbotmaap.RcsChatbotFileProvider"
+747-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:63:13-74
+748            android:authorities="com.juphoon.chatbot.JRcsChatbotFileProvider"
+748-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:64:13-78
+749            android:exported="false"
+749-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:65:13-37
+750            android:grantUriPermissions="true" >
+750-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:66:13-47
+751            <meta-data
+751-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:67:13-69:54
+752                android:name="android.support.FILE_PROVIDER_PATHS"
+752-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:68:17-67
+753                android:resource="@xml/file_paths" />
+753-->[:chatbotmaap] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\build\intermediates\library_manifest\release\AndroidManifest.xml:69:17-51
+754        </provider>
+755
+756        <service
+756-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:36:9-44:19
+757            android:name="com.juphoon.service.rcs.RcsService"
+757-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:37:13-62
+758            android:exported="true" >
+758-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:38:13-36
+759            <intent-filter>
+759-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:39:13-43:29
+760                <action android:name="com.juphoon.service.rcsservice.action" />
+760-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:40:17-80
+760-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:40:25-77
+761
+762                <category android:name="android.intent.category.DEFAULT" />
+762-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:17-76
+762-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:27-73
+763            </intent-filter>
+764        </service>
+765        <service
+765-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:45:9-53:19
+766            android:name="com.juphoon.service.im.RcsImService"
+766-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:46:13-63
+767            android:exported="true" >
+767-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:47:13-36
+768            <intent-filter>
+768-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:48:13-52:29
+769                <action android:name="com.juphoon.service.imservice.action" />
+769-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:49:17-79
+769-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:49:25-76
+770
+771                <category android:name="android.intent.category.DEFAULT" />
+771-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:17-76
+771-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:27-73
+772            </intent-filter>
+773        </service>
+774        <service
+774-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:54:9-62:19
+775            android:name="com.juphoon.service.cap.RcsCapService"
+775-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:55:13-65
+776            android:exported="true" >
+776-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:56:13-36
+777            <intent-filter>
+777-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:57:13-61:29
+778                <action android:name="com.juphoon.service.capservice.action" />
+778-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:58:17-80
+778-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:58:25-77
+779
+780                <category android:name="android.intent.category.DEFAULT" />
+780-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:17-76
+780-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:27-73
+781            </intent-filter>
+782        </service>
+783
+784        <activity
+784-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:64:9-75:20
+785            android:name="com.juphoon.service.rcs.RcsSettingActivity"
+785-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:65:13-70
+786            android:exported="true"
+786-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:66:13-36
+787            android:label="@string/rcs_setting"
+787-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:67:13-48
+788            android:screenOrientation="portrait" >
+788-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:68:13-49
+789            <intent-filter>
+789-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:69:13-74:29
+790                <action android:name="com.cmcc.ccs.rcs.setting" />
+790-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:70:17-67
+790-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:70:25-64
+791                <!-- <action android:name="android.intent.action.MAIN" /> -->
+792                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+793                <category android:name="android.intent.category.DEFAULT" />
+793-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:17-76
+793-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:27-73
+794            </intent-filter>
+795        </activity>
+796        <activity
+796-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:76:9-86:20
+797            android:name="com.juphoon.service.rcs.TestSettingActivity"
+797-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:77:13-71
+798            android:exported="true"
+798-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:78:13-36
+799            android:screenOrientation="portrait" >
+799-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:79:13-49
+800            <intent-filter>
+800-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:80:13-85:29
+801                <action android:name="com.juphoon.rcs.testsetting" />
+801-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:81:17-70
+801-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:81:25-67
+802                <!-- <action android:name="android.intent.action.MAIN" /> -->
+803                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+804                <category android:name="android.intent.category.DEFAULT" />
+804-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:17-76
+804-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:27-73
+805            </intent-filter>
+806        </activity>
+807        <activity
+807-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:87:9-97:20
+808            android:name="com.juphoon.service.rcs.GrantPermissionActivity"
+808-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:88:13-75
+809            android:exported="true"
+809-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:89:13-36
+810            android:screenOrientation="portrait"
+810-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:90:13-49
+811            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+811-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:91:13-72
+812            <intent-filter>
+812-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:92:13-96:29
+813                <action android:name="com.juphoon.rcs.permission.activity" />
+813-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:93:17-78
+813-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:93:25-75
+814
+815                <category android:name="android.intent.category.DEFAULT" />
+815-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:17-76
+815-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:27-73
+816            </intent-filter>
+817        </activity>
+818
+819        <service
+819-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:99:9-102:72
+820            android:name="com.juphoon.receiver.RcsReceiverService"
+820-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:100:13-67
+821            android:exported="false"
+821-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:101:13-37
+822            android:permission="android.permission.BIND_JOB_SERVICE" />
+822-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:102:13-69
+823        <service
+823-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:103:9-105:72
+824            android:name="com.juphoon.receiver.RcsSchedulerService"
+824-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:104:13-68
+825            android:permission="android.permission.BIND_JOB_SERVICE" />
+825-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:105:13-69
+826        <service android:name="com.cmcc.sso.service.SsoService" >
+826-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:106:9-107:19
+826-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:106:18-64
+827        </service> <!-- db -->
+828        <provider
+828-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:109:9-113:44
+829            android:name="com.juphoon.rcs.provider.GroupProvider"
+829-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:110:13-66
+830            android:authorities="juphoon_rms_group"
+830-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:111:13-52
+831            android:exported="true"
+831-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:112:13-36
+832            android:multiprocess="false" />
+832-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:113:13-41
+833        <provider
+833-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:114:9-118:44
+834            android:name="com.juphoon.rcs.provider.PublicProvider"
+834-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:115:13-67
+835            android:authorities="juphoon_rms_public"
+835-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:116:13-53
+836            android:exported="true"
+836-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:117:13-36
+837            android:multiprocess="false" />
+837-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:118:13-41
+838        <provider
+838-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:119:9-123:44
+839            android:name="com.juphoon.rcs.provider.ChatbotProvider"
+839-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:120:13-68
+840            android:authorities="chatbotinfo_juphoon"
+840-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:121:13-54
+841            android:exported="true"
+841-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:122:13-36
+842            android:multiprocess="false" />
+842-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:123:13-41
+843        <provider
+843-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:124:9-128:44
+844            android:name="com.juphoon.rcs.provider.NumbersProvider"
+844-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:125:13-68
+845            android:authorities="juphoon_capability;juphoon_number_black;juphoon_calllog_black;juphoon_phoneinfo"
+845-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:126:13-114
+846            android:exported="true"
+846-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:127:13-36
+847            android:multiprocess="false" />
+847-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:128:13-41
+848        <provider
+848-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:129:9-132:39
+849            android:name="com.juphoon.rcs.provider.RmsProvider"
+849-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:130:13-64
+850            android:authorities="rms-maap"
+850-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:131:13-43
+851            android:exported="true" />
+851-->[:rcsservice:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\552be73288a3c1c59e5ec3e1e1bb5098\jetified-rcsservice\AndroidManifest.xml:132:13-36
+852
+853        <activity
+853-->[:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:51:9-110:20
+854            android:name="com.google.zxing.client.android.CaptureActivity"
+854-->[:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:52:13-75
+855            android:clearTaskOnLaunch="true"
+855-->[:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:53:13-45
+856            android:stateNotNeeded="true"
+856-->[:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:54:13-42
+857            android:theme="@style/ThemeNewui"
+857-->[:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:55:13-46
+858            android:windowSoftInputMode="stateAlwaysHidden" >
+858-->[:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:56:13-60
+859            <intent-filter>
+859-->[:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:57:13-61:29
+860                <action android:name="com.google.zxing.client.android.SCAN" />
+860-->[:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:58:17-79
+860-->[:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:58:25-76
+861
+862                <category android:name="android.intent.category.DEFAULT" />
+862-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:17-76
+862-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:27-73
+863            </intent-filter>
+864            <!-- Allow web apps to launch Barcode Scanner by linking to http://zxing.appspot.com/scan. -->
+865            <intent-filter>
+865-->[:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:63:13-73:29
+866                <action android:name="android.intent.action.VIEW" />
+866-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:58:17-69
+866-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:58:25-66
+867
+868                <category android:name="android.intent.category.DEFAULT" />
+868-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:17-76
+868-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:27-73
+869                <category android:name="android.intent.category.BROWSABLE" />
+869-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:62:17-78
+869-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:62:27-75
+870
+871                <data
+871-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:17-46
+872                    android:host="zxing.appspot.com"
+873                    android:path="/scan"
+874                    android:scheme="http" />
+874-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:23-43
+875            </intent-filter>
+876            <!-- We also support a Google Product Search URL. -->
+877            <intent-filter>
+877-->[:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:75:13-85:29
+878                <action android:name="android.intent.action.VIEW" />
+878-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:58:17-69
+878-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:58:25-66
+879
+880                <category android:name="android.intent.category.DEFAULT" />
+880-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:17-76
+880-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:27-73
+881                <category android:name="android.intent.category.BROWSABLE" />
+881-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:62:17-78
+881-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:62:27-75
+882
+883                <data
+883-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:17-46
+884                    android:host="www.google.com"
+885                    android:path="/m/products/scan"
+886                    android:scheme="http" />
+886-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:23-43
+887            </intent-filter>
+888            <!-- And the UK version. -->
+889            <intent-filter>
+889-->[:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:87:13-97:29
+890                <action android:name="android.intent.action.VIEW" />
+890-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:58:17-69
+890-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:58:25-66
+891
+892                <category android:name="android.intent.category.DEFAULT" />
+892-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:17-76
+892-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:27-73
+893                <category android:name="android.intent.category.BROWSABLE" />
+893-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:62:17-78
+893-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:62:27-75
+894
+895                <data
+895-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:17-46
+896                    android:host="www.google.co.uk"
+897                    android:path="/m/products/scan"
+898                    android:scheme="http" />
+898-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:23-43
+899            </intent-filter>
+900            <!-- Support zxing://scan/?... like iPhone app -->
+901            <intent-filter>
+901-->[:zxing] C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:99:13-109:29
+902                <action android:name="android.intent.action.VIEW" />
+902-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:58:17-69
+902-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:58:25-66
+903
+904                <category android:name="android.intent.category.DEFAULT" />
+904-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:17-76
+904-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:42:27-73
+905                <category android:name="android.intent.category.BROWSABLE" />
+905-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:62:17-78
+905-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:62:27-75
+906
+907                <data
+907-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:17-46
+908                    android:host="scan"
+909                    android:path="/"
+910                    android:scheme="zxing" />
+910-->C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\app\src\main\AndroidManifest.xml:64:23-43
+911            </intent-filter>
+912        </activity>
+913        <activity
+913-->[:cmcc-sso-sdk:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ed037a9e0b079e81e5574721a2970ec7\cmcc-sso-sdk\AndroidManifest.xml:20:9-25:20
+914            android:name="com.cmcc.sso.sdk.securitycode.SsoSecurityCodeActivity"
+914-->[:cmcc-sso-sdk:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ed037a9e0b079e81e5574721a2970ec7\cmcc-sso-sdk\AndroidManifest.xml:21:13-81
+915            android:configChanges="orientation|keyboardHidden|screenSize"
+915-->[:cmcc-sso-sdk:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ed037a9e0b079e81e5574721a2970ec7\cmcc-sso-sdk\AndroidManifest.xml:22:13-74
+916            android:launchMode="singleTop"
+916-->[:cmcc-sso-sdk:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ed037a9e0b079e81e5574721a2970ec7\cmcc-sso-sdk\AndroidManifest.xml:23:13-43
+917            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+917-->[:cmcc-sso-sdk:] C:\Users\tianyu.zhao\.gradle\caches\transforms-2\files-2.1\ed037a9e0b079e81e5574721a2970ec7\cmcc-sso-sdk\AndroidManifest.xml:24:13-72
+918        </activity>
+919    </application>
+920
+921</manifest>

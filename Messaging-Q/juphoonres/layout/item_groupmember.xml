@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingBottom="8dp"
+    android:paddingEnd="16dp"
+    android:paddingStart="16dp"
+    android:paddingTop="8dp" >
+
+    <com.android.messaging.ui.ContactIconView
+        android:id="@+id/rcsgroupmember_icon"
+        android:layout_width="@dimen/contact_list_icon_size"
+        android:layout_height="@dimen/contact_list_icon_size"
+        android:layout_gravity="center_vertical"
+        android:importantForAccessibility="no"
+        app:IconSize="normal" />
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/pop_loc_view"
+            android:layout_width="100dp"
+            android:layout_height="10dp"
+            android:layout_gravity="top|center_horizontal"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/rcsgroupmember_name"
+                style="@style/ParticipantListItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/rcsgroupmember_nickname"
+                android:textColor="@color/participant_list_text_secondary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:visibility="gone" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/rcsgroupmember_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:clickable="false"
+        android:src="@drawable/icon_more"
+        android:visibility="gone" />
+
+    <CheckBox
+        android:id="@+id/rcsgroupmember_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:visibility="gone" />
+
+</LinearLayout>

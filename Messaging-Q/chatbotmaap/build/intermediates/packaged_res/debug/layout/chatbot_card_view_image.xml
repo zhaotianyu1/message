@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.juphoon.chatbotmaap.tcl.RadiusCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_image_layout"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:orientation="vertical"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_marginTop="2dp"
+    app:rcv_topLeftRadiu = "2dp"
+    app:rcv_topRightRadiu="2dp"
+   >
+
+    <com.juphoon.chatbotmaap.tcl.RoundCornerImageView
+        android:id="@+id/card_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/public_chatbot_single_height_short"
+        android:scaleType="centerCrop"
+        app:left_top_radius="7dp"
+        app:right_top_radius="7dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:src="@drawable/chatbot_default_image" />
+
+    <com.juphoon.chatbotmaap.RcsChatbotVideoPlayer
+        android:id="@+id/rcs_chatbot_video_player"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/public_chatbot_single_height_medium"
+        android:layout_centerInParent="true"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/card_image_audio_play"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/play"
+        android:visibility="invisible" />
+</com.juphoon.chatbotmaap.tcl.RadiusCardView>

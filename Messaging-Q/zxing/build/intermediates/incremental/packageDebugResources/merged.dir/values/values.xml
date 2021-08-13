@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="action_bar_background_color">#FFFFFF</color>
+    <color name="action_bar_background_color_dark">#000000</color>
+    <color name="action_bar_title_text_color">#000000</color>
+    <color name="primary_color">#43A3FF</color>
+    <color name="zxing_primary_color">#76b20e</color>
+    <color name="zxing_result_view">#b0000000</color>
+    <color name="zxing_viewfinder_frame">#26d650</color>
+    <color name="zxing_viewfinder_mask">#66000000</color>
+    <dimen name="scan_qr_aline_qr_code_text_margin_bottom">32dp</dimen>
+    <dimen name="scan_qr_frame_thickness">4dp</dimen>
+    <dimen name="scan_qr_frame_width">16dp</dimen>
+    <dimen name="scan_qr_max_size">250dp</dimen>
+    <dimen name="scan_qr_min_size">90dp</dimen>
+    <dimen name="scan_qr_size">155dp</dimen>
+    <item name="auto_focus" type="id"/>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="encode_failed" type="id"/>
+    <item name="encode_succeeded" type="id"/>
+    <item name="launch_product_query" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <item name="search_book_contents_failed" type="id"/>
+    <item name="search_book_contents_succeeded" type="id"/>
+    <string name="msg_default_status">Put the QR code into the box and you can scan it automatically.</string>
+    <string name="zxing_name">Scan</string>
+    <style name="BugleActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+    <item name="displayOptions">showTitle</item>
+    <item name="titleTextStyle">@style/BugleActionBarTitleTextStyle</item>
+  </style>
+    <style name="BugleActionBarTitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+    <item name="android:textColor">@color/action_bar_title_text_color</item>
+    <item name="android:lines">1</item>
+  </style>
+    <style name="ThemeNewui" parent="Theme.AppCompat.Light">
+    <item name="colorPrimary">@color/action_bar_background_color</item>
+    <item name="colorPrimaryDark">@color/action_bar_background_color_dark</item>
+    <item name="colorAccent">@color/primary_color</item>
+    <item name="android:actionBarSize">48dp</item>
+    <item name="actionBarStyle">@style/BugleActionBar</item>
+  </style>
+</resources>

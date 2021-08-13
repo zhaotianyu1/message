@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <attr format="dimension" name="borderBottomLeftBreakSize"/>
+    <attr format="dimension" name="borderBottomRightBreakSize"/>
+    <attr format="color" name="borderColor"/>
+    <attr format="float" name="borderStrokeWidth"/>
+    <attr format="boolean" name="needBottomBorder"/>
+    <attr format="boolean" name="needLeftAndRigtBorder"/>
+    <attr format="boolean" name="needTopBorder"/>
+    <color name="action_bar_background_color">@color/primary_color</color>
+    <color name="action_bar_background_color_dark">#ffffff</color>
+    <color name="back">#14FFFFFF</color>
+    <color name="banner_item_transparent">#00000000</color>
+    <color name="biaoti">#FF1A1B1F</color>
+    <color name="biaoti4">#14f0f0f2</color>
+    <color name="black">#14FFFFFF</color>
+    <color name="black1">#000000</color>
+    <color name="black2">#2E3137</color>
+    <color name="black3">#14FFFFFF</color>
+    <color name="black4">#ff434448</color>
+    <color name="blue">#2288FF</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="dimgrey">#696969</color>
+    <color name="edit">#ffffffff</color>
+    <color name="gray">#9B9B9B</color>
+    <color name="gray1">#F0F0F0</color>
+    <color name="primary_color">#43A3FF</color>
+    <color name="public_fulltext_color">#7B68EE</color>
+    <color name="rcs_button_disable">#A0A0A0</color>
+    <color name="rcs_button_press">#D0D0D0</color>
+    <color name="rcs_menu_line">#E9E9E9</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="texts">#99ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="chatbot_card_button_radios">16dp</dimen>
+    <dimen name="chatbot_card_button_textsize">16dp</dimen>
+    <dimen name="chatbot_card_content_marginbottom">2dp</dimen>
+    <dimen name="chatbot_card_content_margintop">8dp</dimen>
+    <dimen name="chatbot_card_content_textsize">16dp</dimen>
+    <dimen name="chatbot_card_lineSpacingExtra">3dp</dimen>
+    <dimen name="chatbot_card_marginleft">16dp</dimen>
+    <dimen name="chatbot_card_marginright">12dp</dimen>
+    <dimen name="chatbot_card_maximum_width">480dp</dimen>
+    <dimen name="chatbot_card_paddingbottom">8dp</dimen>
+    <dimen name="chatbot_card_round_corner">7dp</dimen>
+    <dimen name="chatbot_card_title_margintop">16dp</dimen>
+    <dimen name="chatbot_card_title_textsize">20dp</dimen>
+    <dimen name="chatbot_card_titletop_marginbottom">8dp</dimen>
+    <dimen name="conversation_message_contact_icon_size">42dp</dimen>
+    <dimen name="conversation_message_send_button_size">85dp</dimen>
+    <dimen name="message_bubble_arrow_width">9dp</dimen>
+    <dimen name="public_button_width">80dp</dimen>
+    <dimen name="public_button_width_multi">100dp</dimen>
+    <dimen name="public_chatbot_button_height">30dp</dimen>
+    <dimen name="public_chatbot_button_noside_height">30dp</dimen>
+    <dimen name="public_chatbot_button_noside_list_marginbottom">18dp</dimen>
+    <dimen name="public_chatbot_button_noside_margintop">1dp</dimen>
+    <dimen name="public_chatbot_button_noside_padding">15dp</dimen>
+    <dimen name="public_chatbot_single_height_medium">176dp</dimen>
+    <dimen name="public_chatbot_single_height_short">112dp</dimen>
+    <dimen name="public_chatbot_single_height_tall">264dp</dimen>
+    <dimen name="public_chatbot_single_weight">128dp</dimen>
+    <dimen name="public_mutipe_width_medium">180dp</dimen>
+    <dimen name="public_single_image_horizontal_width">128dp</dimen>
+    <dimen name="public_single_width">296dp</dimen>
+    <plurals formatted="false" msgid="4858515363324110232" name="month_count">
+        <item quantity="other"><ns1:g id="COUNT">%d</ns1:g> 个月</item>
+        <item quantity="one">1 个月</item>
+    </plurals>
+    <plurals formatted="false" msgid="8753803762044567843" name="num_days_ago">
+        <item quantity="other"><ns1:g id="COUNT_1">%d</ns1:g> 天</item>
+        <item quantity="one"><ns1:g id="COUNT_0">%d</ns1:g> 天</item>
+    </plurals>
+    <plurals formatted="false" msgid="8010868301590914325" name="num_hours_ago">
+        <item quantity="other"><ns1:g id="COUNT_1">%d</ns1:g> 小时</item>
+        <item quantity="one"><ns1:g id="COUNT_0">%d</ns1:g> 小时</item>
+    </plurals>
+    <plurals formatted="false" msgid="4085627474543076735" name="num_minutes_ago">
+        <item quantity="other"><ns1:g id="COUNT_1">%d</ns1:g> 分钟</item>
+        <item quantity="one"><ns1:g id="COUNT_0">%d</ns1:g> 分钟</item>
+    </plurals>
+    <plurals formatted="false" msgid="1301973226125551953" name="week_count">
+        <item quantity="other"><ns1:g id="COUNT">%d</ns1:g> 周</item>
+        <item quantity="one">1 周</item>
+    </plurals>
+    <plurals formatted="false" msgid="4522546496183798317" name="year_count">
+        <item quantity="other"><ns1:g id="COUNT">%d</ns1:g> 年</item>
+        <item quantity="one">1 年</item>
+    </plurals>
+    <string name="action_share">Share</string>
+    <string name="chatbot">Chat bot</string>
+    <string name="chatbot_">Cancel</string>
+    <string name="chatbot_add_blacklist">Add Chatbot To Blacklist</string>
+    <string name="chatbot_add_too_blackList">Add to blackList</string>
+    <string name="chatbot_add_too_blackList_summary">Blacklist numbers and merchant message calls will be blocked</string>
+    <string name="chatbot_already_cancel">Cancelled</string>
+    <string name="chatbot_already_save">Saved</string>
+    <string name="chatbot_black_manage">Chatbot Black Manage</string>
+    <string name="chatbot_black_warn">Chatbot have been added to the blacklist and you will no longer receive push messages</string>
+    <string name="chatbot_blacklist">Black List</string>
+    <string name="chatbot_blocked_list">The small program can receive your message, but cannot send it to you because it has been added to the blacklist</string>
+    <string name="chatbot_cancel">Cancel</string>
+    <string name="chatbot_cancel_complain">Cancel</string>
+    <string name="chatbot_cancel_mute_notify">cancel Mute Notifications</string>
+    <string name="chatbot_complain">Complain</string>
+    <string name="chatbot_complain_failed">Complain fail</string>
+    <string name="chatbot_complain_success">Complain success</string>
+    <string name="chatbot_complaint">Complaint </string>
+    <string name="chatbot_complaint_content">Complaint content</string>
+    <string name="chatbot_complaint_reason_null">The reason for the report cannot be empty</string>
+    <string name="chatbot_complaint_user">Complaint User</string>
+    <string name="chatbot_detail_about">About ChatBot</string>
+    <string name="chatbot_detail_no_call_back">No Call back</string>
+    <string name="chatbot_details">Detail</string>
+    <string name="chatbot_empty_local">Your local applet will be listed here</string>
+    <string name="chatbot_empty_net">Failed to find related applets</string>
+    <string name="chatbot_enter_complain_reason">Enter Complain Reason</string>
+    <string name="chatbot_enter_search_key">Please Enter Search Keyword</string>
+    <string name="chatbot_file_not_found">file not found</string>
+    <string name="chatbot_file_type_support">file not Support</string>
+    <string name="chatbot_follow_chatbot">Follow ChatBot</string>
+    <string name="chatbot_from_rcs">————Message from Rcs</string>
+    <string name="chatbot_local">Local Chatbot</string>
+    <string name="chatbot_local_search_result">Local Result</string>
+    <string name="chatbot_messages_list">Messages List</string>
+    <string name="chatbot_more">More</string>
+    <string name="chatbot_mute_notify">Mute Notifications</string>
+    <string name="chatbot_mute_notify_summary">When receiving messages from the Chatbot, mute notifications</string>
+    <string name="chatbot_nearby_chatbot">Nearby Chatbot</string>
+    <string name="chatbot_net_search_result">Net Result</string>
+    <string name="chatbot_no_chatbot_QC">Non Chatbot QR code, can not be parsed</string>
+    <string name="chatbot_no_local">No Local Chatbot</string>
+    <string name="chatbot_no_local_result">No local chatbot</string>
+    <string name="chatbot_no_search_result">No Result</string>
+    <string name="chatbot_not_login">Rcs Not Logined</string>
+    <string name="chatbot_recommend_result">recommend ChatBot</string>
+    <string name="chatbot_remove_blacklist">Remove Chatbot To Blacklist</string>
+    <string name="chatbot_scan">Chatbot Scan</string>
+    <string name="chatbot_search">Search</string>
+    <string name="chatbot_search_chatbot">Search chatBot</string>
+    <string name="chatbot_search_fail">Search Fail</string>
+    <string name="chatbot_searching">Searching</string>
+    <string name="chatbot_service_list">chatBot List</string>
+    <string name="chatbot_set_mute_notify">set Mute Notifications</string>
+    <string name="chatbot_setting">Chatbot Setting</string>
+    <string name="chatbot_share_user_date">Share user information</string>
+    <string name="chatbot_start_conversation">Start Conversation</string>
+    <string name="chatbot_sure">Sure</string>
+    <string name="chatbot_unable_add_blacklist">The Chatbot is an emergency Chatbot and cannot be added to the blacklist</string>
+    <string name="chatbot_unfollow_chatbot">Cancel follow Chatbot</string>
+    <string name="chatbot_verfi">Certification Information</string>
+    <string name="chatbot_webview_ssl_fail">SSL authentication failed. Do you want to continue accessing?</string>
+    <string name="conversation_list_snippet_audio_clip">"【语音】"</string>
+    <string name="conversation_list_snippet_draf">"【草稿】"</string>
+    <string name="conversation_list_snippet_picture">"【照片】"</string>
+    <string name="conversation_list_snippet_vcard">"【名片】"</string>
+    <string name="conversation_list_snippet_video">"【视频】"</string>
+    <string name="posted_just_now">"刚刚"</string>
+    <string name="posted_now">"刚刚"</string>
+    <string name="url_open_in_browser">Open it in the browser</string>
+    <style name="ActionBarSubTitleTextStyleNewUI" parent="android:TextAppearance.Material.Widget.ActionBar.Subtitle">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="ActionBarTitleTextStyleNewUI" parent="android:TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="CustomDropDownItemStyle" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="CustomPopMenuStyle">
+        <item name="android:dropDownListViewStyle">@style/popmenuDivier</item>
+        <item name="android:textAppearanceSmallPopupMenu">@style/popmeuText</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/popmeuText</item>
+    </style>
+    <style name="Juphoon_Dialog_style" parent="@android:style/Theme.Material.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/juphoon_dialog_background</item>
+    </style>
+    <style name="MMSTextAppearance.Holo.Widget.ActionBar.Menu" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="MmsHoloThemeNewui" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:actionMenuTextAppearance">@style/MMSTextAppearance.Holo.Widget.ActionBar.Menu</item>
+        <item name="android:spinnerDropDownItemStyle">@style/CustomDropDownItemStyle</item>
+        <item name="android:colorPrimary">@color/action_bar_background_color</item>
+        <item name="android:colorPrimaryDark">@color/action_bar_background_color_dark</item>
+        <item name="android:colorAccent">@color/action_bar_background_color</item>
+        <item name="android:actionBarWidgetTheme">@android:style/Theme.Material.Light</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:actionBarSize">52dip</item>
+    </style>
+    <style name="MyActionBar" parent="@android:style/Widget.Material.Light.ActionBar">
+        <item name="android:background">@color/action_bar_background_color</item>
+        <item name="android:titleTextStyle">@style/ActionBarTitleTextStyleNewUI</item>
+        <item name="android:subtitleTextStyle">@style/ActionBarSubTitleTextStyleNewUI</item>
+    </style>
+    <style name="SearchViewStyle" parent="Widget.AppCompat.Light.SearchView">
+        <item name="android:textSize">14dp</item>
+        <item name="android:background">@drawable/shape_searchview</item>
+    </style>
+    <style name="Translucent">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+    <style name="chatbotConversationTitleStyle">
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="chatbotDetailAboutTextStyle">
+        <item name="backgroundColor">@color/white</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginTop">4dp</item>
+    </style>
+    <style name="chatbotDetailAboutTitleTextStyle">
+        <item name="android:textColor">#ff9b9b9b</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginTop">4dp</item>
+    </style>
+    <style name="chatbotDetailTextStyle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="chatbotImageDialog" parent="Theme.AppCompat.Dialog">
+        <!--<item name="android:windowAnimationStyle">@style/dialogWindowAnim</item>-->
+        <!--背景颜色及透明程度-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--是否有标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否模糊-->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="popmenuDivier">
+
+        <item name="android:divider">@color/gray</item>
+        <item name="android:dividerHeight">1px</item>
+    </style>
+    <style name="popmeuText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <declare-styleable name="AlignTextView">
+        <attr format="enum" name="align">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="BorderRelativeLayout">
+        <attr name="borderStrokeWidth"/>
+        <attr name="borderColor"/>
+        <attr name="borderBottomLeftBreakSize"/>
+        <attr name="borderBottomRightBreakSize"/>
+        <attr name="needTopBorder"/>
+        <attr name="needLeftAndRigtBorder"/>
+        <attr name="needBottomBorder"/>
+    </declare-styleable>
+    <declare-styleable name="RadiusCardView">
+        <!--        左上圆角大小-->
+        <attr format="dimension" name="rcv_topLeftRadiu"/>
+        <!--        右上圆角大小-->
+        <attr format="dimension" name="rcv_topRightRadiu"/>
+        <!--        右下圆角大小-->
+        <attr format="dimension" name="rcv_bottomRightRadiu"/>
+        <!--        左下圆角大小-->
+        <attr format="dimension" name="rcv_bottomLeftRadiu"/>
+    </declare-styleable>
+    <declare-styleable name="RcsChatbotNiceImageView">
+        <attr format="boolean" name="is_circle"/>
+        <attr format="boolean" name="is_cover_src"/>
+        <attr format="dimension" name="corner_radius"/>
+        <attr format="dimension" name="corner_top_left_radius"/>
+        <attr format="dimension" name="corner_top_right_radius"/>
+        <attr format="dimension" name="corner_bottom_left_radius"/>
+        <attr format="dimension" name="corner_bottom_right_radius"/>
+        <attr format="dimension" name="border_width"/>
+        <attr format="color" name="border_color"/>
+        <attr format="dimension" name="inner_border_width"/>
+        <attr format="color" name="inner_border_color"/>
+        <attr format="color" name="mask_color"/>
+    </declare-styleable>
+    <declare-styleable name="RoundCornerImageView">
+        <attr format="dimension" name="radiuss"/>
+        <attr format="dimension" name="left_top_radius"/>
+        <attr format="dimension" name="right_top_radius"/>
+        <attr format="dimension" name="right_bottom_radius"/>
+        <attr format="dimension" name="left_bottom_radius"/>
+    </declare-styleable>
+    <declare-styleable name="RoundLayoutView">
+        <attr format="dimension" name="radius"/>
+    </declare-styleable>
+</resources>

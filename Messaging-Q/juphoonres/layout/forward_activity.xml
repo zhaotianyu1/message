@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_multi_sub"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button_forward_contact"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/rcs_button_selectable"
+        android:text="@string/forward_contact"
+        android:textColor="@android:color/black"
+        android:onClick="onClick" />
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#D0D0D0" />
+
+    <Button
+        android:id="@+id/button_forward_group"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/rcs_button_selectable"
+        android:text="@string/forward_group"
+        android:textColor="@android:color/black"
+        android:onClick="onClick" />
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#D0D0D0" />
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:gravity="center_vertical"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:text="@string/recent_chat"
+        android:textColor="@android:color/black"
+        android:background="#E0E0E0"/>
+
+    <ListView
+        android:id="@+id/listview_conversations"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:fadingEdgeLength="16dip" />
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_radius_item"
+        android:minHeight="200dp"
+        android:maxHeight="500dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/chatbot_fulltext_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="31dp"
+            android:textColor="#000000"
+            android:textSize="@dimen/chatbot_card_title_textsize" />
+
+        <TextView
+            android:id="@+id/chatbot_fulltext_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="40dp"
+            android:scrollbars="vertical"
+            android:scrollbarThumbVertical="@color/contents_text"
+            android:scrollbarTrackVertical="@color/result_minor_text"
+            android:fadeScrollbars="true"
+            android:textColor="#4A4A4A"
+            android:maxHeight="374dp"
+            android:textSize="@dimen/chatbot_card_content_textsize"
+            />
+    </LinearLayout>
+</LinearLayout>

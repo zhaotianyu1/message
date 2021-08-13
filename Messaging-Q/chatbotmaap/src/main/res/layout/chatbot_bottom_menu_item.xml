@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/biaoti"
+
+    >
+
+    <!--    <androidx.recyclerview.widget.RecyclerView-->
+    <!--        android:id="@+id/contacts_detail"-->
+    <!--        android:clipChildren="false"-->
+    <!--        android:clipToPadding="false"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:visibility="gone"-->
+    <!--        android:focusable="true">-->
+
+    <!--    </androidx.recyclerview.widget.RecyclerView>-->
+
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/menu_pic"-->
+<!--        android:layout_width="25dp"-->
+<!--        android:layout_height="21dp"-->
+
+
+
+<!--        android:src="@drawable/life_unfocus" />-->
+    <com.juphoon.chatbotmaap.tcl.TCLButtons
+        style="@style/Button_SuperLarge"
+        android:layout_centerInParent="true"
+        android:id="@+id/button_menu"
+        android:layout_width="300dp"
+        android:layout_height="58dp"
+
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="1dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="1dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="textStart"
+        android:background="@drawable/button_background"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:maxLines="1"
+        android:enabled="true"
+        android:textSize="18sp"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:id="@+id/line_view"
+        android:layout_width="1dip"
+        android:layout_marginTop="30dp"
+        android:layout_height="35dp"
+        android:layout_toRightOf="@+id/button_menu"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:background="#1ff0f0f2"
+        />
+
+</RelativeLayout>

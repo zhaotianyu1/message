@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: :rcsservice:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a5b28e8b1486698f399ce44a586fb7cc/jetified-rcsservice/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a5b28e8b1486698f399ce44a586fb7cc/jetified-rcsservice/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a5b28e8b1486698f399ce44a586fb7cc/jetified-rcsservice/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a5b28e8b1486698f399ce44a586fb7cc/jetified-rcsservice/jars/libs/avatar.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a5b28e8b1486698f399ce44a586fb7cc/jetified-rcsservice/jars/libs/rcs.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

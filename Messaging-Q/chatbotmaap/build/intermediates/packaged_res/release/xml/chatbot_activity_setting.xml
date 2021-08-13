@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Preference
+        android:key="pref_key_settings_complain"
+        android:title="@string/chatbot_complain" />
+    <SwitchPreference
+        android:key="pref_key_settings_add_to_black"
+        android:summary="@string/chatbot_add_too_blackList_summary"
+        android:title="@string/chatbot_add_too_blackList" />
+    <SwitchPreference
+        android:key="pref_key_settings_recv_notify"
+        android:summary="@string/chatbot_mute_notify_summary"
+        android:title="@string/chatbot_mute_notify" />
+</PreferenceScreen>

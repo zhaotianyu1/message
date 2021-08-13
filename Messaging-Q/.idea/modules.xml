@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Messaging.iml" filepath="$PROJECT_DIR$/.idea/modules/Messaging.iml" group="Messaging" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Messaging/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chatbotmaap/chatbotmaap.iml" filepath="$PROJECT_DIR$/.idea/modules/chatbotmaap/chatbotmaap.iml" group="Messaging/chatbotmaap" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chips/chips.iml" filepath="$PROJECT_DIR$/.idea/modules/chips/chips.iml" group="Messaging/chips" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/photo/photo.iml" filepath="$PROJECT_DIR$/.idea/modules/photo/photo.iml" group="Messaging/photo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zxing/zxing.iml" filepath="$PROJECT_DIR$/.idea/modules/zxing/zxing.iml" group="Messaging/zxing" />
+    </modules>
+  </component>
+</project>

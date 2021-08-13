@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.juphoon.chatbotmaap"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="30" />
+
+    <application>
+        <activity android:name="com.juphoon.chatbotmaap.chatbotDetail.RcsChatBotDetailActivity" />
+        <activity android:name="com.juphoon.chatbotmaap.chatbotDetail.RcsChatbotDetailMoreActivity" />
+        <activity android:name="com.juphoon.chatbotmaap.RcsChatbotScanActivity" />
+        <activity
+            android:name="com.juphoon.chatbotmaap.RcsChatbotWebActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label=""
+            tools:ignore="WrongManifestParent" />
+        <activity
+            android:name="com.juphoon.chatbotmaap.RcsChatbotImageFragmentActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label=""
+            android:theme="@style/chatbotImageDialog"
+            tools:ignore="WrongManifestParent" />
+        <activity
+            android:name="com.juphoon.chatbotmaap.RcsChatbotFullTextFragmentActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label=""
+            android:theme="@style/chatbotImageDialog"
+            tools:ignore="WrongManifestParent" />
+        <activity
+            android:name="com.juphoon.chatbotmaap.Location.RcsBaiduLocationActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label=""
+            tools:ignore="WrongManifestParent" />
+        <activity
+            android:name="com.juphoon.chatbotmaap.RcsChatbotSearchActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="com.juphoon.chatbotmaap.RcsChatbotSettingActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="com.juphoon.chatbotmaap.RcsLocalChatbotActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="com.juphoon.chatbotmaap.RcsBlackChatbotActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="com.juphoon.chatbotmaap.RcsChatbotPermissionActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/Translucent" />
+        <activity
+            android:name="com.juphoon.chatbotmaap.RcsChatBotNearbyChatbotActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name="com.juphoon.chatbotmaap.RcsChatbotVerifiActivity" />
+        <activity android:name="com.juphoon.chatbotmaap.RcsChatbotComplaintActivity" />
+        <activity android:name="com.juphoon.chatbotmaap.RcsChatbotMoreBotsActivity" />
+        <activity android:name="com.juphoon.chatbotmaap.chatbotSearch.RcsChatbotServiceActivity" />
+
+        <provider
+            android:name="com.juphoon.chatbotmaap.RcsChatbotFileProvider"
+            android:authorities="com.juphoon.chatbot.JRcsChatbotFileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

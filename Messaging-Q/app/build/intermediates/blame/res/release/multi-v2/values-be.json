@@ -1,0 +1,77 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\tianyu.zhao\\Desktop\\Messaging-A\\Messaging-Q\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-be\\values-be.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\tianyu.zhao\\.gradle\\caches\\transforms-2\\files-2.1\\680f99f5a60980a4fb7a012e32eff12d\\appcompat-1.1.0\\res\\values-be\\values-be.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,225,328,444,530,635,754,834,912,1004,1097,1192,1286,1382,1476,1572,1667,1759,1851,1931,2037,2142,2240,2348,2454,2562,2735,2835",
+                        "endColumns": "119,102,115,85,104,118,79,77,91,92,94,93,95,93,95,94,91,91,79,105,104,97,107,105,107,172,99,80",
+                        "endOffsets": "220,323,439,525,630,749,829,907,999,1092,1187,1281,1377,1471,1567,1662,1754,1846,1926,2032,2137,2235,2343,2449,2557,2730,2830,2911"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,42",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,225,328,444,530,635,754,834,912,1004,1097,1192,1286,1382,1476,1572,1667,1759,1851,1931,2037,2142,2240,2348,2454,2562,2735,4212",
+                        "endColumns": "119,102,115,85,104,118,79,77,91,92,94,93,95,93,95,94,91,91,79,105,104,97,107,105,107,172,99,80",
+                        "endOffsets": "220,323,439,525,630,749,829,907,999,1092,1187,1281,1377,1471,1567,1662,1754,1846,1926,2032,2137,2235,2343,2449,2557,2730,2830,4288"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\tianyu.zhao\\Desktop\\Messaging-A\\Messaging-Q\\chips\\build\\intermediates\\packaged_res\\release\\values-be\\values-be.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,227,353,433,521,608,720,825,921,1063",
+                        "endColumns": "121,125,79,87,86,111,104,95,141,101",
+                        "endOffsets": "222,348,428,516,603,715,820,916,1058,1160"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32,33,34,35,36,37,39",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2835,2957,3083,3163,3251,3338,3450,3555,3651,3888",
+                        "endColumns": "121,125,79,87,86,111,104,95,141,101",
+                        "endOffsets": "2952,3078,3158,3246,3333,3445,3550,3646,3788,3985"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\tianyu.zhao\\.gradle\\caches\\transforms-2\\files-2.1\\870902c20ba87b3530dae3a66f543391\\core-1.2.0\\res\\values-be\\values-be.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "43",
+                        "startColumns": "4",
+                        "startOffsets": "4293",
+                        "endColumns": "100",
+                        "endOffsets": "4389"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\tianyu.zhao\\Desktop\\Messaging-A\\Messaging-Q\\photo\\build\\intermediates\\packaged_res\\release\\values-be\\values-be.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "105,200,341,422",
+                        "endColumns": "94,140,80,128",
+                        "endOffsets": "195,336,417,546"
+                    },
+                    "to": {
+                        "startLines": "38,40,41,44",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "3793,3990,4131,4394",
+                        "endColumns": "94,140,80,128",
+                        "endOffsets": "3883,4126,4207,4518"
+                    }
+                }
+            ]
+        }
+    ]
+}

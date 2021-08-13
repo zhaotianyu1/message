@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tcl.ff.component.animer.glow.view.AllCellsGlowLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:focusable="true"
+    app:glow_type="list_item"
+    android:fitsSystemWindows="true"
+    app:need_shimmer = "true"
+    app:need_border="false"
+    app:need_glow_anim="true"
+    android:clipToPadding="false"
+    android:clipChildren="false"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/ccc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/menu_text"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:maxLines="1"
+            android:minWidth="100dp"
+            android:textColor="@color/white"
+            android:textSize="19sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"
+        android:layout_below="@+id/ccc"
+        android:background="@color/biaoti" />
+</com.tcl.ff.component.animer.glow.view.AllCellsGlowLayout>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2015 The Android Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_detail">Detail</string>    /**juphoon/
+
+    <!-- juphoon -->
+    <string name="rcs_message_use_tip">Are you sure to use Rcs?</string>
+    <string name="rcs_message_use_ok">OK</string>
+    <string name="rcs_message_use_setting">Setting</string>
+    <string name="snippet_image">image</string>
+    <string name="snippet_voice">voice</string>
+    <string name="snippet_video">video</string>
+    <string name="snippet_location">location</string>
+    <string name="snippet_vcard">vcard</string>
+    <string name="snippet_file">file</string>
+    <string name="snippet_public">intelligent message</string>
+    <string name="text_message_ex">Text message</string>
+    <string name="file_message">File message</string>
+    <string name="geo_message">GEO message</string>
+    <string name="image_message">Image message</string>
+    <string name="vcard_message">vCard message</string>
+    <string name="video_message">Video message</string>
+    <string name="voice_message">Voice message</string>
+    <string name="card_message">Card message</string>
+    <string name="type_to_compose_rcs_enter_to_send">Type Rcs message</string>
+    <string name="receiving_message">RECEIVING\u2026</string>
+    <string name="hold_speak">Hold to Speek</string>
+    <string name="cancel_record">Cancel Record</string>
+    <string name="voice_too_short">Voice is too short</string>
+    <string name="voice_recording">Recording &#8230;%ss</string>
+    <string name="attach_location">location</string>
+    <string name="attach_vcard">vcard</string>
+    <string name="import_contact">Import Contact</string>
+    <string name="success">Success</string>
+    <string name="fail">Fail</string>
+    <string name="not_login">You are not login Rcs</string>
+    <string name="enter_recipient">Please enter recipient</string>
+    <string name="my_pc">My PC</string>
+    <string name="detail">Detail</string>
+    <string name="mode_rcs">Rcs Mode</string>
+    <string name="mode_mms">Mms Mode</string>
+    <string name="single_chat">S</string>
+    <string name="multi_chat">M</string>
+    <string name="group_chat">G</string>
+    <string name="public_chat">P</string>
+    <string name="set_top_priority">Set Top</string>
+    <string name="cancel_top_priority">Cancel Top</string>
+    <string name="file_over_max">File exceeded the limit</string>
+    <string name="create_group_chat">Create Group</string>
+    <string name="group_name">Group Name</string>
+    <string name="add_business">AddBusiness</string>
+    <string name="local_business">LocalBusiness</string>
+    <string name="choose_contact">Choose Contact</string>
+    <string name="choose_group">Choose Group</string>
+    <string name="choose_contact_more_than">Contact need more than %1$s</string>
+    <string name="choose_contact_less_than">Contact need less than %1$s</string>
+    <string name="choose_contact_num">%1$s %2$sselected</string>
+    <string name="forward_contact">Forward to Contact</string>
+    <string name="forward_group">Forward to Group</string>
+    <string name="forward_message">Forward Message</string>
+    <string name="recent_chat">Recent</string>
+    <string name="public_unfollow">Unfollow</string>
+    <string name="deleting">Deleting&#8230;</string>
+    <string name="accepting">Accepting&#8230;</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="group_notification">Group Notification</string>
+    <string name="chatbot_service">Chatbot Service</string>
+    <string name="group_invitation">Group Invitation</string>
+    <string name="group_invitation_receive">You have received %d group invitation</string>
+    <string name="second"> second</string>
+    <string name="group_member">Group Member</string>
+    <string name="menu_settings">Settings</string>
+    <string name="exit_group">Exit Group</string>
+    <string name="disslove_group">Disslove Group</string>
+    <string name="group_business_card">Group Business Card</string>
+    <string name="group_nickname">Group NickName</string>
+    <string name="group_receive_type">Receive Type</string>
+    <string name="message_top">Message Top</string>
+    <string name="message_quiet">Message Quiet</string>
+    <string name="menu_add_contact">Add members</string>
+    <string name="label_rejoin">Rejoin</string>
+    <string name="msg_rejoining_group">Rejoining Group</string>
+    <string name="rejoin_fail">Rejoin Failed</string>
+    <string name="msg_next_chairman_before_leave">Please set next chairman before leaving</string>
+    <string name="label_group_name">Label Group Name</string>
+    <string name="label_group_profile">Label Group Profile</string>
+    <string name="move_group">Move To Leave Group</string>
+    <string name="set_chairman">Set ChairMan</string>
+    <string name="invite_by">Invite join %1$s group</string>
+    <string name="already_agree">Already agree join %1$s group</string>
+    <string name="already_refuse">Already refuse join %1$s group</string>
+    <string name="kick_out_of_group">You have to be kicked form %1$s group</string>
+    <string name="already_dismiss">alreay dismiss</string>
+    <string name="chairman">Chairman</string>
+    <string name="group_detail">Group Detail</string>
+    <string name="at_message">[Someone @ you]</string>
+    <string name="auto_msg_trans_send">Will be automatically converted into SMS or MMS?</string>
+    <string name="location">Location</string>
+    <string name="menu_select_all">"Select All"</string>
+    <string name="menu_cancel_all">"Cancel All"</string>
+    <string name="pref_rcs_title">Rcs</string>
+    <string name="pref_rcs_test_title">RcsTest</string>
+    <string name="pref_rcs_login_title">Rcs Login</string>
+    <string name="pref_summary_rcs">Touch to Change Rcs Settings</string>
+    <string name="full_image">Full Image</string>
+    <string name="share">Share</string>
+    <string name="me">Me</string>
+    <string name="name">Name</string>
+    <string name="number">Number</string>
+    <string name="delivery_status_deliver">Delivered</string>
+    <string name="file_size">File Size:</string>
+    <string name="duration">Duration:</string>
+    <string name="pref_title_notification_silence_message">Silence Message notification</string>
+    <string name="group_conversation">GroupChatConversation</string>
+    <string name="public_conversation">PublicConversation</string>
+    <string name="compress_video">Compressing Video</string>
+    <string name="preview">Preview</string>
+    <string name="saved_label">Saved:\u0020</string>
+    <string name="delivered_label">Delivered:\u0020</string>
+    <string name="menu_forward">Forward</string>
+    <string name="download">Download</string>
+    <string name="downloading">Downloading</string>
+    <string name="send">Send</string>
+    <string name="compose_rcsmessage_view_hint_text">send rcs message</string>
+    <string name="select_location_button" >Click the button to enter the location</string>
+    <string name="location_detail_activity_title" >location</string>
+    <string name="geo_attachment_content_description">Geo attachment</string>
+    <string name="conversation_list_snippet_geo">Geo</string>
+    <string name="not_start_upload">not start to upload</string>
+    <string name="not_start_download">not start to download</string>
+    <string name="sending_rcs_message">"sending..."</string>
+    <string name="downloading_rcs_message">"downloading..."</string>
+    <string name="download_rcs_message_fail">"download fail"</string>
+    <string name="send_rcs_message_success">"send success"</string>
+    <string name="delete">Delete</string>
+    <string name="notification_geo">Geo</string>
+    <string name="notification_file">File</string>
+    <string name="rcs_text_message_trans_to_mms">"Rcs message trans to mms"</string>
+    <string name="not_support_rcs">"The session requires rcs ability, please change card"</string>
+    <string name="not_support_send_mms">"The session can not send a mms"</string>
+    <string name="mediapicker_moreChooserDescription">Choose More</string>
+    <string name="mediapicker_more_title">Choose More</string>
+    <string name="msg_type_sms">SMS</string>
+    <string name="msg_type_mms">MMS</string>
+    <string name="msg_type_rcs">RCS</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="not_support_msg">[Not Support Message]</string>
+    <string name="one_to_group">Add Member To Group</string>
+    <string name="no_can_draw_overlays_permission">No permission to display in other applications, please open in the settings!</string>
+    <string name="create_msg_1To1">Message</string>
+    <string name="create_msg_group">GroupChat</string>
+    <item type="id" name="last_file_duration_text"/>
+    <string name="action_search">Search</string>
+    <string name="choose_tab_contacts">Contacts</string>
+    <string name="choose_tab_groups">Groups</string>
+    <plurals name="search_results_title">
+        <item quantity="one">"<xliff:g id="NUMBER">%1$s</xliff:g> item matches“<xliff:g id="SEARCH">%2$s</xliff:g>”search results"</item>
+        <item quantity="other">"<xliff:g id="NUMBER">%1$s</xliff:g> items match“<xliff:g id="SEARCH">%2$s</xliff:g>”search results"</item>
+    </plurals>
+    <string name="menu_search_text">Search</string>
+    <string name="search_label">Messaging</string>
+    <string name="search_hint">Search messaging</string>
+    <string name="search_max_length">Search sentence is too long, will limited to 512.</string>
+    <string name="search_setting_description">Text in your messages</string>
+    <string name="search">Messaging</string>
+    <string name="search_empty">No matches.</string>
+    <string name="search_history"><xliff:g id="count">%1$s</xliff:g> results for \"<xliff:g id="search">%2$s</xliff:g>\"</string>
+    <string name="please_select_a_group">Please select a group</string>
+
+    <string name="rcs_message_use_key">Rcs Message Key</string>
+    <string name="rcs_translate_sms_key">Translate Sms Key</string>
+    <string name="rcs_message_use">Rcs Message</string>
+    <string name="rcs_message_on">Rcs Message On</string>
+    <string name="rcs_message_off">Rcs Message Off</string>
+    <string name="rcs_translate_sms">Translate Sms</string>
+    <string name="resend_rcs">Resend Rcs</string>
+    <string name="rcs_translate_sms_summary">When text message less than 900 bytes send failed, translate to send it by sms.</string>
+    <string name="rcs_setting">Rcs Setting</string>
+    <string name="notification_reply_via_rcs">"Reply via RCS"</string>
+    <string name="action_complain_message">Complain</string>
+    <string name="enter_complain_reason">Enter Complain Reason</string>
+    <string name="complain">Complain</string>
+    <string name="cancel_complain">Cancel</string>
+
+    <string name="click_view_address">Click to View</string>
+    <string name="displayed_status">Read</string>
+    <string name="message_send_failed">Message Send Failed</string>
+    <string name="user_kicked_offline">Users are kicked offline</string>
+    <plurals name="compose_message_view_hint_text_geo" >
+        <item quantity="other">Send location</item>
+        <item quantity="one">Send location</item>
+    </plurals>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rcs_chatbot_search_fragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:descendantFocusability="afterDescendants"
+    android:background="@drawable/launcher_bg"
+    android:orientation="vertical">
+
+
+
+<!--        <ImageView-->
+<!--            android:id="@+id/location_view"-->
+<!--            android:layout_width="26dp"-->
+<!--            android:layout_height="26dp"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_marginRight="24dp"-->
+<!--            android:src="@drawable/chatbot_location_bg" />-->
+
+        <LinearLayout
+            android:id="@+id/searchview"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_marginRight="10dp"
+         >
+            <TextView
+                android:id="@+id/textNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="查询"
+                android:maxLength="11"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/white"
+                android:textSize="28dp" />
+
+            <com.tcl.uicompat.TCLEditText
+                style="@style/NormalEditText"
+                android:id="@+id/search_view"
+                android:layout_width="600dp"
+                android:layout_marginLeft="30dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/ic_search"
+                android:hint="请输入查询内容"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:imeOptions="actionSearch"
+                android:iconifiedByDefault="false"
+                app:closeIcon="@drawable/chatbot_cancel_little"
+                app:queryHint="@string/chatbot_search_chatbot" />
+        </LinearLayout>
+
+
+    <ProgressBar
+        android:id="@+id/loading_progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:visibility="gone" />
+
+
+    <FrameLayout
+        android:id="@+id/chatBots_framelayout"
+        android:layout_width="765.3dp"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/chatBots_recyclerView"
+            android:layout_width="725.3dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60px"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_marginTop="10dp"
+          />
+
+    </FrameLayout>
+
+
+</LinearLayout>

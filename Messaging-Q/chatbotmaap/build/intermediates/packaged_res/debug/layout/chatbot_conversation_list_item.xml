@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.juphoon.chatbotmaap.chatbotMessages.RcsChatbotConversationListItemView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="96dp"
+    android:background="@color/black3">
+
+    <ImageView
+        android:id="@+id/message_status"
+        android:layout_width="11dp"
+        android:layout_height="11dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:visibility="invisible"
+        android:background="@drawable/chatbot_conversation_unread_background" />
+
+
+    <ImageView
+        android:layout_toRightOf="@id/message_status"
+        android:layout_centerVertical="true"
+        android:id="@+id/conversation_icon"
+        android:layout_marginLeft="6dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/chatbot_avatar"/>
+
+    <TextView
+        android:id="@+id/conversation_title"
+        style="@style/chatbotConversationTitleStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="70dp"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@id/conversation_icon"
+        android:ellipsize="end"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/conversation_draf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/conversation_title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="70dp"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@id/conversation_icon"
+        android:ellipsize="end"
+        android:paddingBottom="3dp"
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/time_text"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content" />
+</com.juphoon.chatbotmaap.chatbotMessages.RcsChatbotConversationListItemView>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./libs/colorpicker.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/colorpicker.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

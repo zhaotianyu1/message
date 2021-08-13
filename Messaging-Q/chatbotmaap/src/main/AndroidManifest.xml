@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.juphoon.chatbotmaap">
+
+    <application>
+        <activity android:name=".chatbotDetail.RcsChatBotDetailActivity"></activity>
+        <activity android:name=".chatbotDetail.RcsChatbotDetailMoreActivity"></activity>
+        <activity android:name=".RcsChatbotScanActivity" />
+        <activity
+            android:name=".RcsChatbotWebActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label=""
+            tools:ignore="WrongManifestParent"></activity>
+        <activity
+            android:name=".RcsChatbotImageFragmentActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label=""
+            android:theme="@style/chatbotImageDialog"
+            tools:ignore="WrongManifestParent"></activity>
+        <activity
+            android:name=".RcsChatbotFullTextFragmentActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label=""
+            android:theme="@style/chatbotImageDialog"
+            tools:ignore="WrongManifestParent"></activity>
+        <activity
+            android:name=".Location.RcsBaiduLocationActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label=""
+            tools:ignore="WrongManifestParent"></activity>
+        <activity
+            android:name=".RcsChatbotSearchActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".RcsChatbotSettingActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".RcsLocalChatbotActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".RcsBlackChatbotActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".RcsChatbotPermissionActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/Translucent" />
+        <activity
+            android:name=".RcsChatBotNearbyChatbotActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name=".RcsChatbotVerifiActivity" />
+        <activity android:name=".RcsChatbotComplaintActivity" />
+        <activity android:name=".RcsChatbotMoreBotsActivity" />
+        <activity android:name=".chatbotSearch.RcsChatbotServiceActivity" />
+
+        <provider
+            android:name=".RcsChatbotFileProvider"
+            android:authorities="com.juphoon.chatbot.JRcsChatbotFileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

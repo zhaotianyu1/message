@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/activatedBackgroundIndicator"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.android.messaging.ui.ContactIconView
+            android:id="@+id/rcsgroup_notify_photo"
+            android:layout_width="@dimen/conversation_message_contact_icon_size"
+            android:layout_height="@dimen/conversation_message_contact_icon_size"
+            android:layout_margin="16dp"
+            android:background="@android:color/transparent"
+            android:clickable="false"
+            android:contentDescription="@null"
+            android:importantForAccessibility="no"
+            app:IconSize="large" />
+
+        <TextView
+            android:id="@+id/textview_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/rcsgroup_notify_photo"
+            android:layout_marginStart="12dp"
+            android:layout_toEndOf="@id/rcsgroup_notify_photo"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textview_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textview_info"
+            android:layout_marginStart="12dp"
+            android:layout_toEndOf="@id/rcsgroup_notify_photo"
+            android:singleLine="true"
+            android:maxEms="10"
+            android:ellipsize="middle"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textview_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="12dp"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/group_notify_invt_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingStart="86dp" >
+
+        <Button
+            android:id="@+id/btn_accept"
+            android:layout_width="46dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/group_accept_bg"
+            android:text="@string/accept"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_reject"
+            android:layout_width="46dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="16dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/group_reject_bg"
+            android:textColor="#8B8B83"
+            android:text="@string/reject"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

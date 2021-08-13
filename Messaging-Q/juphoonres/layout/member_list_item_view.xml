@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="10dp" >
+
+    <com.android.messaging.ui.ContactIconView
+        android:id="@+id/rcsgroup_member_photo"
+        android:layout_width="@dimen/conversation_message_contact_icon_size"
+        android:layout_height="@dimen/conversation_message_contact_icon_size"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/transparent"
+        android:contentDescription="@null"
+        android:importantForAccessibility="no"
+        app:IconSize="large" />
+
+    <TextView
+        android:id="@+id/tv_member_name"
+        android:layout_width="@dimen/conversation_message_contact_icon_size"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rcsgroup_member_photo"
+        android:layout_centerHorizontal="true"
+        android:textSize="12sp"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:ellipsize="middle"
+        android:layout_marginTop="12dp" />
+
+    <ImageView
+        android:id="@+id/ib_remove_member"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_remove_light" />
+
+</RelativeLayout>

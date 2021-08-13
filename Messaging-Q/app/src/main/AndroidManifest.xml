@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.android.messaging"
+
+    android:installLocation="internalOnly">
+    <!-- Application holds CPU wakelock while working in background -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".BugleApplication"
+        android:allowBackup="false"
+        android:icon="@drawable/rcschatlogo"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:persistent="true"
+        android:theme="@style/BugleTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:allowBackup">
+        <activity android:name="com.juphoon.ui.RcsLoginActivity"></activity>
+        <!-- Displays a list of conversations -->
+        <activity
+            android:name="com.juphoon.ui.RcsRegisterActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:exported="true"
+            android:label=""
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name=".ui.conversationlist.ConversationListActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.APP_MESSAGING" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.PermissionCheckActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="landscape" /> <!-- Launches a conversation (ensures correct app name shown in recents) -->
+        <activity
+            android:name=".ui.conversation.LaunchConversationActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:documentLaunchMode="always"
+            android:noHistory="true"
+            android:screenOrientation="landscape"
+            android:theme="@style/Invisible">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.SENDTO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="sms" />
+                <data android:scheme="smsto" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.SENDTO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="mms" />
+                <data android:scheme="mmsto" />
+            </intent-filter>
+        </activity> <!-- Displays a list of archived conversations -->
+        <activity
+            android:name=".ui.conversationlist.ArchivedConversationListActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/archived_activity_title"
+            android:parentActivityName=".ui.conversationlist.ConversationListActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/BugleTheme.ArchivedConversationListActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.messaging.ui.conversationlist.ConversationListActivity" />
+        </activity> <!-- Displays the contents of a single conversation -->
+        <activity
+            android:name=".ui.conversation.ConversationActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:parentActivityName=".ui.conversationlist.ConversationListActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/BugleTheme.ConversationActivity"
+            android:windowSoftInputMode="stateHidden|adjustUnspecified">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.messaging.ui.conversationlist.ConversationListActivity" />
+        </activity> <!-- Blocked Participants -->
+        <activity android:name=".Api"
+            android:exported="true"/>
+        <activity
+            android:name=".ui.BlockedParticipantsActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/blocked_contacts_title"
+            android:parentActivityName=".ui.conversationlist.ConversationListActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/BugleTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.messaging.ui.conversationlist.ConversationListActivity" />
+        </activity> <!-- Full-screen photo viewer -->
+        <activity
+            android:name=".ui.photoviewer.BuglePhotoViewActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/photo_view_activity_title"
+            android:screenOrientation="landscape"
+            android:theme="@style/BuglePhotoViewTheme" /> <!-- Settings -->
+        <activity
+            android:name=".ui.appsettings.SettingsActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/settings_activity_title"
+            android:parentActivityName=".ui.conversationlist.ConversationListActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/BugleTheme.SettingsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.messaging.ui.conversationlist.ConversationListActivity" />
+        </activity>
+        <activity
+            android:name=".ui.appsettings.PerSubscriptionSettingsActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/advanced_settings_activity_title"
+            android:parentActivityName=".ui.appsettings.SettingsActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/BugleTheme.SettingsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.messaging.ui.appsettings.SettingsActivity" />
+        </activity>
+        <activity
+            android:name=".ui.appsettings.ApplicationSettingsActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/general_settings_activity_title"
+            android:parentActivityName=".ui.appsettings.SettingsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/BugleTheme.SettingsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.NOTIFICATION_PREFERENCES" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.messaging.ui.appsettings.SettingsActivity" />
+        </activity> <!-- Handles sharing intent -->
+        <activity
+            android:name=".ui.conversationlist.ShareIntentActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:documentLaunchMode="always"
+            android:excludeFromRecents="true"
+            android:screenOrientation="landscape"
+            android:theme="@style/BugleTheme.DialogActivity">
+            <intent-filter android:label="@string/share_intent_label">
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+                <data android:mimeType="text/x-vCard" />
+                <data android:mimeType="text/x-vcard" />
+                <data android:mimeType="image/*" />
+                <data android:mimeType="audio/*" />
+                <data android:mimeType="application/ogg" />
+            </intent-filter>
+            <intent-filter android:label="@string/share_intent_label">
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity> <!-- People & Options -->
+        <activity
+            android:name=".ui.conversationsettings.PeopleAndOptionsActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/people_and_options_activity_title"
+            android:parentActivityName=".ui.conversation.ConversationActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/BugleTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.messaging.ui.conversation.ConversationActivity" />
+        </activity> <!-- License -->
+        <activity
+            android:name=".ui.LicenseActivity"
+            android:exported="true"
+            android:label="@string/menu_license"
+            android:theme="@android:style/Theme.Holo.Light.Dialog"></activity> <!-- Message Forwarding -->
+        <activity
+            android:name=".ui.conversationlist.ForwardMessageActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/forward_message_activity_title"
+            android:screenOrientation="landscape"
+            android:theme="@style/BugleTheme.DialogActivity"></activity>
+        <!--
+ Entry point for handling remote input/actions. Currently, this is only used by Android
+             Wear to send voice replies. Since that uses PendingIntents, we don't need to export
+             this activity. If we want other apps to be able to use this activity at will,
+             we'll need to guard it with a signature-matching protected permission. We would also
+             need to add an intent filter and remove the android:exported attribute.
+        -->
+        <activity
+            android:name=".ui.RemoteInputEntrypointActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="landscape"
+            android:theme="@style/Invisible"></activity> <!-- VCard details -->
+        <activity
+            android:name=".ui.VCardDetailActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/vcard_detail_activity_title"
+            android:screenOrientation="landscape"
+            android:theme="@style/BugleTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.conversation.ConversationActivity" />
+        </activity> <!-- Attachment chooser -->
+        <activity
+            android:name=".ui.attachmentchooser.AttachmentChooserActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/attachment_chooser_activity_title"
+            android:parentActivityName=".ui.conversation.ConversationActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/BugleTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.messaging.ui.conversation.ConversationActivity" />
+        </activity>
+        <activity android:name=".ui.TestMovieActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme"
+            >
+        </activity>
+        <activity android:name=".tcl.TCLSettingActivity"
+            android:screenOrientation="landscape"
+            >
+        </activity>
+        <!--
+ Test activity that we use to host fragments/views. Unfortunately, apparently necessary
+             because Android framework test cases want activity to be in the instrumented package.
+             See http://developer.android.com/reference/android/test/ActivityInstrumentationTestCase2.html
+        -->
+        <activity
+            android:name=".ui.TestActivity"
+            android:configChanges="orientation|screenSize"></activity>
+        <activity
+            android:name=".tcl.VideoActivity"
+            android:configChanges="orientation|screenSize"></activity>
+        <activity
+            android:name=".ui.debug.DebugMmsConfigActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="landscape"
+            android:theme="@style/BugleTheme.DialogActivity"></activity>
+
+        <activity
+            android:name=".ui.ClassZeroActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:excludeFromRecents="true"
+            android:label="@string/class_0_message_activity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/BugleTheme.DialogActivity"></activity>
+        <activity
+            android:name=".ui.SmsStorageLowWarningActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:theme="@style/Invisible" />
+        <activity
+            android:name=".ui.appsettings.ApnSettingsActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:parentActivityName=".ui.appsettings.SettingsActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/BugleTheme" /> <!-- Action Services -->
+        <activity
+            android:name=".ui.appsettings.ApnEditorActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:parentActivityName=".ui.appsettings.ApnSettingsActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/BugleTheme" />
+        <activity
+            android:name=".ui.WidgetPickConversationActivity"
+            android:label="@string/app_name"
+            android:theme="@style/BugleTheme">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity> <!-- Sms and Mms related items -->
+        <!-- Intents for Notification and Pre-KLP Delivery -->
+        <!-- Registered with the highest possible priority (max_int) -->
+        <activity
+            android:name="com.juphoon.helper.mms.ui.RcsMessageShowActivity"
+            android:label="@string/detail"
+            android:theme="@style/MmsHoloTheme" />
+        <activity
+            android:name="com.juphoon.helper.mms.ui.RcsBaiduLocationActivity"
+            android:label="@string/location"
+            android:theme="@style/BugleTheme" /> <!-- Intents for aborting SMS/MMS broadcasts pre-KLP -->
+        <!-- Registered for a priority just ahead of inbox Messaging apps (2) -->
+        <activity android:name="com.juphoon.helper.mms.ui.RcsForwardActivity">
+            <intent-filter>
+
+                <!-- <action android:name="android.intent.action.SEND" /> -->
+                <!-- <action android:name="com.cmcc.ccs.action.MESSAGE" /> -->
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+                <data android:mimeType="image/*" />
+                <data android:mimeType="video/*" />
+                <data android:mimeType="text/x-vcard" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.juphoon.helper.mms.ui.RcsChooseContactActivity"
+            android:label="@string/choose_contact" /> <!-- Intents for KLP+ Delivery -->
+        <activity
+            android:name="com.juphoon.helper.mms.ui.RcsCreateCroupActivity"
+            android:label="@string/create_group_chat" />
+        <activity
+            android:name="com.juphoon.helper.mms.ui.RcsSingleCreateCroupActivity"
+            android:label="@string/create_group_chat" />
+        <activity
+            android:name="com.juphoon.helper.mms.ui.RcsGroupDetailActivity"
+            android:exported="true"
+            android:label="@string/group_detail"
+            android:theme="@style/BugleTheme" />
+
+        <activity
+            android:name="com.juphoon.helper.mms.ui.RcsGroupMemberActivity"
+            android:label="@string/group_member" />
+
+        <activity
+            android:name="com.juphoon.helper.mms.ui.RcsGroupNotificationActivity"
+            android:label="@string/group_notification"
+            android:theme="@style/MmsHoloThemeNewui" />
+        <activity
+            android:name="com.juphoon.helper.mms.ui.RcsPreviewImageActivity"
+            android:label="@string/preview"
+            android:theme="@style/MmsHoloTheme" />
+        <activity
+            android:name="com.juphoon.helper.mms.ui.RcsPeopleActivity"
+            android:label="@string/detail"></activity>
+        <activity
+            android:name=".ui.SearchActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/search"
+            android:launchMode="singleTask"
+            android:theme="@style/MmsHoloThemeNewui">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+
+        <activity
+            android:name="com.juphoon.helper.mms.ui.RcsChooseActivity"
+            android:label=""></activity>
+<!--        <meta-data-->
+<!--            android:name="com.baidu.lbsapi.API_KEY"-->
+<!--            android:value="N5SoqTGgQIVFQF89iY1k0tqcGnTqmg1l" /> &lt;!&ndash; Broadcast receiver that will be notified to reset notifications &ndash;&gt;-->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="Tiot3GhmyNUXLx3icVl75FPuuPDyovlR" />
+        <provider
+            android:name=".datamodel.MessagingContentProvider"
+            android:authorities="com.android.juphoon_messaging.datamodel.MessagingContentProvider"
+            android:exported="false"
+            android:label="@string/app_name"></provider> <!-- Broadcast receiver that will be notified for ActionService alarms. -->
+        <provider
+            android:name=".datamodel.MmsFileProvider"
+            android:authorities="com.android.messaging.datamodel.JMmsFileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true" />
+        <provider
+            android:name=".datamodel.MediaScratchFileProvider"
+            android:authorities="com.android.messaging.datamodel.JMediaScratchFileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true" /> <!-- Widget that displays the conversation list -->
+        <receiver
+            android:name=".receiver.MmsWapPushReceiver"
+            android:enabled="false"
+            android:permission="android.permission.BROADCAST_WAP_PUSH">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.provider.Telephony.WAP_PUSH_RECEIVED" />
+
+                <data android:mimeType="application/vnd.wap.mms-message" />
+            </intent-filter>
+        </receiver> <!-- Widget that displays the messages of a single conversation -->
+        <receiver
+            android:name=".receiver.SmsReceiver"
+            android:enabled="false"
+            android:permission="android.permission.BROADCAST_SMS">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.provider.Telephony.MMS_DOWNLOADED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".receiver.AbortMmsWapPushReceiver"
+            android:enabled="false"
+            android:permission="android.permission.BROADCAST_WAP_PUSH">
+            <intent-filter android:priority="3">
+                <action android:name="android.provider.Telephony.WAP_PUSH_RECEIVED" />
+
+                <data android:mimeType="application/vnd.wap.mms-message" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".receiver.AbortSmsReceiver"
+            android:enabled="false"
+            android:permission="android.permission.BROADCAST_SMS">
+            <intent-filter android:priority="3">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".receiver.MmsWapPushDeliverReceiver"
+            android:permission="android.permission.BROADCAST_WAP_PUSH">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.WAP_PUSH_DELIVER" />
+
+                <data android:mimeType="application/vnd.wap.mms-message" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".receiver.SmsDeliverReceiver"
+            android:permission="android.permission.BROADCAST_SMS">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_DELIVER" />
+            </intent-filter>
+        </receiver> <!-- juphoon 增加service activity receiver等 -->
+        <receiver
+            android:name=".receiver.SendStatusReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.android.messaging.receiver.SendStatusReceiver.MESSAGE_SENT" />
+
+                <data android:scheme="content" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.messaging.receiver.SendStatusReceiver.MESSAGE_DELIVERED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.messaging.receiver.SendStatusReceiver.MMS_SENT" />
+
+                <data android:scheme="content" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.messaging.receiver.SendStatusReceiver.MMS_DOWNLOADED" />
+
+                <data android:scheme="content" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".receiver.StorageStatusReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receiver.BootAndPackageReplacedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".receiver.NotificationReceiver"
+            android:exported="false"></receiver>
+        <receiver
+            android:name=".datamodel.action.ActionServiceImpl$PendingActionReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.android.messaging.datamodel.PENDING_ACTION" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receiver.DefaultSmsSubscriptionChangeReceiver">
+            <intent-filter>
+                <action android:name="android.telephony.action.DEFAULT_SMS_SUBSCRIPTION_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".widget.BugleWidgetProvider"
+            android:label="@string/widget_conversation_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.Bugle.intent.action.ACTION_NOTIFY_CONVERSATIONS_CHANGED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_conversation_list" />
+        </receiver>
+        <receiver
+            android:name=".widget.WidgetConversationProvider"
+            android:label="@string/widget_conversation_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.Bugle.intent.action.ACTION_NOTIFY_MESSAGES_CHANGED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_conversation" />
+        </receiver>
+        <receiver
+            android:name="com.juphoon.helper.mms.RcsWakeupReceiver"
+            android:permission="com.juphoon.rcs_maap.notify.permission">
+        <intent-filter>
+                <action android:name="rcs_action_im_notify" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.juphoon.helper.mms.RcsChatbotHelperRecevier"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.juphoon.action.SEND_REPLY" />
+                <action android:name="com.juphoon.action.SEND_GEO" />
+                <action android:name="com.juphoon.action.SEND_MENU_REPLY" />
+                <action android:name="com.juphoon.action.SEDN_SUGGESTION" />
+                <action android:name="com.juphoon.action.SHARE_DATA" />
+                <action android:name="com.juphoon.action.LAUNCH_CONVERSATION" />
+            </intent-filter>
+        </receiver>
+        <service
+            android:name=".datamodel.action.ActionServiceImpl"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name=".datamodel.action.BackgroundWorkerService"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- juphoon 百度地图 -->
+        <service
+            android:name=".datamodel.NoConfirmationSmsSendService"
+            android:exported="true"
+            android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE">
+            <intent-filter>
+                <action android:name="android.intent.action.RESPOND_VIA_MESSAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="sms" />
+                <data android:scheme="smsto" />
+            </intent-filter>
+        </service>
+        <receiver android:name=".tcl.ApiReceiver">
+            <intent-filter android:priority="900"> <!--优先级：-1000~1000，系统短信优先级为-1-->
+                <!--订阅广播事件类型-->
+                <action android:name="com.aodlanucher.intent.startMessage"/>
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".widget.WidgetConversationListService"
+            android:exported="false"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+        <service
+            android:name=".widget.WidgetConversationService"
+            android:exported="false"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <service android:name="androidx.appcompat.mms.MmsService" /> <!-- 搜索增加 -->
+        <service
+            android:name="com.juphoon.helper.mms.RcsMessageSendService"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE">
+            <intent-filter>
+                <action android:name="action_send_sms_message" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote">
+<!--            <intent-filter>-->
+<!--                <action android:name="com.baidu.location.service_v7.0"></action>-->
+<!--            </intent-filter>-->
+        </service>
+
+
+        <service
+            android:name="com.juphoon.helper.mms.RcsImReceiverServiceEx"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+
+
+
+    </application> <!-- Application needs SMS/MMS permissions -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.screen.portrait"
+        android:required="false" /> <!-- Application needs access to MMS network -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" /> <!-- Application needs CONTACT permissions -->
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.screen.portrait"
+        android:required="false" /> <!-- Application needs to read profiles for the user itself from CP2 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" /> <!-- Optional features -->
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Optional features -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+<!--    <uses-permission android:name="android.permission.CALL_PHONE" />-->
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- 百度地图权限 -->
+    <!-- 这个权限用于进行网络定位 -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- 这个权限用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- SD卡读取权限，用户写入离线定位数据 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /> <!-- juphoon -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> <!-- juphoon 应用号加入 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- juphoon 接收 Rcs Service 广播 -->
+    <uses-permission android:name="com.nativeapp.rcsapp.permission" />
+    <uses-permission android:name="com.juphoon.rcs_maap.notify.permission" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.provider.Telephony.ACTION_CHANGE_DEFAULT"/>
+    <uses-permission android:name="android.provider.Telephony.SMS_DELIVER"/>
+    <uses-permission android:name="android.permission.BIND_REMOTEVIEWS" />
+
+</manifest>

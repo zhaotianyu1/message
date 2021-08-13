@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#43A3FF</color>
+    <color name="action_bar_background_color_dark">#ffffff</color>
+    <color name="action_bar_background_color">@color/primary_color</color>
+    <color name="transparent">#00000000</color>
+    <color name="public_fulltext_color">#7B68EE</color>
+    <color name="gray">#9B9B9B</color>
+    <color name="back">#14FFFFFF</color>
+    <color name="blue">#2288FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#14FFFFFF</color>
+    <color name="gray1">#F0F0F0</color>
+    <color name="dimgrey">#696969</color><!--暗灰色 -->
+    <color name="black1">#000000</color>
+    <color name="black2">#2E3137</color>
+    <color name="black3">#14FFFFFF</color>
+    <color name="black4">#ff434448</color>
+    <color name="biaoti">#FF1A1B1F</color>
+
+    <color name="texts">#99ffffff</color>
+    <color name="biaoti4">#14f0f0f2</color>
+    <color name="edit">#ffffffff</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="rcs_button_press">#D0D0D0</color>
+    <color name="rcs_button_disable">#A0A0A0</color>
+    <color name="banner_item_transparent">#00000000</color>
+    <color name="rcs_menu_line">#E9E9E9</color>
+</resources>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./libs/sardar.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/sardar.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

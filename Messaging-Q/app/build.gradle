@@ -1,0 +1,103 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.android.Jmessaging"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 202103051
+        versionName "1.2.9"
+        multiDexEnabled true
+
+//        ndk.abiFilters 'armeabi-v7a','arm64-v8a','x86','x86_64','armeabi'
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    repositories {
+        flatDir {
+            dirs '../libs'   // aar目录
+        }
+    }
+        sourceSets {
+        main {
+
+            java.srcDirs = ["../src","../framesequence/src/main"]
+            res.srcDirs = ['../res','../juphoonres']
+            jniLibs.srcDirs = ['../libs']
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/androidx.*'
+    }
+    signingConfigs {
+        debug {
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+            storeFile file('../debug.keystore')
+            storePassword 'android'
+        }
+    }
+//    signingConfigs {
+//        debug {
+//            storeFile file('../platformSign.keystore')
+//            storePassword '19941116'
+//            keyAlias = 'platformsign'
+//            keyPassword '19941116'
+//        }
+//    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: '../libs', include: ['*.jar'])
+    implementation project(':chips')
+    implementation project(':photo')
+    implementation(name:'rcsservice', ext:'aar')
+
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.media:media:1.1.0'
+
+    implementation 'androidx.legacy:legacy-support-core-utils:1.0.0'
+    implementation 'androidx.legacy:legacy-support-core-ui:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v13:1.0.0'
+
+    implementation 'androidx.fragment:fragment:1.1.0'
+    implementation 'androidx.palette:palette:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0-beta04'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation project(':chatbotmaap')
+    implementation project(':chips')
+    implementation project(':photo')
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'com.google.code.gson:gson:2.7'
+    implementation(name:'cmcc-sso-sdk', ext:'aar')
+
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+
+//    implementation 'com.tcl.ff.component:animer:0.6.1'
+//
+//    implementation 'com.tcl.uicompat:uicompat:3.2.2'
+    implementation 'com.tcl.uicompat:uicompat:3.2.9'
+
+    implementation 'com.tcl.ff.component:animer:1.0.2'
+    implementation 'com.tcl.uicompat:poster:1.1.1'
+
+}

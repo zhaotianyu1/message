@@ -1,0 +1,167 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:2:1-67:12
+	package
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:4:5-38
+		INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:2:1-67:12
+		INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:2:1-67:12
+		INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:6:5-65:19
+activity#com.juphoon.chatbotmaap.chatbotDetail.RcsChatBotDetailActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:7:9-85
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:7:19-73
+activity#com.juphoon.chatbotmaap.chatbotDetail.RcsChatbotDetailMoreActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:8:9-89
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:8:19-77
+activity#com.juphoon.chatbotmaap.RcsChatbotScanActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:9:9-60
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:9:19-57
+activity#com.juphoon.chatbotmaap.RcsChatbotWebActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:10:9-14:59
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:13:13-29
+	tools:ignore
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:14:13-47
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:12:13-74
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:11:13-50
+activity#com.juphoon.chatbotmaap.RcsChatbotImageFragmentActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:15:9-20:59
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:18:13-29
+	tools:ignore
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:20:13-47
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:17:13-74
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:19:13-54
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:16:13-60
+activity#com.juphoon.chatbotmaap.RcsChatbotFullTextFragmentActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:21:9-26:59
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:24:13-29
+	tools:ignore
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:26:13-47
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:23:13-74
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:25:13-54
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:22:13-63
+activity#com.juphoon.chatbotmaap.Location.RcsBaiduLocationActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:27:9-31:59
+	android:label
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:30:13-29
+	tools:ignore
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:31:13-47
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:29:13-74
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:28:13-62
+activity#com.juphoon.chatbotmaap.RcsChatbotSearchActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:32:9-34:77
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:34:13-74
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:33:13-53
+activity#com.juphoon.chatbotmaap.RcsChatbotSettingActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:35:9-37:77
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:37:13-74
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:36:13-54
+activity#com.juphoon.chatbotmaap.RcsLocalChatbotActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:38:9-40:77
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:40:13-74
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:39:13-52
+activity#com.juphoon.chatbotmaap.RcsBlackChatbotActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:41:9-43:77
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:43:13-74
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:42:13-52
+activity#com.juphoon.chatbotmaap.RcsChatbotPermissionActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:44:9-47:50
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:46:13-74
+	android:theme
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:47:13-47
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:45:13-57
+activity#com.juphoon.chatbotmaap.RcsChatBotNearbyChatbotActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:48:9-50:77
+	android:configChanges
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:50:13-74
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:49:13-60
+activity#com.juphoon.chatbotmaap.RcsChatbotVerifiActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:51:9-62
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:51:19-59
+activity#com.juphoon.chatbotmaap.RcsChatbotComplaintActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:52:9-65
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:52:19-62
+activity#com.juphoon.chatbotmaap.RcsChatbotMoreBotsActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:53:9-64
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:53:19-61
+activity#com.juphoon.chatbotmaap.chatbotSearch.RcsChatbotServiceActivity
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:54:9-77
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:54:19-74
+provider#com.juphoon.chatbotmaap.RcsChatbotFileProvider
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:56:9-64:20
+	android:grantUriPermissions
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:60:13-47
+	android:authorities
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:58:13-78
+	android:exported
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:59:13-37
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:57:13-51
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:61:13-63:54
+	android:resource
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:63:17-51
+	android:name
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml:62:17-67
+uses-sdk
+INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml
+INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml
+INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml
+INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml
+		ADDED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tianyu.zhao\Desktop\Messaging-A\Messaging-Q\chatbotmaap\src\main\AndroidManifest.xml

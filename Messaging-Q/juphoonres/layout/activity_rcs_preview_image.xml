@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/iv_rcspreviewimageactivity_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/relative"
+        android:background="@android:color/black"
+        android:scaleType="fitCenter" />
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/rcs_button_disable" >
+
+        <CheckBox
+            android:id="@+id/btn_rcspreviewimageactivity_full_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:text="@string/full_image"
+            android:textColor="@color/widget_sender_text_color_read" />
+
+        <ImageView
+            android:id="@+id/btn_rcspreviewimageactivity_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/send_button_selector"
+            android:onClick="onClick"
+            android:scaleType="center" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/pb_rcspreviewimageactivity"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+    
+</RelativeLayout>

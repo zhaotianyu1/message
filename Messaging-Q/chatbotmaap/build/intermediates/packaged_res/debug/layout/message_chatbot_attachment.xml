@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.juphoon.chatbotmaap.RcsChatbotCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/public_layout"
+    android:layout_width="match_parent"
+    android:focusable="true"
+
+    android:focusableInTouchMode="true"
+    android:descendantFocusability="afterDescendants"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_height="wrap_content">
+</com.juphoon.chatbotmaap.RcsChatbotCardView>

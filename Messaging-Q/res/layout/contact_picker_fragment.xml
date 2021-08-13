@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2015 The Android Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pickfragment"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:clipChildren="false"
+    android:background="@drawable/launcher_bg"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:id="@+id/line1s"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:clipToPadding="false"
+        android:clipChildren="false"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/line2"
+        android:layout_width="400dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:clipChildren="false"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="233px"
+
+            android:text="收件人"
+            android:maxLength="11"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:background="#14FFFFFF"
+        app:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+
+        <com.android.messaging.ui.MaxHeightScrollView
+            android:id="@+id/MaxHeightScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:maxHeight="@dimen/compose_message_chips_view_max_height">
+
+            <com.android.messaging.ui.contact.ContactRecipientAutoCompleteView
+                android:id="@+id/recipient_text_view"
+                style="@style/RecipientEditTextView"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:minHeight="@dimen/compose_message_contacts_height"
+                android:dropDownWidth="match_parent"
+                android:hint="请输入手机号码"
+                android:textColorHint="@color/white"
+                app:avatarPosition="start"
+                app:chipHeight="@dimen/compose_message_chip_height"
+                app:chipPadding="@dimen/compose_message_chip_padding"
+                app:imageSpanAlignment="baseline"
+                app:unselectedChipTextColor="@color/chips_text_color"
+                app:unselectedChipBackgroundColor="@color/black3">
+
+                <!-- Put focus on the chips view by default so soft keyboard can be shown -->
+                <requestFocus />
+            </com.android.messaging.ui.contact.ContactRecipientAutoCompleteView>
+
+        </com.android.messaging.ui.MaxHeightScrollView>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+            <!--        <FrameLayout-->
+            <!--            android:id="@+id/contacts_frame"-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="0dp"-->
+            <!--            android:layout_weight="1"-->
+            <!--            tools:ignore="MissingConstraints">-->
+            <!--        </FrameLayout>-->
+    </LinearLayout>
+<!--        <LinearLayout-->
+<!--            android:id="@+id/line3s"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:clipToPadding="false"-->
+<!--            android:clipChildren="false"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--        <com.tcl.uicompat.TCLButton-->
+<!--            style="@style/Button_SuperLarge"-->
+<!--            android:id="@+id/delete_edits"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_marginLeft="180dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="150px"-->
+<!--            android:enabled="true"-->
+<!--            android:onClick="on_delete"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:text="发送"/>-->
+
+<!--        <com.tcl.uicompat.TCLButton-->
+<!--            style="@style/Button_SuperLarge"-->
+<!--            android:id="@+id/delete_editss"-->
+<!--            android:layout_width="130dp"-->
+<!--            android:layout_marginLeft="50dp"-->
+<!--            android:layout_marginTop="150px"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:enabled="true"-->
+<!--            android:onClick="on_delete"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:text="清空"/>-->
+<!--        </LinearLayout>-->
+    </LinearLayout>
+<!--    <LinearLayout-->
+<!--        android:id="@+id/returnRelativeLayout"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:clipToPadding="false"-->
+<!--        android:orientation="vertical"-->
+<!--        android:clipChildren="false">-->
+<!--        <TextView-->
+<!--            android:id="@+id/returnss"-->
+<!--            android:layout_width="40dp"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_gravity="right"-->
+<!--            android:layout_marginRight="100dp"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:text="返回">-->
+
+<!--        </TextView>-->
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:clipToPadding="false"
+        android:clipChildren="false"
+        >
+        <com.android.messaging.ui.CustomHeaderViewPager
+            android:id="@+id/contact_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:clipChildren="false"/>
+
+        <View
+            android:id="@+id/compose_contact_divider"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_gravity="top"
+            android:clipToPadding="false"
+            android:clipChildren="false"
+            />
+    </FrameLayout>
+<!--    </LinearLayout>-->
+</LinearLayout>

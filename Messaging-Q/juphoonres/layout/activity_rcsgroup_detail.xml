@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conversation_background"
+    android:orientation="vertical"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/conversation_background"
+        android:orientation="vertical" >
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/rcsgroup_detail_member_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:onClick="onClick"
+            android:orientation="vertical"
+            app:cardElevation="1dp" >
+
+            <LinearLayout
+                android:id="@+id/rcsgroup_detail_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/abc_text_size_subtitle_material_toolbar" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp" >
+
+                    <TextView
+                        android:id="@+id/textView_member"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/group_member"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@id/textView_member"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="10dp"
+                        android:text="@string/chairman"
+                        android:textSize="12sp"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/rcsgroup_detail_member_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="4dp"
+                        android:layout_toEndOf="@id/textView_member"
+                        android:drawableEnd="@drawable/icon_to_more"
+                        android:gravity="center_vertical"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_member"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/rcsgroup_detail_member1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="onClick"
+                        android:orientation="vertical" >
+
+                        <RelativeLayout
+                            android:layout_width="@dimen/conversation_message_contact_icon_size"
+                            android:layout_height="@dimen/conversation_message_contact_icon_size" >
+
+                            <com.android.messaging.ui.ContactIconView
+                                android:id="@+id/rcsgroup_detail_photo"
+                                android:layout_width="@dimen/conversation_message_contact_icon_size"
+                                android:layout_height="@dimen/conversation_message_contact_icon_size"
+                                android:background="@android:color/transparent"
+                                android:clickable="false"
+                                android:contentDescription="@null"
+                                android:importantForAccessibility="no"
+                                app:IconSize="large" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_alignParentEnd="true"
+                                android:src="@drawable/icon_chairman" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/rcsgroup_detail_text"
+                            android:layout_width="48dp"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="middle"
+                            android:gravity="center_horizontal"
+                            android:singleLine="true"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/rcsgroup_detail_member2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:onClick="onClick"
+                        android:orientation="vertical" >
+
+                        <com.android.messaging.ui.ContactIconView
+                            android:id="@+id/rcsgroup_detail_photo"
+                            android:layout_width="@dimen/conversation_message_contact_icon_size"
+                            android:layout_height="@dimen/conversation_message_contact_icon_size"
+                            android:background="@android:color/transparent"
+                            android:clickable="false"
+                            android:contentDescription="@null"
+                            android:importantForAccessibility="no"
+                            app:IconSize="large" />
+
+                        <TextView
+                            android:id="@id/rcsgroup_detail_text"
+                            android:layout_width="48dp"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="middle"
+                            android:gravity="center_horizontal"
+                            android:singleLine="true"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/rcsgroup_detail_member3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:onClick="onClick"
+                        android:orientation="vertical" >
+
+                        <com.android.messaging.ui.ContactIconView
+                            android:id="@+id/rcsgroup_detail_photo"
+                            android:layout_width="@dimen/conversation_message_contact_icon_size"
+                            android:layout_height="@dimen/conversation_message_contact_icon_size"
+                            android:background="@android:color/transparent"
+                            android:clickable="false"
+                            android:contentDescription="@null"
+                            android:importantForAccessibility="no"
+                            app:IconSize="large" />
+
+                        <TextView
+                            android:id="@id/rcsgroup_detail_text"
+                            android:layout_width="48dp"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="middle"
+                            android:gravity="center_horizontal"
+                            android:singleLine="true"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/rcsgroup_detail_member4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:onClick="onClick"
+                        android:orientation="vertical" >
+
+                        <com.android.messaging.ui.ContactIconView
+                            android:id="@+id/rcsgroup_detail_photo"
+                            android:layout_width="@dimen/conversation_message_contact_icon_size"
+                            android:layout_height="@dimen/conversation_message_contact_icon_size"
+                            android:background="@android:color/transparent"
+                            android:clickable="false"
+                            android:contentDescription="@null"
+                            android:importantForAccessibility="no"
+                            app:IconSize="large" />
+
+                        <TextView
+                            android:id="@id/rcsgroup_detail_text"
+                            android:layout_width="48dp"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="middle"
+                            android:gravity="center_horizontal"
+                            android:singleLine="true"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/rcsgroup_detail_add"
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
+                        android:layout_marginStart="6dp"
+                        android:onClick="onClick"
+                        android:src="@drawable/icon_add_member" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:foreground="?attr/selectableItemBackground"
+            android:orientation="vertical"
+            android:layout_marginBottom="4dp"
+            app:cardElevation="3dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/abc_text_size_subtitle_material_toolbar" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:text="@string/menu_settings"
+                    android:textSize="14sp" />
+
+                <include
+                    android:id="@+id/rcsgroup_detail_name"
+                    layout="@layout/item_rcsgroup_detail_body" />
+
+                <include
+                    android:id="@+id/rcsgroup_detail_displayname"
+                    layout="@layout/item_rcsgroup_detail_body" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="4dp"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:onClick="quitGroup"
+            app:cardElevation="2dp"
+            app:contentPadding="@dimen/abc_text_size_subtitle_material_toolbar" >
+
+            <RelativeLayout
+                android:id="@+id/rcsgroup_detail_exit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/item_rcsgroup_detail_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="start|center_vertical"
+                    android:src="@drawable/icon_exit_group" />
+
+                <TextView
+                    android:id="@+id/item_rcsgroup_detail_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="16dp"
+                    android:layout_toEndOf="@id/item_rcsgroup_detail_icon"
+                    android:text="@string/exit_group"
+                    android:textColor="@color/rcs_button_text_red"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/rcsgroup_detail_disslove_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:onClick="onDissloveGroup"
+            app:cardElevation="2dp"
+            app:contentPadding="@dimen/abc_text_size_subtitle_material_toolbar" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/item_rcsgroup_detail_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="start|center_vertical"
+                    android:src="@drawable/icon_disslove_group" />
+
+                <TextView
+                    android:id="@+id/item_rcsgroup_detail_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="16dp"
+                    android:layout_toEndOf="@id/item_rcsgroup_detail_icon"
+                    android:text="@string/disslove_group"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

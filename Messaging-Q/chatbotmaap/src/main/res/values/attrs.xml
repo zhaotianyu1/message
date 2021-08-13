@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <declare-styleable name="RcsChatbotNiceImageView">
+        <attr name="is_circle" format="boolean" />
+        <attr name="is_cover_src" format="boolean" />
+        <attr name="corner_radius" format="dimension" />
+        <attr name="corner_top_left_radius" format="dimension" />
+        <attr name="corner_top_right_radius" format="dimension" />
+        <attr name="corner_bottom_left_radius" format="dimension" />
+        <attr name="corner_bottom_right_radius" format="dimension" />
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="inner_border_width" format="dimension" />
+        <attr name="inner_border_color" format="color" />
+        <attr name="mask_color" format="color" />
+    </declare-styleable>
+    <!-- 末行对齐方式 -->
+    <declare-styleable name="AlignTextView">
+        <attr name="align" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+    </declare-styleable>
+    <plurals name="num_minutes_ago" formatted="false" msgid="4085627474543076735">
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> 分钟</item>
+        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> 分钟</item>
+    </plurals>
+    <plurals name="num_hours_ago" formatted="false" msgid="8010868301590914325">
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> 小时</item>
+        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> 小时</item>
+    </plurals>
+    <plurals name="num_days_ago" formatted="false" msgid="8753803762044567843">
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> 天</item>
+        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> 天</item>
+    </plurals>
+    <plurals name="week_count" formatted="false" msgid="1301973226125551953">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> 周</item>
+        <item quantity="one">1 周</item>
+    </plurals>
+    <plurals name="month_count" formatted="false" msgid="4858515363324110232">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> 个月</item>
+        <item quantity="one">1 个月</item>
+    </plurals>
+    <plurals name="year_count" formatted="false" msgid="4522546496183798317">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> 年</item>
+        <item quantity="one">1 年</item>
+    </plurals>
+    <!--圆角layout-->
+    <declare-styleable name="RoundLayoutView">
+        <attr name="radius" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="RoundCornerImageView">
+        <attr name="radiuss" format="dimension" />
+        <attr name="left_top_radius" format="dimension" />
+        <attr name="right_top_radius" format="dimension" />
+        <attr name="right_bottom_radius" format="dimension" />
+        <attr name="left_bottom_radius" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="RadiusCardView">
+        <!--        左上圆角大小-->
+        <attr name="rcv_topLeftRadiu" format="dimension" />
+        <!--        右上圆角大小-->
+        <attr name="rcv_topRightRadiu" format="dimension" />
+        <!--        右下圆角大小-->
+        <attr name="rcv_bottomRightRadiu" format="dimension" />
+        <!--        左下圆角大小-->
+        <attr name="rcv_bottomLeftRadiu" format="dimension" />
+    </declare-styleable>
+
+
+    <!--边框的粗度-->
+    <attr name="borderStrokeWidth" format="float"/>
+    <!--边框颜色-->
+    <attr name="borderColor" format="color"/>
+    <!--底边边线左边断开距离-->
+    <attr name="borderBottomLeftBreakSize" format="dimension"/>
+    <!--底边边线右边断开距离-->
+    <attr name="borderBottomRightBreakSize" format="dimension"/>
+    <!--是否需要上边框-->
+    <attr name="needTopBorder" format="boolean"/>
+    <!--是否需要左右边框-->
+    <attr name="needLeftAndRigtBorder" format="boolean"/>
+    <!--是否需要下边框-->
+    <attr name="needBottomBorder" format="boolean"/>
+    <declare-styleable name="BorderRelativeLayout">
+        <attr name="borderStrokeWidth"/>
+        <attr name="borderColor"/>
+        <attr name="borderBottomLeftBreakSize"/>
+        <attr name="borderBottomRightBreakSize"/>
+        <attr name="needTopBorder"/>
+        <attr name="needLeftAndRigtBorder"/>
+        <attr name="needBottomBorder"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/launcher_bg"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <include layout="@layout/status_bar"/>
+
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="56dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="42dp"
+            android:gravity="bottom"
+            android:layout_marginLeft="58dp"
+            android:text="短信"
+            android:textColor="#99ffffff"
+            android:textSize="28sp" />
+
+        <FrameLayout
+            android:layout_width="765.3dp"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_marginLeft="82dp"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/record_mask"
+                android:layout_width="725.3dp"
+                android:layout_marginLeft="60px"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:layout_height="wrap_content"
+                android:background="@drawable/call_mask" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_message"
+                    android:layout_width="725.3dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="60px"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:layout_height="wrap_content" />
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+    <com.tcl.uicompat.TCLButton
+        style="@style/Button_SuperLarge"
+        android:id="@+id/add_message"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="228dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginLeft="883dp"
+        android:enabled="true"
+
+        android:onClick="add_message"
+        android:text="添加消息"/>
+
+    <com.tcl.uicompat.TCLButton
+        style="@style/Button_SuperLarge"
+        android:id="@+id/chengxu"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="228dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="883dp"
+        android:enabled="true"
+
+        android:onClick="onAdd"
+        android:text="小程序服务"/>
+
+</FrameLayout>

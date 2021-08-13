@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/launcher_bg"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/chatbotDetailAboutTitleTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:textColor="@color/white"
+            android:text="通过认证 " />
+
+        <TextView
+            style="@style/chatbotDetailAboutTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/white"
+            android:layout_marginLeft="16dp"
+            android:text="是" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/verifi_by_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/chatbotDetailAboutTitleTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:textColor="@color/white"
+            android:text="认证方" />
+
+        <TextView
+            style="@style/chatbotDetailAboutTextStyle"
+            android:id="@+id/verifi_by_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:textColor="@color/white"
+            android:autoLink="web"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/verifi_Info_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/chatbotDetailAboutTitleTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:textColor="@color/white"
+            android:text="认证信息" />
+
+        <TextView
+            style="@style/chatbotDetailAboutTextStyle"
+            android:id="@+id/verifi_info_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/white"
+            android:layout_marginLeft="16dp"
+            android:autoLink="web"
+            />
+
+    </LinearLayout>
+</LinearLayout>

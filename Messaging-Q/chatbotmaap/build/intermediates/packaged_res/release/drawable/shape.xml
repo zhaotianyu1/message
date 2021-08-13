@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:state_pressed="true">
+    <shape>
+        <solid android:color="#ffffff" />
+        <corners android:radius="@dimen/chatbot_card_button_radios" />
+        <!--边框颜色-->
+        <stroke android:width="2px" android:color="#4A90E2" />
+    </shape>
+</item>
+<item android:state_focused="true">
+    <shape>
+        <solid android:color="#ffffff" />
+        <corners android:radius="@dimen/chatbot_card_button_radios" />
+        <!--边框颜色-->
+        <stroke android:width="2px" android:color="#4A90E2" />
+    </shape>
+</item>
+<item android:state_pressed="false">
+    <shape>
+        <corners android:radius="@dimen/chatbot_card_button_radios" />
+        <!-- 矩形的填充色 -->
+        <solid android:color="#ffffff" />
+        <!--边框颜色-->
+        <stroke android:width="2px" android:color="#ffffff" />
+    </shape>
+</item>
+</selector>

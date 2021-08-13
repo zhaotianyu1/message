@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.juphoon.chatbotmaap.bottomMenu.RcsChatbotMenuView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/compose_message_chatbot_menu"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="horizontal"
+    android:background="@color/biaoti"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:visibility="gone">
+
+    <ImageButton
+
+        android:id="@+id/hide_chatbot_menu"
+        android:enabled="true"
+        android:layout_marginLeft="60dp"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/act_more_item"/>
+
+
+</com.juphoon.chatbotmaap.bottomMenu.RcsChatbotMenuView>

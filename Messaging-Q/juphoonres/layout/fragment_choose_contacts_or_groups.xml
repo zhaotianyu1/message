@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/bottm_view_member_list"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:clipToPadding="false"
+        android:dividerHeight="0px"
+        android:visibility="gone"
+        android:listSelector="?android:attr/listSelector" />
+
+    <ScrollView
+        android:id="@+id/scrollContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottm_view_member_list"
+        android:fadeScrollbars="true"
+        android:fillViewport="true" >
+
+        <ListView
+            android:id="@+id/fragment_choose_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:scrollbars="none" >
+        </ListView>
+    </ScrollView>
+
+</RelativeLayout>

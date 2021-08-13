@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="public_single_width">296dp</dimen>
+    <!--水平卡片图片宽度-->
+    <dimen name="public_single_image_horizontal_width">128dp</dimen>
+    <!--多卡片宽度-->
+    <dimen name="public_mutipe_width_medium">180dp</dimen>
+
+    <!--按钮大小和边距-->
+    <dimen name="public_chatbot_button_noside_height">30dp</dimen>
+    <dimen name="public_chatbot_button_noside_padding">15dp</dimen>
+    <dimen name="public_chatbot_button_noside_margintop">1dp</dimen>
+    <dimen name="public_chatbot_button_noside_list_marginbottom">18dp</dimen>
+    <dimen name="public_chatbot_button_height">30dp</dimen>
+    <dimen name="public_button_width">80dp</dimen>
+    <dimen name="public_button_width_multi">100dp</dimen>
+
+    <dimen name="public_chatbot_single_weight">128dp</dimen>
+
+    <!--平台下发图片高度-->
+    <dimen name="public_chatbot_single_height_short">112dp</dimen>
+    <dimen name="public_chatbot_single_height_medium">176dp</dimen>
+    <dimen name="public_chatbot_single_height_tall">264dp</dimen>
+
+    <!--卡片内容边距-->
+    <dimen name="chatbot_card_content_margintop">8dp</dimen>
+    <dimen name="chatbot_card_content_marginbottom">2dp</dimen>
+    <dimen name="chatbot_card_title_margintop">16dp</dimen>
+    <dimen name="chatbot_card_titletop_marginbottom">8dp</dimen>
+    <dimen name="chatbot_card_marginleft">16dp</dimen>
+    <dimen name="chatbot_card_marginright">12dp</dimen>
+    <dimen name="chatbot_card_paddingbottom">8dp</dimen>
+
+    <!--卡片消息字体大小-->
+    <dimen name="chatbot_card_title_textsize">20dp</dimen>
+    <dimen name="chatbot_card_content_textsize">16dp</dimen>
+    <dimen name="chatbot_card_button_textsize">16dp</dimen>
+
+    <!--行间距-->
+    <dimen name="chatbot_card_lineSpacingExtra">3dp</dimen>
+
+    <!--对聊界面头像宽度-->
+    <dimen name="conversation_message_contact_icon_size">42dp</dimen>
+
+    <dimen name="conversation_message_send_button_size">85dp</dimen>
+    <!--对聊界面头像气泡宽度-->
+    <dimen name="message_bubble_arrow_width">9dp</dimen>
+    <!--卡片最大宽度-->
+    <dimen name="chatbot_card_maximum_width">480dp</dimen>
+    <!--卡片按钮圆角-->
+    <dimen name="chatbot_card_button_radios">16dp</dimen>
+    <!--卡片背景图片圆角-->
+    <dimen name="chatbot_card_round_corner">7dp</dimen>
+</resources>

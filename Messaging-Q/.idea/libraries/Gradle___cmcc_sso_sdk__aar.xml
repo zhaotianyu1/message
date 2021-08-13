@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: :cmcc-sso-sdk:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ed037a9e0b079e81e5574721a2970ec7/cmcc-sso-sdk/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ed037a9e0b079e81e5574721a2970ec7/cmcc-sso-sdk/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ed037a9e0b079e81e5574721a2970ec7/cmcc-sso-sdk/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

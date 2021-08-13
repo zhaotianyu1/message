@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    Copyright (C) 2015 The Android Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_detail" >"详情"</string>//juphoon
+    <!-- juphoon -->
+    <string name="rcs_message_use_tip">是否使用融合通信？</string>
+    <string name="rcs_message_use_ok">确定</string>
+    <string name="rcs_message_use_setting">设置</string>
+    <string name="snippet_image">图片</string>
+    <string name="snippet_voice">语音</string>
+    <string name="snippet_video">视频</string>
+    <string name="snippet_location">地理位置</string>
+    <string name="snippet_vcard">名片</string>
+    <string name="snippet_file">文件</string>
+    <string name="snippet_public">智能消息</string>
+    <string name="text_message_ex">文本消息</string>
+    <string name="file_message">文件</string>
+    <string name="geo_message">地理位置</string>
+    <string name="image_message">图片</string>
+    <string name="vcard_message">名片</string>
+    <string name="video_message">视频</string>
+    <string name="voice_message">语音</string>
+    <string name="card_message">卡片</string>
+    <string name="type_to_compose_rcs_enter_to_send">键入融合通信消息</string>
+    <string name="receiving_message">"正在接收&#8230;"</string>
+    <string name="hold_speak">按住说话</string>
+    <string name="cancel_record">取消录音</string>
+    <string name="voice_too_short">录音太短</string>
+    <string name="voice_recording">录音中&#8230;%s秒</string>
+    <string name="attach_location">地理位置</string>
+    <string name="attach_vcard">名片</string>
+    <string name="import_contact">导入联系人</string>
+    <string name="success">成功</string>
+    <string name="fail">失败</string>
+    <string name="not_login">您未登陆融合通信</string>
+    <string name="enter_recipient">请输入联系人</string>
+    <string name="my_pc">我的电脑</string>
+    <string name="detail">详情</string>
+    <string name="mode_rcs">融合通信模式</string>
+    <string name="mode_mms">彩信模式</string>
+    <string name="single_chat">单</string>
+    <string name="multi_chat">多</string>
+    <string name="group_chat">群</string>
+    <string name="public_chat">公</string>
+    <string name="set_top_priority">置顶</string>
+    <string name="cancel_top_priority">取消置顶</string>
+    <string name="file_over_max">文件超出限制</string>
+    <string name="create_group_chat">创建群</string>
+    <string name="group_name">群名称</string>
+    <string name="add_business">添加商户</string>
+    <string name="local_business">本地商户</string>
+    <string name="choose_contact">选择联系人</string>
+    <string name="choose_group">选择群</string>
+    <string name="choose_contact_more_than">人数要多于%1$s人</string>
+    <string name="choose_contact_less_than">人数要少于%1$s人</string>
+    <string name="choose_contact_num">%1$s 已选%2$s人</string>
+    <string name="forward_contact">转发到联系人</string>
+    <string name="forward_group">转发到群</string>
+    <string name="forward_message">转发消息</string>
+    <string name="recent_chat">最近</string>
+    <string name="public_unfollow">取消关注</string>
+    <string name="deleting">删除中</string>
+    <string name="accepting">接受邀请中</string>
+    <string name="accept">同意</string>
+    <string name="reject">拒绝</string>
+    <string name="group_notification">群通知</string>
+    <string name="chatbot_service">小程序服务</string>
+    <string name="group_invitation">群邀请</string>
+    <string name="group_invitation_receive">您收到%d条群邀请</string>
+    <string name="second"> 秒</string>
+    <string name="group_member">群成员</string>
+    <string name="menu_settings">设置</string>
+    <string name="exit_group">退出群聊</string>
+    <string name="disslove_group">解散群</string>
+    <string name="group_business_card">我在本群的昵称</string>
+    <string name="group_nickname">群在本地的备注</string>
+    <string name="group_receive_type">消息接收类型</string>
+    <string name="message_top">消息置顶</string>
+    <string name="message_quiet">消息免打扰</string>
+    <string name="menu_add_contact">添加成员</string>
+    <string name="label_rejoin">重新加入</string>
+    <string name="msg_rejoining_group">重新加入中</string>
+    <string name="rejoin_fail">加入失败</string>
+    <string name="msg_next_chairman_before_leave">离开群前请设置群主</string>
+    <string name="label_group_name">修改群名称</string>
+    <string name="label_group_profile">修改群名片</string>
+    <string name="move_group">删除成员</string>
+    <string name="set_chairman">设为群主</string>
+    <string name="invite_by">邀请您加入%1$s群</string>
+    <string name="already_agree">您已同意加入%1$s群</string>
+    <string name="already_refuse">您已拒绝加入%1$s群</string>
+    <string name="kick_out_of_group">您被踢出%1$s群</string>
+    <string name="already_dismiss">已解散</string>
+    <string name="chairman">群主</string>
+    <string name="group_detail">群详情</string>
+    <string name="at_message">[有人@你]</string>
+    <string name="auto_msg_trans_send">将自动转成短信/彩信发送?</string>
+    <string name="location">地理位置</string>
+    <string name="menu_select_all">"全选"</string>
+    <string name="menu_cancel_all">"取消全选"</string>
+    <string name="pref_rcs_title">融合通信</string>
+    <string name="pref_rcs_test_title">融合通信测试设置</string>
+    <string name="pref_rcs_login_title">融合通信登录</string>
+    <string name="pref_summary_rcs">触摸即可更改融合通信相关设置</string>
+    <string name="full_image">原图</string>
+    <string name="share">分享</string>
+    <string name="me">我</string>
+    <string name="name">姓名</string>
+    <string name="number">号码</string>
+    <string name="delivery_status_deliver">已送达</string>
+    <string name="file_size">文件大小:</string>
+    <string name="duration">时长:</string>
+    <string name="pref_title_notification_silence_message">静默消息提醒</string>
+    <string name="group_conversation">群聊消息</string>
+    <string name="public_conversation">公众账号</string>
+    <string name="compress_video">压缩视频中</string>
+    <string name="preview" msgid="5438149136136446756">"预览"</string>
+    <string name="saved_label" msgid="4183160415593488207">"保存时间： "</string>
+    <string name="delivered_label" msgid="3514011729156932928">"已发送： "</string>
+    <string name="menu_forward" msgid="9026858380050046756">"转发"</string>
+    <string name="download" msgid="4488877642230207631">"下载"</string>
+    <string name="downloading" msgid="1779557575565350637">"正在下载"</string>
+    <string name="send" msgid="4589898724889248486">"发送"</string>
+    <string name="compose_rcsmessage_view_hint_text">发送融合信息</string>
+    <string name="select_location_button">"点击按钮，您将进入定位界面"</string>
+    <string name="location_detail_activity_title">定位</string>
+    <string name="geo_attachment_content_description">"位置消息"</string>
+    <string name="conversation_list_snippet_geo">"位置"</string>
+    <string name="not_start_upload">未上传</string>
+    <string name="not_start_download">未下载</string>
+    <string name="sending_rcs_message">"正在发送..."</string>
+    <string name="downloading_rcs_message">"正在下载..."</string>
+    <string name="download_rcs_message_fail">"下载失败"</string>
+    <string name="send_rcs_message_success">"发送成功"</string>
+    <string name="delete">删除</string>
+    <string name="conversation_list_snippet_art">"图文混排"</string>
+    <string name="notification_geo">位置</string>
+    <string name="notification_file">文件</string>
+    <string name="rcs_text_message_trans_to_mms">"Rcs大文本转彩信"</string>
+    <string name="not_support_rcs">"该会话需要rcs能力，请切卡"</string>
+    <string name="not_support_send_mms">"该会话不能发送彩信"</string>
+    <string name="mediapicker_moreChooserDescription">更多</string>
+    <string name="mediapicker_more_title">更多</string>
+    <string name="copied_to_clipboard">已复制到剪贴板</string>
+    <string name="not_support_msg">[不支持的消息类型]</string>
+    <string name="one_to_group">添加成员转群聊</string>
+    <string name="no_can_draw_overlays_permission">无显示在其他应用上的权限，请在设置中打开</string>
+    <string name="create_msg_1To1">消息</string>
+    <string name="create_msg_group">群聊</string>
+    <string name="action_search">搜索</string>
+    <string name="choose_tab_contacts">联系人</string>
+    <string name="choose_tab_groups">群组</string>
+    <plurals name="search_results_title">
+        <item quantity="one">"<xliff:g id="NUMBER">%1$s</xliff:g> 条符合“<xliff:g id="SEARCH">%2$s</xliff:g>”的搜索结果"</item>
+        <item quantity="other">"<xliff:g id="NUMBER">%1$s</xliff:g> 条符合“<xliff:g id="SEARCH">%2$s</xliff:g>”的搜索结果"</item>
+    </plurals>
+    <string name="menu_search_text">"搜索"</string>
+    <string name="search_label">"信息"</string>
+    <string name="search_hint">"搜索信息"</string>
+    <string name="search_max_length">"搜索文本过长，将截取前512个字符！"</string>
+    <string name="search_setting_description">"消息中的文字"</string>
+    <string name="search" msgid="7560238620274735199">"信息"</string>
+    <string name="search_empty">"没有匹配项。"</string>
+    <string name="search_history">"<xliff:g id="COUNT">%1$s</xliff:g> 项符合“<xliff:g id="SEARCH">%2$s</xliff:g>”的搜索结果"</string>
+    <string name="please_select_a_group">请选择一个群</string>
+    <string name="rcs_message_use">即时消息</string>
+    <string name="rcs_message_on">即时消息开启</string>
+    <string name="rcs_message_off">即时消息关闭</string>
+    <string name="rcs_translate_sms">转短信</string>
+    <string name="rcs_translate_sms_summary">当小于900字节的文本消息发送失败，使用短信发送该消息。</string>
+    <string name="rcs_setting">融合通信设置</string>
+    <string name="notification_reply_via_rcs">"通过融合信息回复"</string>
+    <string name="action_complain_message">举报</string>
+    <string name="enter_complain_reason">请输入举报理由</string>
+    <string name="complain">举报</string>
+    <string name="cancel_complain">取消</string>
+
+    <string name="click_view_address">点击查看</string>
+    <string name="displayed_status">已读</string>
+
+    <string name="resend_rcs">消息重发</string>
+    <string name="message_send_failed">消息发送失败</string>
+    <string name="user_kicked_offline">当前用户被踢下线</string>
+    <plurals name="compose_message_view_hint_text_geo" >
+        <item quantity="other">发送位置</item>
+        <item quantity="one">发送位置</item>
+    </plurals>
+</resources>

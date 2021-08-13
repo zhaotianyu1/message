@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    <item android:drawable="@drawable/local_secondaryfocus" android:state_pressed="true"/>-->
+<!--    <item android:drawable="@drawable/local_unfocus" android:state_focused="false" android:state_pressed="false"/>-->
+<!--    <item android:drawable="@drawable/local_focus"  android:state_focused="true"/>-->
+<!--    <item android:drawable="@drawable/local_unfocus" android:state_focused="false"/>-->
+
+    <item android:drawable="@drawable/local_focus"  android:state_focused="true"/>
+    <item android:drawable="@drawable/local_secondaryfocus" android:state_pressed="true"/>
+    <item android:drawable="@drawable/local_secondaryfocus" android:state_selected="true"/>
+    <item android:drawable="@drawable/local_unfocus"/>
+
+</selector>

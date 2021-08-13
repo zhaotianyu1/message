@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/launcher_bg"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="36dp"
+
+                android:orientation="vertical"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:id="@+id/textNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="75px"
+                    android:layout_marginTop="0dp"
+                    android:gravity="center"
+                    android:maxLength="11"
+                    android:text="新消息"
+                    android:textColor="@color/white"
+                    android:textSize="38px" />
+                <LinearLayout
+                    android:layout_width="550dp"
+                    android:layout_height="450dp"
+                   android:layout_marginTop="15dp"
+                    android:layout_marginLeft="60dp"
+                    android:orientation="vertical"
+                    android:background="@color/dimgrey"
+                    tools:ignore="MissingConstraints">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/textNums"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="53px"
+                            android:gravity="center"
+                            android:text="手机号"
+                            android:maxLength="11"
+                            android:layout_marginTop="50dp"
+                            android:textColor="@color/white"
+                            android:textSize="38px" />
+                <com.tcl.uicompat.TCLEditText
+                    style="@style/NormalEditText"
+                    android:id="@+id/text_input"
+                    android:layout_width="759px"
+                    android:layout_height="40dp"
+                    android:digits="1234567890"
+                    android:layout_marginLeft="116px"
+                    android:layout_marginTop="50dp"
+                    android:enabled="true"
+                    android:imeOptions="actionSearch"
+                    android:gravity="start"
+                    android:textColor="@color/white"  />
+<!--                <TextView-->
+<!--                    android:id="@+id/textName"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="103px"-->
+<!--                    android:layout_marginTop="10px"-->
+<!--                    android:gravity="center"-->
+<!--                    android:text="短信内容"-->
+<!--                    android:textColor="@color/white"-->
+<!--                    android:textSize="38px" />-->
+                    </LinearLayout>
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:orientation="horizontal"-->
+
+<!--                        android:layout_height="wrap_content">-->
+<!--                        <TextView-->
+<!--                            android:id="@+id/contents"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="53px"-->
+<!--                            android:gravity="center"-->
+<!--                            android:text="消息内容"-->
+<!--                            android:maxLength="11"-->
+<!--                            android:layout_marginTop="50dp"-->
+<!--                            android:textColor="@color/white"-->
+<!--                            android:textSize="38px" />-->
+<!--                <include-->
+<!--                    layout="@layout/compose_message_view"-->
+<!--                    android:id="@+id/message_compose_view_container"-->
+<!--                    android:layout_width="759px"-->
+<!--                    android:layout_marginLeft="86px"-->
+<!--                    android:layout_marginTop="40dp"-->
+<!--                    android:layout_height="40dp"/>-->
+<!--                    </LinearLayout>-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginLeft="50dp"
+                    android:orientation="horizontal"
+                    tools:ignore="MissingConstraints">
+                    <com.tcl.uicompat.TCLButton
+                        style="@style/Button_SuperLarge"
+                        android:id="@+id/send_message_body_button"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+
+
+                        android:enabled="true"
+                        android:onClick="add_message_return"
+                        android:text="确认" />
+                <com.tcl.uicompat.TCLButton
+                    style="@style/Button_SuperLarge"
+                    android:id="@+id/add_message_return_button"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                        android:layout_marginLeft="30dp"
+
+                    android:enabled="true"
+                    android:onClick="add_message_return"
+                    android:text="返回" />
+                </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

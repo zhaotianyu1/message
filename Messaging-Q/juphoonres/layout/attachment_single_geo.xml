@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/geo_attachment_background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:descendantFocusability="beforeDescendants"
+    android:background="@drawable/act_picture_bac">
+
+    <com.android.messaging.ui.GeoAttachmentView
+        android:id="@+id/geo_attachment_view"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"/>
+
+</LinearLayout>

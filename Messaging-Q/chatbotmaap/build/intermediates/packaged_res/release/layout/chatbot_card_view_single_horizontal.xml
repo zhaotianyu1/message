@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.juphoon.chatbotmaap.view.RoundLayoutView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_layout_horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_radius_item"
+    app:radius="8dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/card_radius_layout"
+        android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <include
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_left"
+            layout="@layout/chatbot_card_view_image" />
+
+        <include
+            android:layout_alignParentRight="true"
+            android:id="@+id/image_right"
+            layout="@layout/chatbot_card_view_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_toLeftOf="@id/image_right"
+            android:layout_toRightOf="@id/image_left"
+            android:id="@+id/title_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/card_title_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/chatbot_card_marginleft"
+                android:layout_marginTop="@dimen/chatbot_card_title_margintop"
+                android:layout_marginRight="@dimen/chatbot_card_marginright"
+                android:textColor="#000000"
+                android:textSize="@dimen/chatbot_card_title_textsize"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/card_content_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/chatbot_card_marginleft"
+                android:layout_marginTop="@dimen/chatbot_card_content_margintop"
+                android:layout_marginRight="@dimen/chatbot_card_marginright"
+                android:textColor="#FF757575"
+                android:textSize="@dimen/chatbot_card_content_textsize"
+                android:visibility="gone" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/card_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:splitMotionEvents="false">
+    </LinearLayout>
+    </LinearLayout>
+</com.juphoon.chatbotmaap.view.RoundLayoutView>

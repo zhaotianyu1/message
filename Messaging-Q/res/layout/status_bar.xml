@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clipToPadding="true"
+    android:gravity="center_vertical">
+
+<!--        <TextView-->
+<!--        android:id="@+id/button_micro"-->
+<!--        android:layout_width="45dp"-->
+<!--        android:layout_height="46dp"-->
+<!--        android:layout_marginTop="2dp"-->
+<!--        android:background="@drawable/ic_voice"-->
+<!--        android:enabled="false"-->
+<!--        android:focusable="false" />-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="20dp"-->
+<!--        android:layout_marginTop="2dp"-->
+<!--        android:text="试着说"-->
+<!--        android:textColor="#42FFFFFF"-->
+<!--        android:textSize="14sp"-->
+<!--        />-->
+
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="20dp"-->
+<!--        android:layout_marginTop="2dp"-->
+<!--        android:text="「拨打运营商电话给某人」"-->
+<!--        android:textColor="#3782FF"-->
+<!--        android:textSize="14sp"-->
+<!--        />-->
+
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:layout_marginTop="2dp"-->
+<!--            android:text="按"-->
+<!--            android:layout_marginLeft="650dp"-->
+<!--            android:textColor="#4dFFFFFF"-->
+<!--            android:textSize="14sp"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="20dp"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:layout_marginTop="2dp"-->
+<!--            android:background="@drawable/ic_menu"-->
+<!--            />-->
+
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:layout_marginTop="2dp"-->
+<!--            android:text="菜单键进入设置"-->
+<!--            android:textColor="#4dFFFFFF"-->
+<!--            android:textSize="14sp"-->
+<!--            />-->
+
+    <LinearLayout
+        android:layout_width="1100dp"
+        android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/sign_id"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="20dp"
+            android:text=""
+            android:textColor="#4dFFFFFF"
+            android:textSize="14sp"
+            />
+
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/signal"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="5dp"
+
+               />
+
+            <TextView
+                android:id="@+id/signal_data"
+                android:layout_width="8dp"
+                android:layout_height="10dp"
+                android:layout_marginTop="-11dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginBottom="4dp"
+
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/Iv_sign"
+            android:layout_width="32dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="-32dp"
+            android:layout_marginTop="2dp"
+            android:enabled="false"
+            android:focusable="false"
+
+            />
+
+
+        <ImageButton
+            android:id="@+id/setting"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+
+            android:background="@drawable/act_more_item"
+            android:enabled="true"
+            android:focusable="true"
+            android:onClick="setting" />
+
+
+
+
+
+
+
+
+</LinearLayout>

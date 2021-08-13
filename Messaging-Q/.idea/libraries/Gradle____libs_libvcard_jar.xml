@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./libs/libvcard.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/libvcard.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
